@@ -11,7 +11,8 @@
 			"Can instantly construct a [Wasteland Station] improvement <by consuming this unit>",
 			"Is part of Great Person group [Gold]",
 			"Only available <in cities with a [Stable]>",
-			"Requires at least [5] population"]
+			"Requires at least [5] population",
+			"Cannot be purchased"]
 	},
 	{
 		"name": "Educational Officer",
@@ -65,6 +66,7 @@
 		"requiredResource": "Uranium",
 		"promotions": ["Evasive Maneuvers"],
 		"uniques": ["Nuclear weapon of Strength [3]", "Blast radius [0]",
+			"Only available <in cities with a [Aerospace Facility]>",
 			"Only available <if [Manhattan Project] is constructed>",
 			"Self-destructs when attacking",
 			"Cannot be purchased"],
