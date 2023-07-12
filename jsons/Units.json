@@ -24,7 +24,7 @@
 		"rangedStrength": 24,
 		"interceptRange": 1,
 		"uniques": ["Personnel",
-			"Can be purchased with [Gold] [in all non-occupied cities]",
+			"Can be purchased for [200] [Gold] [in all non-occupied cities]",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [2] times",
