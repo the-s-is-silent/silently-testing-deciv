@@ -9,7 +9,7 @@
 			"Cannot be built on [Bonus resource] tiles",
 			"Cannot be built on [Luxury resource] tiles",
 			"[+2 Production] from [Strategic resource] tiles",
-			"[+1 Food] <with [1] to [6] adjacent [Food source] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Food source] tiles>",
 			"[+1 Food, +1 Gold] <after discovering [Currency]>",
 			"[+1 Production, +1 Gold] <after discovering [Railroads]>",
 			"[+1 Production, +1 Gold] <after discovering [Incentivization]>",
