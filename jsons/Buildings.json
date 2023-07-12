@@ -1,0 +1,69 @@
+[
+	{
+		"name": "State Dacha",
+		"uniqueTo": "The Harbingers",
+		"food": 2,
+		"culture": 2,
+		"cost": 1,
+		"isWonder": true,
+		"uniques": ["[-10]% Unhappiness from [Population] [in this city]",
+			"Free [Educational Officer] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Stable] [in this city]"],
+		"quote": "They say this was where they found the last oligarch, hiding far from the ruins of our old civilization. Hiding from those who survived the apocalypse he helped bring upon us. We gave him up to our enemies to face justice... a peace offering that meant absolutely nothing.",
+		"civilopediaText": [
+			{
+				"text": "They say this was where they found the last oligarch, hiding far from the ruins of our old civilization. Hiding from those who survived the apocalypse he helped bring upon us. We gave him up to our enemies to face justice... a peace offering that meant absolutely nothing."
+			}
+		]
+	},
+	{
+		"name": "Contract with Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "The Harbingers",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": ["Free [Great Caravanner] appears", "Free [Civilian Convoy] appears"]
+	},
+	{
+		"name": "Census Chamber",
+		"replaces": "Listening Post",
+		"uniqueTo": "The Harbingers",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"[+75]% Great Person generation [in this city]",
+                        "[+25]% Great Person generation [in this city] <after adopting [Constitution]>",
+			"Provides [1] [Encrypted Data]",
+			"Only available <in cities without a [Prison Camp]>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Investors' Chamber",
+		"replaces": "Congress",
+		"uniqueTo": "The Harbingers",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Gold, +1 Culture] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Trustees' Committee]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Trustees' Committee",
+		"replaces": "Council",
+		"uniqueTo": "The Harbingers",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": ["Production to [Gold] conversion in cities changed by [33]%",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built [in capital]",
+			"Only available <in cities without a [Investors' Chamber]>",
+			"Destroyed when the city is captured"]
+	}
+]
