@@ -1,7 +1,7 @@
 [
 	{
 		"name": "[Educational Officer] ability",
-		"uniques": ["Prevents spreading of religion in the city it is next to",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
 			"Can [Remove Foreign religions from your own cities] [2] times",
 			"[+1] Sight", "Religious Unit"]
 	}
