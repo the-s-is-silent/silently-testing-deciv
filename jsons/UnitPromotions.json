@@ -1,8 +1,6 @@
 [
 	{
 		"name": "[Educational Officer] ability",
-		"uniques": ["Prevents spreading of religion to the city it is next to",
-			"Can [Remove Foreign religions from your own cities] [2] times",
-			"[+1] Sight", "Religious Unit"]
+		"uniques": ["[+5]% Strength bonus for [Military] units within [1] tiles"]
 	}
 ]
