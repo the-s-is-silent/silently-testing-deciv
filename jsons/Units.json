@@ -57,11 +57,11 @@
 		"rangedStrength": 200,
 		"range": 18,
 		"cost": 1500,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
 		"promotions": ["Evasive Maneuvers"],
 		"uniques": ["Nuclear weapon of Strength [3]", "Blast radius [0]",
-			"Only available <if [Manhattan Project]> is constructed>",
+			"Only available <if [Manhattan Project] is constructed>",
 			"Self-destructs when attacking",
 			"Cannot be purchased"],
 		"attackSound": "nuke"
