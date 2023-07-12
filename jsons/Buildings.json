@@ -27,6 +27,18 @@
 		"uniques": ["Free [Great Caravanner] appears", "Free [Civilian Convoy] appears"]
 	},
 	{
+		"name": "Gostiny Dvor",
+		"replaces": "Market",
+		"uniqueTo": "The Harbingers",
+		"cityStrength": 2,
+		"cityHealth": 50,
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from [Fresh water] tiles [in this city]"]
+	},
+	{
 		"name": "Census Chamber",
 		"replaces": "Listening Post",
 		"uniqueTo": "The Harbingers",
