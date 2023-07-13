@@ -57,7 +57,7 @@
 	{
 		"name": "Neutron Bomb",
 		"uniqueTo": "The Harbingers",
-		"unitType": "Atomic Bomber",
+		"unitType": "Missile",
 		"strength": 200,
 		"rangedStrength": 200,
 		"range": 18,
@@ -68,7 +68,6 @@
 		"uniques": ["Nuclear weapon of Strength [3]", "Blast radius [0]",
 			"Only available <if [Manhattan Project] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
-			"Self-destructs when attacking",
 			"Cannot be purchased"],
 		"attackSound": "nuke"
 	}
