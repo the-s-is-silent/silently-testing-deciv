@@ -8,10 +8,10 @@
 			"Triggers a global alert upon completion",
 			"Hidden when [Colonization] Victory is disabled"],
 		"requiredTech": "Rocketry",
-		"quote": "'If we pull this off, it will be a wonder unlike anything else man has ever created... the last wonder we'll ever build on Earth.'",
+		"quote": "If we pull this off, it will be a wonder unlike anything else man has ever created... the last wonder we'll ever build on Earth.",
 		"civilopediaText": [
 			{
-				"'If we pull this off, it will be a wonder unlike anything else man has ever created... the last wonder we'll ever build on Earth.'"
+				"If we pull this off, it will be a wonder unlike anything else man has ever created... the last wonder we'll ever build on Earth."
 			}
 		]
 	}
