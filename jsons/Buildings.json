@@ -1,18 +1,27 @@
 [
 	{
-		"name": "Colony Ship Project",
-		"cost": 1500,
-		"isNationalWonder": true,
-		"uniques": ["Enables construction of [Colony Ship Part] units",
-			"[+50]% Production when constructing [Aerospace Facility] buildings [in all cities]",
-			"Triggers a global alert upon completion",
-			"Hidden when [Colonization] Victory is disabled"],
-		"requiredTech": "Rocketry",
-		"quote": "If we pull this off, it will be a wonder unlike anything else man has ever created... the last wonder we'll ever build on Earth.",
-		"civilopediaText": [
-			{
-				"text": "If we pull this off, it will be a wonder unlike anything else man has ever created... the last wonder we'll ever build on Earth."
-			}
-		]
+		"name": "Defense Directorate",
+		"cityStrength": 5,
+		"cityHealth": 80,
+		"cost": 1,
+		"uniques": ["[2] free [State Guard] units appear",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Only available <for [City-States]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Alma Defense Directorate",
+		"replaces": "Defense Directorate",
+		"uniqueTo": "Almaty",
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"cost": 1,
+		"uniques": ["Provides [2] [Weapons]",
+			"[2] free [Alma State Guard] units appear",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built [in capital]",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"]
 	}
 ]
