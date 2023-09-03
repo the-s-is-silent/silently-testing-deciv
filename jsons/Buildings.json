@@ -1,27 +1,13 @@
 [
 	{
-		"name": "Defense Directorate",
-		"cityStrength": 5,
-		"cityHealth": 80,
-		"cost": 1,
-		"uniques": ["[2] free [State Guard] units appear",
-			"Automatically built in all cities where it is buildable",
-			"Can only be built [in capital]",
-			"Only available <for [City-States]>",
-			"Destroyed when the city is captured"]
-	},
-	{
-		"name": "Alma Defense Directorate",
-		"replaces": "Defense Directorate",
-		"uniqueTo": "Almaty",
-		"cityStrength": 5,
-		"cityHealth": 100,
-		"cost": 1,
-		"uniques": ["Provides [2] [Weapons]",
-			"[2] free [Alma State Guard] units appear",
-			"Automatically built in all cities where it is buildable",
-			"Can only be built [in capital]",
-			"Destroyed when the city is captured",
-			"Will not be displayed in Civilopedia"]
+		"name": "Sociopolitical Institute",
+		"culture": 1,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [3] social policies adopted <in this city>",
+			"[+1 Culture] per [6] social policies adopted <in this city>",
+			"Hidden until [2] social policy branches have been completed"],
+		"requiredTech": "Civil Service"
 	}
 ]

@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Northern Lights",
+		"type": "Follower",
+		"uniques": ["[+1 Gold] from every [Harbor]", "[+1 Gold] from every [Seaport]"]
+	},
+	{
+		"name": "Trust the Science",
+		"type": "Follower",
+		"uniques": ["[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
+			"[+1 Science, +1 Faith] from every [Public School] <in cities with at least [5] [Followers of this Religion]>"]
+	},
+	{
+		"name": "Itinerant Preachers",
+		"type": "Follower",
+		"uniques": ["Religion naturally spreads to cities [+3] tiles away",
+			"Only available <before discovering [The Wheel]>"]
+	},
+	{
+		"name": "Art of War",
+		"type": "Enhancer",
+		"uniques": ["May buy [{Military} {Land}] units for [200] [Faith] [in cities following this religion] at an increasing price ([100])",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "Blessing of Peace",
+		"type": "Enhancer",
+		"uniques": ["[+2 Food] from every [Barracks] <when not at war>",
+			"[+20]% growth [in cities following this religion] <when not at war>",
+			"Only available <after adopting [Theocracy Complete]>"]
+	},
+	{
+		"name": "Religious Texts",
+		"type": "Enhancer",
+		"uniques": ["[+25]% Natural religion spread [in all cities]",
+			"[+25]% Natural religion spread [in all cities] <after discovering [Education]>",
+			"Only available <before discovering [The Wheel]>"]
+	},
+	{
+		"name": "Religious Troubadours",
+		"type": "Enhancer",
+		"uniques": ["[+3 Faith] from each Trade Route",
+			"[+50]% Natural religion spread [in all cities connected to capital]"]
+	},
+	{
+		"name": "The Radiant City",
+		"type": "Enhancer",
+		"uniques": ["[+100]% Natural religion spread [in capital]"]
+	}
+]
