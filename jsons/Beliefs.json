@@ -1,8 +1,33 @@
 [
 	{
+		"name": "Feed the Faithful",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Food] from every [Shrine]",
+			"[+1 Food] from every [Monastery]",
+			"[+1 Food] from every [Megachurch]",
+			"Only available <before adopting [Obey the Elders]>",
+			"Only available <before adopting [Mandatory Rationing]>"
+		]
+	},
+	{
+		"name": "Mandatory Rationing",
+		"type": "Follower",
+		"uniques": ["[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]",
+			"Only available <before adopting [Feed the Faithful]>",
+			"Only available <before adopting [Obey the Elders]>"]
+	},
+	{
 		"name": "Northern Lights",
 		"type": "Follower",
-		"uniques": ["[+1 Gold] from every [Harbor]", "[+1 Gold] from every [Seaport]"]
+		"uniques": ["[+1 Gold, +1 Faith] from every [Harbor]", "[+1 Gold, +1 Faith] from every [Seaport]"]
+	},
+	{
+		"name": "Obey the Elders",
+		"type": "Follower",
+		"uniques": ["[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
+			"Only available <before adopting [Feed the Faithful]>",
+			"Only available <before adopting [Mandatory Rationing]>"]
 	},
 	{
 		"name": "Trust the Science",
