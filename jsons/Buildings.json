@@ -2,7 +2,7 @@
 	{
 		"name": "Sharecropper Farm",
 		"replaces": "Greenhouse",
-		"uniqueTo": "New Vegas",
+		"uniqueTo": "Commonwealth",
 		"food": 2,
 		"specialistSlots": {"Farmer": 1},
 		"maintenance": 1,
