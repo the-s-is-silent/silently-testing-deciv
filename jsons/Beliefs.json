@@ -71,5 +71,11 @@
 		"name": "The Radiant City",
 		"type": "Enhancer",
 		"uniques": ["[+100]% Natural religion spread [in capital]"]
+	},
+	{
+		"name": "Thought Control",
+		"type": "Enhancer",
+		"uniques": ["[Censor] units gain the [Control] promotion <upon adopting [Thought Control]>",
+			"All newly-trained [Censor] units built [in cities following this religion] gain the [Control] promotion"]
 	}
 ]
