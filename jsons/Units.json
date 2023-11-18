@@ -1,33 +1,14 @@
 [
-	//Barbarian
 	{
-		"name": "Turncoat",
-		"uniqueTo": "Barbarians",
-		"replaces": "NBC Conscript",
-		"unitType": "Scrapper",
-		"movement": 2,
-		"strength": 40,
-		"interceptRange": 1,
-		"requiredTech": "Rifling",
-		"uniques": ["Personnel", "Can instantly construct a [Barbarian encampment] improvement <[2] times>", "Uncapturable"],
-		"promotions": ["Raider", "Gas Mask"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Great Raider",
-		"unitType": "Scrapper",
-		"replaces": "Great General",
-		"uniqueTo": "Barbarians",
-		"movement": 4,
-		"strength": 40,
-		"cost": 150,
-		"requiredTech": "Redomestication",
-		"uniques": ["Personnel", "Mounted", "Limited to [1] per Civilization",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Can instantly construct a [Barbarian encampment] improvement <[4] times>",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Great Person - [War]", "Uncapturable"],
-		"promotions": ["Raider", "Reconnaissance I", "Overboss"],
-		"attackSound": "machinegun"
+		"name": "Seastead Vessel",
+		"unitType": "Civilian Water",
+		"movement": 6,
+		"cost": 200,
+		"hurryCostModifier": 20,
+		"requiredResource": "Oil",
+		"requiredTech": "Ocean Remediation",
+		"uniques": ["May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
+			"Automation is a primary action"]
 	}
 ]

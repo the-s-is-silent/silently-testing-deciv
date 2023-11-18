@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Reclaimed Land",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [153, 180, 51],
+		"uniques": [
+			"Doesn't generate naturally",
+			"Neighboring tiles except [Land] will convert to [Coast]"
+		]
+	}
+]
