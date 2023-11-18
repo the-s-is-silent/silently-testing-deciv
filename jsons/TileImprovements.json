@@ -6,5 +6,5 @@
 		"techRequired": "Ocean Remediation",
 		"uniques": ["Cannot be built on [Water resource] tiles"],
 		"shortcutKey": "R"
-	},
+	}
 ]
