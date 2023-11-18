@@ -1,10 +1,11 @@
 [
 	{
 		"name": "Reclaimed Land",
-		"terrainsCanBeBuiltOn": ["Coast", "Ocean"],
+		"terrainsCanBeBuiltOn": ["Ocean"],
 		"turnsToBuild": 20,
 		"techRequired": "Ocean Remediation",
-		"uniques": ["Cannot be built on [Water resource] tiles"],
+		"uniques": ["Cannot be built on [Water resource] tiles",
+			"Can be built just outside your borders"],
 		"shortcutKey": "R"
 	}
 ]
