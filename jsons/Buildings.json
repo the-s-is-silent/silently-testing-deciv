@@ -5,8 +5,21 @@
 		"maintenance": 2,
 		"requiredTech": "Railroads",
 		"uniques": [
-			"[+1 Culture] from [Land] tiles [in this city] <in [Railroad] tiles> <within [2] tiles of a [City center]>",
+			"[+1 Culture] from [Forest] tiles [in this city] <within [2] tiles of a [City center]>",
+			"[+1 Culture] from [Jungle] tiles [in this city] <within [2] tiles of a [City center]>",
 			"Never destroyed when the city is captured"
 		]
+	},
+	{
+		"name": "Interstice",
+		"uniqueTo": "The Harbingers",
+		"replaces": "Transport Network",
+		"isNationalWonder": true,
+		"maintenance": 2,
+		"requiredTech": "Incentivization",
+		"uniques": ["[+1 Production] from [Borough] tiles [in all cities]",
+			"[+1] Movement <for [All] units> <in [Railroad] tiles>",
+			"[-50]% maintenance on road & railroads",
+			"Consumes [2] [Power]"]
 	}
 ]
