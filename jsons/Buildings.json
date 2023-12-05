@@ -5,7 +5,7 @@
 		"maintenance": 2,
 		"requiredTech": "Railroads",
 		"uniques": [
-			"[+1 Culture] from [Land] tiles [in this city] <in tiles with a [Railroad]> <within [2] tiles of a [City center]>",
+			"[+1 Culture] from [Land] tiles [in this city] <in [Railroad] tiles> <within [2] tiles of a [City center]>",
 			"Never destroyed when the city is captured"
 		]
 	}
