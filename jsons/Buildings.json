@@ -1,44 +1,12 @@
 [
 	{
-		"name": "Sharecropper Farm",
-		"replaces": "Greenhouse",
-		"uniqueTo": "Commonwealth",
-		"food": 2,
-		"specialistSlots": {"Farmer": 1},
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
-			"[+1 Food] from [Tubers] tiles [in this city]",
-			"[+1 Food] from [Goats] tiles [in this city]",
-			"[+1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Gold] from every [Farmer] <in this city> <after discovering [Hydroponics]>"],
-		"requiredTech": "Botany",
-		"civilopediaText": [{ "text": "Rather impressive, aren't they? You don't see anything like this outside our territory, that's for sure. We get the water - clean water - pumped in from the nearest lakes. Just follow the big pipes and they'll take you all the way there." }]
-	},
-	{
-		"name": "Commonwealth Reserve",
-		"replaces": "Water Storage",
-		"uniqueTo": "Commonwealth",
-		"percentStatBonus": {"gold": 20},
-		"specialistSlots": {"Merchant": 1},
-		"requiredTech": "Currency",
-		"uniques": ["[+1 Gold] from every [Merchant] <in this city>",
-			"Doubles Gold given to enemy if city is captured"]
-	},
-	{
-		"name": "OSI",
-		"replaces": "Research Lab",
-		"uniqueTo": "Commonwealth",
-		"percentStatBonus": {"science": 50},
-		"specialistSlots": {"Scientist": 2},
-		"maintenance": 1,
+		"name": "Bike Path",
+		"uniqueTo": "Children of Rust",
+		"maintenance": 2,
+		"requiredTech": "Railroads",
 		"uniques": [
-			"Only available <in cities with a [University]>",
-			"[+50]% Production when constructing [Food] buildings [in this city]",
-			"[+50]% Production when constructing [Production] buildings [in this city]",
-			"[+2 Science] from all [Food] buildings <in this city>",
-			"Consumes [1] [Power]"
-		],
-		"requiredTech": "Laboratory"
+			"[+1 Culture] from [Land] tiles [in this city] <in tiles with a [Railroad]> <within [2] tiles of a [City center]>",
+			"Never destroyed when the city is captured"
+		]
 	}
 ]
