@@ -1,9 +1,11 @@
 [
 	{
-		"name": "Land Reclamation Project",
+		"name": "Land Reclamation Bureau",
 		"isNationalWonder": true,
-		"uniques": ["[-25]% construction time for [Reclaimed Land] improvements",
-			"Must have an owned [Reclaimed Land] within [3] tiles"],
-		"requiredTech": "Geo Engineering"
+		"uniques": ["[+1] population [in this city]",
+			"[+2 Production] from [Reclaimed Land] tiles [in this city]",
+			"Creates a [Settlement] improvement on a specific tile",
+			"Must have an owned [Artificial Island] within [3] tiles"],
+		"requiredTech": "Land Remediation"
 	}
 ]
