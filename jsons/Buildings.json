@@ -4,6 +4,6 @@
 		"isNationalWonder": true,
 		"uniques": ["[-25]% construction time for [Reclaimed Land] improvements",
 			"Must have an owned [Reclaimed Land] within [3] tiles"],
-		"techRequired": "Geo Engineering"
+		"requiredTech": "Geo Engineering"
 	}
 ]
