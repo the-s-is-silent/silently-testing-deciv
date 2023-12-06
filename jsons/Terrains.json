@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Reclaimed Land",
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean"],
+		"turnsInto": "Desert",
+		"movementCost": 1,
+		"unbuildable": false,
+		"impassible": false,
+		"uniques": [
+			"Doesn't generate naturally",
+			"Neighboring tiles except [Reclaimed Land] will convert to [Coast]",
+			"Will not be displayed in Civilopedia"
+		]
+	}
+]
