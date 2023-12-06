@@ -3,7 +3,7 @@
 		"name": "Land Reclamation Bureau",
 		"isNationalWonder": true,
 		"uniques": ["[+1] population [in this city]",
-			"[+2 Production] from [Reclaimed Land] tiles [in this city]",
+			"[+2 Production] from [Artificial Island] tiles [in this city]",
 			"Creates a [Settlement] improvement on a specific tile",
 			"Must have an owned [Artificial Island] within [3] tiles"],
 		"requiredTech": "Land Remediation"
