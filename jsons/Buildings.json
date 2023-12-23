@@ -7,5 +7,121 @@
 			"Creates a [Settlement] improvement on a specific tile",
 			"Must have an owned [Artificial Island] within [3] tiles"],
 		"requiredTech": "Land Remediation"
+	},
+
+	//New faction: Crimson Line
+	{
+		"name": "Red Square",
+		"isWonder": true,
+		"uniqueTo": "Crimson Line",
+		"culture": 2,
+		"cost": 0,
+		"uniques": ["[+1 Gold, +1 Happiness] [in all cities connected to capital]",
+			"Free [Kommissar] appears",
+			"Can only be built [in capital]",
+			"Gain a free [Armory Station] [in this city]"],
+		"quote": "Once, these mighty cultural monuments stood as a symbol of our power. Now their ruins remain only to serve as a reminder of our decay."
+	},
+	{
+		"name": "Armory Station",
+		"replaces": "Armory",
+		"uniqueTo": "Crimson Line",
+		"cityStrength": 5,
+		"cityHealth": 80,
+		"specialistSlots": {"Merchant": 1},
+		"uniques": ["City Defense", "Provides [1] [Weapons]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+1 Production] from [Weapons] tiles [in this city]",
+			"[+1 Production] from [Railroad] tiles [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Katorga",
+		"replaces": "Prison Camp",
+		"uniqueTo": "Crimson Line",
+		"hurryCostModifier": -25,
+		"production": 2,
+		"happiness": -2,
+		"cost": 20,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built [in annexed cities]",
+			"Provides [2] [Slaves]",
+			"Only available <in cities without a [Listening Post]>",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Pioneers Station",
+		"replaces": "Public School",
+		"uniqueTo": "Crimson Line",
+		"cityHealth": 80,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["City Defense",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] per [2] social policies adopted <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Central Command",
+		"replaces": "Council",
+		"uniqueTo": "Crimson Line",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"[+10]% Production when constructing [{Military} {Land}] units [in all cities connected to capital]",
+			"Gain [200] [Culture] (modified by game speed) <upon conquering a city>",
+			"Can only be built [in capital]"]
+	},
+	{
+		"name": "Ruined Kremlin",
+		"replaces": "Congress",
+		"uniqueTo": "Crimson Line",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+
+	//New City-State: "Emerald City"
+	{
+		"name": "Emerald City Library",
+		"replaces": "Library",
+		"uniqueTo": "Izumrydniy Gorod",
+		"culture": 2,
+		"science": 2,
+		"cost": 0,
+		"requiredTech": "Writing",
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"Reveals the entire map",
+			"Provides [1] [Weapons]",
+			"Free [Militia] appears",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
+		"name": "Universitat",
+		"replaces": "University",
+		"uniqueTo": "Izumrydniy Gorod",
+		"culture": 2,
+		"science": 2,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 1},
+		"cost": 0,
+		"maintenanceCost": 0,
+		"uniques": [
+			"[-100]% maintenance on road & railroads",
+			"[+50]% Production when constructing [Civilian] units [in this city]",
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Emerald City Library]>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		],
+		"requiredTech": "Education"
 	}
 ]
