@@ -52,6 +52,20 @@
 		"requiredTech": "Construction"
 	},
 	{
+		"name": "Sealed Facility",
+		"uniqueTo": "Crimson Line",
+		"cityHealth": 100,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["City Defense",
+			"Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+2 Production] from [Mountain] tiles [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Engineering"
+	},
+	{
 		"name": "Pioneers Station",
 		"replaces": "Public School",
 		"uniqueTo": "Crimson Line",
@@ -102,7 +116,7 @@
 		]
 	},
 	{
-		"name": "Universitat",
+		"name": "Emerald City University",
 		"replaces": "University",
 		"uniqueTo": "Izumrydniy Gorod",
 		"culture": 2,

@@ -24,13 +24,14 @@
 		"style": "Military",
 		"uniqueName": "One Party, One Leader, One Ideology",
 		"uniques": ["[-50]% construction time for [All Road] improvements",
+			"Each city founded increases culture cost of policies [17]% less than normal",
 			"[+15]% [Production] [in all cities] <for [10] turns> <upon declaring war with a major Civilization>",
 			"Starts with [Machinery]",
 			"Starts with [Collectivism] adopted"],
-		"cities": ["Semyonovskaya", "Chistye Prudy", "Okhotny Ryad", "Lubyanka", "Sportivnaya", "Kuznetsky Most", "Dinamo", "Tverskaya",
-			"Park Pobedy", "Arbatskaya", "Kiyevskaya", "Teatralnaya", "Taganskaya", "Alekseyevskaya", "Sukharevskaya", "Shabolovskaya",
-			"Pushkinskaya", "Taganskaya", "Marksistskaya", "Aviamotornaya", "Timiryazevskaya", "Chekhovskaya", "Okhruznaya",
-			"Maryina Roscha", "Dubrovka", "Savyolovskaya"],
+		"cities": ["Semyonovskaya", "Chistye Prudy", "Okhotny Ryad", "D-6", "Lubyanka", "Sportivnaya", "Kuznetsky Most", "Dinamo",
+			"Tverskaya", "Park Pobedy", "Kommunarka", "Potapovo", "Arbatskaya", "Kievskaya", "Teatralnaya", "Taganskaya",
+			"Alekseyevskaya", "Sukharevskaya", "Shabolovskaya", "Pushkinskaya", "Taganskaya", "Marksistskaya", "Aviamotornaya", "Timiryazevskaya",
+			"Chekhovskaya", "Okhruznaya", "Maryina Roscha", "Dubrovka", "Savyolovskaya"],
 		"spyNames": ["Korbut", "Lesnitsky", "Nastya", "Pavel", "Dmitri", "Anatoly", "Irina", "Ramilya", "Grigory", "Igor"]
 	},
 

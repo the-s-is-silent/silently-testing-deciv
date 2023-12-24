@@ -1,15 +1,33 @@
 [
+	//Mercenaries
+	{
+		"name": "Stalker",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"cost": 60,
+		"promotions": ["Gas Mask", "Prospector", "Urban Warfare I"],
+		"upgradesTo": "NBC Infantry",
+		"uniques": ["Personnel",
+			"Consumes [1] [Weapons]",
+			"[+25]% Strength <after discovering [Rifling]>",
+			"Unbuildable",
+			"Can be purchased for [180] [Gold] [in all cities]",
+			"Only available <after adopting [Collectivism]>"],
+		"attackSound": "machinegun"
+	},
+
+	//Crimson Line
 	{
 		"name": "Shock Worker",
 		"replaces": "Worker",
 		"uniqueTo": "Crimson Line",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 70,
+		"cost": 48,
 		"hurryCostModifier": 20,
 		"upgradesTo": "Mechanized Worker",
 		"uniques": ["Can build [Land] improvements on tiles",
-			"[-25]% construction time for [All] improvements",
 			"Ignores terrain cost",
 			"Automation is a primary action"]
 	},
@@ -58,6 +76,26 @@
 			"[+50]% Strength <vs [Barbarian] units> <when attacking>"
 		],
 		"attackSound": "shot"
+	},
+	{
+		"name": "War Tram",
+		"unitType": "Armor",
+		"uniqueTo": "Crimson Line",
+		"replaces": "Attack Vehicle",
+		"movement": 4,
+		"strength": 36,
+		"cost": 70,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Armored Car",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["[+20]% Strength <vs [Low Tech] units>",
+			"[+20]% Strength <vs [Personnel] units>",
+			"[-33]% Strength <vs cities>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Consumes [1] [Oil]"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
 	},
 	{
 		"name": "Armored Train",
@@ -119,7 +157,9 @@
 		"upgradesTo": "Exo-Trooper",
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
+		"uniques": ["Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]",
 			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
 			"[+25]% Strength <vs [City-State] units>",
 			"[+25]% Strength <vs cities>"],
@@ -139,7 +179,11 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Only available <if [Factory] is constructed>", "Consumes [1] [Weapons]"],
+		"uniques": ["Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]",
+			"[+15]% Strength <when fighting in [Friendly Land] tiles>",
+			"[+25]% Strength <vs [City-State] units>"],
 		"promotions": ["Reconnaissance I", "Gas Mask", "Thermoptic Camouflage"],
 		"attackSound": "sniper"
 	}
