@@ -17,6 +17,7 @@
 		"culture": 2,
 		"cost": 0,
 		"uniques": ["[+1 Gold, +1 Happiness] [in all cities connected to capital]",
+			"Free [Shock Worker] appears",
 			"Free [Kommissar] appears",
 			"Can only be built [in capital]",
 			"Gain a free [Armory Station] [in this city]"],
