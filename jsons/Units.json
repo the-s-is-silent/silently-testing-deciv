@@ -1,4 +1,19 @@
 [
+	//Civilian
+	{
+		"name": "Seastead Vessel",
+		"unitType": "Civilian Water",
+		"movement": 6,
+		"cost": 200,
+		"hurryCostModifier": 20,
+		"requiredResource": "Oil",
+		"requiredTech": "Ocean Remediation",
+		"uniques": ["Can enter ice tiles",
+			"May create improvements on water resources",
+			"Can build [Water] improvements on tiles",
+			"Automation is a primary action"]
+	},
+	
 	//Mercenaries
 	{
 		"name": "Stalker",
