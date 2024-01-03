@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Remove Ice",
+		"turnsToBuild": 14,
+		"terrainsCanBeBuiltOn": ["Ice"],
+		"techRequired": "Ocean Remediation",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	}
+]
