@@ -1,14 +1,5 @@
 [
 	{
-		"name": "Patron Saint of Scavengers",
-		"type": "Pantheon",
-		"uniques": ["[+1 Production, +1 Faith] from every [Machine Parts]",
-			"[+1 Production, +1 Faith] from every [Electronics]",
-			"[+1 Production, +1 Faith] from every [Scrap]",
-			"[+1 Production, +1 Faith] from every [Plastics]",
-			"[+1 Production, +1 Faith] from every [Weapons]"]
-	},
-	{
 		"name": "Divine Education",
 		"type": "Enhancer",
 		"uniques": ["[+4 Science, +4 Faith] [in holy cities]",
