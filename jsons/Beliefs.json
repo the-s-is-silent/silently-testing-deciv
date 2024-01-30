@@ -7,5 +7,17 @@
 			"[+1 Production, +1 Faith] from every [Scrap]",
 			"[+1 Production, +1 Faith] from every [Plastics]",
 			"[+1 Production, +1 Faith] from every [Weapons]"]
+	},
+	{
+		"name": "Divine Education",
+		"type": "Enhancer",
+		"uniques": ["[+4 Science, +4 Faith] [in holy cities]",
+			"Comment [May buy Science buildings (except Divinity Schools) with Faith in cities following this religion for 2 times their normal Production cost]",
+			"May buy [Library] buildings for [150] [Faith] [in cities following this religion <hidden from users>",
+			"May buy [University] buildings for [240] [Faith] [in cities following this religion] <hidden from users>",
+			"May buy [Public School] buildings for [320] [Faith] [in cities following this religion] <hidden from users>",
+			"May buy [Research Lab] buildings for [500] [Faith] [in cities following this religion] <hidden from users>",
+			"May buy [Data Center] buildings for [1000] [Faith] [in cities following this religion] <hidden from users>",
+			"May buy [Decryption Center] buildings for [1000] [Faith] [in cities following this religion] <hidden from users>"]
 	}
 ]
