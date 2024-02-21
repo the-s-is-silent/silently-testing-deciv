@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Terrascape Device",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 500,
+		"replacementTextForUniques": "Has the ability to terraform tiles to most terrain types 4 times, consuming the unit after expending all charges.",
+		"uniques": ["Turn this tile into a [Badlands] tile <[4] times> <after which this unit is consumed>",
+			"Turn this tile into a [Wasteland] tile <[4] times> <after which this unit is consumed>",
+			"Turn this tile into a [Desert] tile <[4] times> <after which this unit is consumed>",
+			"Turn this tile into a [Tundra] tile <[4] times> <after which this unit is consumed>",
+			"Turn this tile into a [Permafrost] tile <[4] times> <after which this unit is consumed>",
+			"Turn this tile into a [Coast] tile <[4] times> <after which this unit is consumed>",
+			"Turn this tile into a [Ocean] tile <[4] times> <after which this unit is consumed>",
+			"Turn this tile into a [Lakes] tile <[4] times> <after which this unit is consumed>",
+			"Only available <if [Biosphere Project] is constructed>"]
+	}
+]
