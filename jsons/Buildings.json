@@ -1,5 +1,23 @@
 [
 	{
+		"name": "Sealed Facility",
+		"replaces": "Bunker",
+		"uniqueTo": "Crimson Line",
+		"cityHealth": 250,
+		"food": 5,
+		"maintenance": 1,
+		"hurryCostModifier": 50,
+		"requiredBuilding": "Hardened Defenses",
+		"uniques": ["City Defense",
+			"Population loss from nuclear attacks [-75]% [in this city]",
+			"Damage to garrison from nuclear attacks [-75]% [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"[+4 Production] from [Mountain] tiles [in this city]",
+			"[+4 Production] from [Tunneled Mountain] tiles [in this city]",
+			"Destroyed when the city is captured"],
+		"requiredTech": "Munitions"
+	},
+	{
 		"name": "Land Reclamation Bureau",
 		"isNationalWonder": true,
 		"uniques": ["[+1] population [in this city]",

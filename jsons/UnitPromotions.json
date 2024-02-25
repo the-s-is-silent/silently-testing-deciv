@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Terrascape I",
+		"uniques": ["Turn this tile into a [Badlands] tile <in [{non-[Badlands]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Wasteland] tile <in [{non-[Wasteland]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Desert] tile <in [{non-[Desert]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Tundra] tile <in [{non-[Tundra]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Hill] tile <in [{non-[Hill]} {Land}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Coast] tile <in [Ocean] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Ocean] tile <in [Coast] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Desert] tile <in [{non-[Resource]} {Coast}] tiles> <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Lakes] tile <in [{non-[Resource]} {Land}] tiles> <[2] times> <after which this unit is consumed>"]
+	},
+	{
+		"name": "Terrascape II",
+		"uniques": ["Turn this tile into a [Badlands] tile <in [{non-[Badlands]} {Land}] tiles> <[2] additional time(s)>",
+			"Turn this tile into a [Wasteland] tile <in [{non-[Wasteland]} {Land}] tiles> <[2] additional time(s)>",
+			"Turn this tile into a [Desert] tile <in [{non-[Desert]} {Land}] tiles> <[2] additional time(s)>",
+			"Turn this tile into a [Tundra] tile <in [{non-[Tundra]} {Land}] tiles> <[2] additional time(s)>",
+			"Turn this tile into a [Hill] tile <in [{non-[Hill]} {Land}] tiles> <[2] additional time(s)>",
+			"Turn this tile into a [Coast] tile <in [Ocean] tiles> <[2] additional time(s)>",
+			"Turn this tile into a [Ocean] tile <in [Coast] tiles> <[2] additional time(s)>",
+			"Turn this tile into a [Desert] tile <in [{non-[Resource]} {Coast}] tiles> <[2] additional time(s)>",
+			"Turn this tile into a [Lakes] tile <in [{non-[Resource]} {Land}] tiles> <[2] additional time(s)>"]
+	}
+]

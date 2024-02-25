@@ -1,18 +1,27 @@
 [
 	{
-		"name": "Terrascape Device",
+		"name": "Civilian Convoy",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <in [{non-[Tunneled Mountain]} {non-[Fissure]} {Land}] tiles> <by consuming this unit>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Military Engineer",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 500,
-		"replacementTextForUniques": "Has the ability to terraform tiles to most terrain types 4 times, consuming the unit after expending all charges.",
-		"uniques": ["Turn this tile into a [Badlands] tile <[4] times> <after which this unit is consumed>",
-			"Turn this tile into a [Wasteland] tile <[4] times> <after which this unit is consumed>",
-			"Turn this tile into a [Desert] tile <[4] times> <after which this unit is consumed>",
-			"Turn this tile into a [Tundra] tile <[4] times> <after which this unit is consumed>",
-			"Turn this tile into a [Permafrost] tile <[4] times> <after which this unit is consumed>",
-			"Turn this tile into a [Coast] tile <[4] times> <after which this unit is consumed>",
-			"Turn this tile into a [Ocean] tile <[4] times> <after which this unit is consumed>",
-			"Turn this tile into a [Lakes] tile <[4] times> <after which this unit is consumed>",
-			"Only available <if [Biosphere Project] is constructed>"]
+		"cost": 120,
+		"requiredTech": "Engineering",
+		"uniques": ["Can pass through impassible tiles",
+			"Can build [All Road] improvements on tiles",
+			"Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>",
+			"Turn this tile into a [Tunneled Mountain] tile <in [Mountain] tiles> <by consuming this unit>"]
 	}
 ]
