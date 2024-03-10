@@ -9,7 +9,6 @@
 		"techRequired": "Geo Engineering",
 		"uniques": [
 			"Food source",
-			"Natural tile",
 			"Gives a defensive bonus of [10]%",
 			"[+1 Gold] from [Fresh water] tiles",
 			"Cannot be built on [Bonus resource] tiles",

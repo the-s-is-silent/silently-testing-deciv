@@ -12,16 +12,5 @@
 			"Requires at least [2] population"
 		],
 		"hurryCostModifier": 20
-	},
-	{
-		"name": "Military Engineer",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 120,
-		"requiredTech": "Engineering",
-		"uniques": ["Can pass through impassable tiles",
-			"Can build [All Road] improvements on tiles",
-			"Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>",
-			"Turn this tile into a [Tunneled Mountain] tile <in [Mountain] tiles> <by consuming this unit>"]
 	}
 ]
