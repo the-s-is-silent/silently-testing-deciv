@@ -5,7 +5,7 @@
 		"movement": 2,
 		"cost": 10,
 		"upgradesTo": "Worker",
-		"uniques": ["Transform this tile into a [River] tile <for all movement>",
+		"uniques": ["Turn this tile into a [River] tile <for all movement>",
 			"This Unit upgrades for free <after [10] turns>",
 			"Limited to [1] per Civilization"]
 	}
