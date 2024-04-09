@@ -8,7 +8,6 @@
 		"cityStrength": 5,
 		"cityHealth": 100,
 		"percentStatBonus": {"science": 10},
-		"requiredTech": "Human Genome",
 		"uniques": ["Free [Persevering Pax Researcher] appears <upon turn end> <every [25] turns>",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
