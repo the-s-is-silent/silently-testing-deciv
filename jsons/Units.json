@@ -1,16 +1,12 @@
 [
 	{
-		"name": "Civilian Convoy",
+		"name": "Well-Digger",
 		"unitType": "Civilian",
-		"movement": 3,
-		"cost": 106,
-		"uniques": [
-			"Founds a new city <in [{non-[Tunneled Mountain]} {non-[Fissure]} {Land}] tiles> <by consuming this unit>",
-			"[+15] HP when healing",
-			"All adjacent units heal [+15] HP when healing",
-			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
-		],
-		"hurryCostModifier": 20
+		"movement": 2,
+		"cost": 10,
+		"upgradesTo": "Worker",
+		"uniques": ["Transform this tile into a [River] tile <for all movement>",
+			"This Unit upgrades for free <after [10] turns>",
+			"Limited to [1] per Civilization"]
 	}
 ]
