@@ -1,6 +1,6 @@
 {
     "name": "Global uniques",
     "uniques": [
-        "Free [Well-Digger] appears <for [Major]> <upon constructing [Bomb Shelter]> <during the [Decivilized era]>"
+        "Free [Well-Digger] appears <for [Major]> <upon turn end> <before [1] turns>"
     ]
 }

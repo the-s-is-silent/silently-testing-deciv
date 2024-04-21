@@ -24,7 +24,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Turn this tile into a [Mountain] tile <upon being defeated> <with [33]% chance>",
+			"Turn this tile into a [Mountain] tile <upon being defeated>",
 			"Consumes [1] [Oil]"
 		],
 		"attackSound": "tankshot"

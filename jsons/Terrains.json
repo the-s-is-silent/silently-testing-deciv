@@ -1,4 +1,19 @@
 [
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": [
+			"Rough terrain",
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [50] damage",
+			"Always Fertility [-2] for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
 	// Virtual River entry, used for stats, Uniques and Civilopedia
 	// Modders take heed:
 	// * This never exists on the map, it's a placeholder to allow you to mod the actual river's stats.
