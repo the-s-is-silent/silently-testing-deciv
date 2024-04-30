@@ -1,32 +1,12 @@
 [
 	{
-		"name": "Pre-War Cryo Sanctum",
-		"uniqueTo": "The Pax",
-		"cost": 0,
-		"science": 5,
-		"culture": 2,
-		"cityStrength": 5,
-		"cityHealth": 100,
-		"percentStatBonus": {"science": 10},
-		"uniques": ["Free [Persevering Pax Researcher] appears <upon turn end> <every [50] turns>",
-			"Automatically built in all cities where it is buildable",
-			"Can only be built <in [Capital] cities>",
-			"Unsellable",
-			"Never destroyed when the city is captured"]
-	},
-	{
-		"name": "Research and Preservation Institute",
-		"uniqueTo": "The Pax",
-		"percentStatBonus": {"science": 15},
-		"cost": 0,
-		"replacementTextForUniques": "Receive a free Persevering Pax Researcher upon construction, and again each time you advance to a new technological era starting at the Industrial era. Preservators provide an additional +1 Science and Culture.",
-		"uniques": ["Free [Persevering Pax Researcher] appears",
-			"Free [Persevering Pax Researcher] appears <upon entering the [Industrial era]>",
-			"Free [Persevering Pax Researcher] appears <upon entering the [Postmodern era]>",
-			"Free [Persevering Pax Researcher] appears <upon entering the [Information era]>",
-			"Free [Persevering Pax Researcher] appears <upon entering the [New Future era]>",
-			"[+1 Science, +1 Culture] from every [Preservator]",
-			"Unsellable",
-			"Never destroyed when the city is captured"]
+		"name": "Foreign Ministry",
+		"cost": 120,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Gain [15] Influence with a [Envoy] gift to a City-State",
+			"[2] free [Envoy] units appear",
+			"Limited to [1] per Civilization"],
+		"requiredTech": "Civil Service"
 	}
 ]

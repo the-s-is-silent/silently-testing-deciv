@@ -12,41 +12,13 @@
 			"Limited to [1] per Civilization"]
 	},
 	{
-		"name": "Hostile Terraformer",
-		"unitType": "Siege",
-		"movement": 4,
-		"strength": 30,
-		"rangedStrength": 50,
-		"range": 1,
-		"cost": 200,
-		"requiredTech": "Replaceable Parts",
-		"promotions": ["Promotion Nullifier"],
-		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"Turn this tile into a [Mountain] tile <upon being defeated>",
-			"Consumes [1] [Oil]"
-		],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "Swarm",
-		"unitType": "Helicopter",
-		"uniqueTo": "Barbarians",
-		"replaces": "Crossbowman",
-		"range": 1,
+		"name": "Envoy",
+		"unitType": "Civilian",
 		"movement": 2,
-		"strength": 18,
-		"rangedStrength": 15,
-		"cost": 50,
-		"hurryCostModifier": 20,
-		"obsoleteTech": "Rifling",
-		"uniques": [
-			"Low Tech",
-			"May withdraw before melee ([25]%)",
-			"[+33]% Strength <vs [Low Tech] units>",
-			"[3] free [Swarm] units appear <upon being defeated> <with [33]% chance>"
-		],
-		"attackSound": "swarm"
+		"cost": 150,
+		"requiredTech": "Civil Service",
+		"uniques": ["Comment [Gain influence with a City-State by gifting this unit]",
+			"Gain [50]-[100] [Gold] <upon turn end> <after which this unit is consumed> <for [City-States]> <hidden from users>",
+			"Only available <in cities with a [Foreign Ministry]>"]
 	}
 ]
