@@ -18,7 +18,7 @@
 		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": ["Comment [Gain influence with a City-State by gifting this unit]",
-			"Gain [50]-[100] [Gold] <upon turn end> <after which this unit is consumed> <for [City-States]> <hidden from users>",
+			"Gain [50]-[100] [Gold] <upon ending a turn in a [City-states] tile> <after which this unit is consumed> <for [City-states]> <hidden from users>",
 			"Only available <in cities with a [Foreign Ministry]>"]
 	}
 ]
