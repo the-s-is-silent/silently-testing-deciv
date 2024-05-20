@@ -16,6 +16,7 @@
 		"replaces": "Monument",
 		"uniqueTo": "Aztlán",
 		"culture": 2,
+		"cost": 40,
 		"maintenance": 0,
 		"uniques": ["New [Low Tech] units start with [15] Experience [in this city]",
 			"[+1 Happiness] [in this city] <when at war>"]

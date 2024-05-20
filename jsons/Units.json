@@ -76,7 +76,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Aztlán",
 		"replaces": "Great General",
-		"uniques": ["Can start an [8]-turn golden age <by consuming this unit>",
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can instantly construct a [Survivor camp] improvement <once> <in tiles adjacent to [City ruins]> <for [2] movement>",
