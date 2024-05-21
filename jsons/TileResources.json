@@ -1,0 +1,10 @@
+[
+    {
+		"name": "Tlahuitzli",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Not shown on world screen <for [non-[Aztlán]]>"
+		]
+	}
+]

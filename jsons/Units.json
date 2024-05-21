@@ -33,11 +33,12 @@
 		"movement": 2,
 		"strength": 22,
 		"cost": 50,
+		"obsoleteTech": "Rifling",
 		"upgradesTo": "Militia",
 		"hurryCostModifier": 20,
 		"promotions": ["Entrench"],
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "[+25]% Strength <vs [Barbarian] units>",
-			"Can transform to [Eagle Warrior] <upon defeating a [Military] unit> <with [50]% chance>"],
+			"Can transform to [Eagle Warrior] <costs [1] [Tlahuitzli]>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -53,7 +54,7 @@
 		"upgradesTo": "Militia",
 		"promotions": ["Pursuit"],
 		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "[+25]% Strength <vs [Barbarian] units>",
-			"Can transform to [Shorn One] <upon defeating a [Military] unit> <with [50]% chance>"],
+			"Can transform to [Shorn One] <costs [1] [Tlahuitzli]>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -77,7 +78,7 @@
 		"uniqueTo": "Aztlán",
 		"replaces": "Great General",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Military] units within [3] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can instantly construct a [Survivor camp] improvement <once> <in tiles adjacent to [City ruins]> <for [2] movement>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],

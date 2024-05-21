@@ -39,9 +39,10 @@
 		"uniqueTo": "Aztlán",
 		"hurryCostModifier": 25,
 		"requiredTech": "Writing",
-		"uniques": ["[+1 Science] per [2] population [in this city]",
+		"uniques": ["[+1 Science] per [3] population [in this city]",
 			"[+2 Science] from [Books] tiles [in this city]",
-			"Gain [2]-[5] [Science] <upon gaining a [Low Tech] unit>"]
+			"Gain [2]-[5] [Science] <upon gaining a [Low Tech] unit>",
+			"Only available <in cities with a [Calpulli]>"]
 	},
 	{
 		"name": "Chinampa",
@@ -55,6 +56,8 @@
 		"uniques": ["[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [{Fresh water} {Farm}] tiles [in this city]",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>",
+			"Only available <in cities with a [Calpulli]>",
 			"Destroyed when the city is captured"]
 	},
 	{
@@ -105,14 +108,13 @@
 		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"science": 2,
-		"faith": 2,
 		"percentStatBonus": {"science": 33},
 		"specialistSlots": {"Scientist": 1},
 		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
-			"New [Land] units start with [10] Experience [in this city]",
-			"Only available <in cities with a [Calpulli]>"],
+			"New [{Military} {Land}] units start with [10] Experience [in this city]",
+			"Only available <in cities with a [Amoxcalli]>"],
 		"requiredTech": "Education"
 	},
 	{
@@ -125,7 +127,20 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Science] per [2] population [in this city] <after discovering [Networking]>",
 			"[+10]% Production when constructing [Land] units [in this city]",
-			"Only available <in cities with a [Calpulli]>"],
+			"Only available <in cities with a [Amoxcalli]>"],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Ayuntamiento",
+		"replaces": "Town Hall",
+		"uniqueTo": "Aztlán",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"cost": 150,
+		"maintenance": 1,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]",
+			"[+1 Culture] per [4] social policies adopted <when above [0] [Power]>"],
+		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
 	},
 	{
@@ -147,5 +162,33 @@
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
 			"[+100 Culture] whenever a Great Person is expended"
 		]
+	},
+	{
+		"name": "Congress of the Alliance",
+		"replaces": "Congress",
+		"uniqueTo": "Aztlán",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Gifts of Gold to City-States generate [25]% more Influence",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council of Four]>",
+			"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Council of Four",
+		"replaces": "Council",
+		"uniqueTo": "Aztlán",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+10]% growth [in all cities]",
+			"[+15]% Strength <for [Land] units> <when fighting in [Enemy Land] tiles>",
+			"City-State Influence recovers at twice the normal rate",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress of the Alliance]>",
+			"Destroyed when the city is captured"]
 	}
 ]
