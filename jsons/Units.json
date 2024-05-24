@@ -34,11 +34,12 @@
 		"strength": 22,
 		"cost": 50,
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Militia",
+		"upgradesTo": "Machete",
 		"hurryCostModifier": 20,
-		"promotions": ["Entrench"],
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "[+25]% Strength <vs [Barbarian] units>",
-			"Can transform to [Eagle Warrior] <costs [1] [Tlahuitzli]>"],
+		"promotions": ["Pursuit"],
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
+			"[+25]% Strength <vs [Barbarian] units>",
+			"This unit gains the [Valor of Aztlán] promotion <upon defeating a [Military] unit>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -51,10 +52,11 @@
 		"cost": 50,
 		"requiredTech": "Steel",
 		"obsoleteTech": "Rifling",
-		"upgradesTo": "Militia",
-		"promotions": ["Pursuit"],
-		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>", "[+25]% Strength <vs [Barbarian] units>",
-			"Can transform to [Shorn One] <costs [1] [Tlahuitzli]>"],
+		"promotions": ["Pursuit", "Valor of Aztlán"],
+		"uniques": ["Low Tech", "[+50]% Strength <vs [Low Tech] units>",
+			"[+25]% Strength <vs [Barbarian] units>",
+			"Can upgrade to [Militia] <for [non-[Aztlán]]> <hidden from users>",
+			"Can upgrade to [Shorn One] <for [Aztlán]> <hidden from users>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -64,12 +66,11 @@
 		"movement": 2,
 		"strength": 40,
 		"cost": 100,
+		"requiredTech": "Civil Service",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
-		"promotions": ["Sentry"],
-		"uniques": ["Low Tech", "Damage is ignored when determining unit Strength",
-			"Unbuildable <before discovering [Rifling]>",
-			"Cannot be purchased"],
+		"promotions": ["Pursuit", "Fury of Aztlán"],
+		"uniques": ["Low Tech"],
 		"attackSound": "metalhit"
 	},
 	{

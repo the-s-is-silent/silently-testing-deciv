@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Valor of Aztlán",
+		"uniques": ["[+10]% Strength <when attacking>",
+			"This unit upgrades for free <for [Aztlán]> <upon defeating a [Military] unit>",
+			"Comment [This Promotion becomes Fury of Aztlán after this unit upgrades to Shorn One]"]
+	},
+	{
+		"name": "Fury of Aztlán",
+		"uniques": ["[+20]% Strength <when attacking>",
+			"Damage is ignored when determining unit Strength",
+			"This unit loses the [Valor of Aztlán] promotion <hidden from users>"]
+    }
+]
