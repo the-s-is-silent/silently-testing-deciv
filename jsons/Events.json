@@ -63,7 +63,7 @@
 			},
 			{
 				"text": "Another team has already been contracted, but we would still make use of other services they may offer.",
-				"triggerUniques": ["Free [Worker] appears"],
+				"triggeredUniques": ["Free [Worker] appears"],
 				"conditions": ["when number of [Well-Digger] is equal to [1]"]
 			}
 		]
