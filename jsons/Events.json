@@ -29,7 +29,11 @@
 		"choices": [
 			{
 				"text": "Their operations are dangerous to our people. They must be dealt with.",
-				"triggeredUniques": ["Rebel units may spawn <for [5] turns>", "Gain [100] [Culture]"]
+				"triggeredUniques": [
+					"Comment [Rebel units may spawn over the next five turns]",
+					"Gain [100] [Culture]",
+					"Gain a free [Stalker Hideout] [in capital]"
+				]
 			},
 			{
 				"text": "See that they are fairly compensated for their services.",
@@ -58,13 +62,11 @@
 		"choices": [
 			{
 				"text": "Let us not waste any time, then.",
-				"triggeredUniques": ["Free [Well-Digger] appears"],
-				"conditions": ["when number of [Well-Digger] is equal to [0]"]
+				"triggeredUniques": ["Free [Well-Digger] appears"]
 			},
 			{
 				"text": "Another team has already been contracted, but we would still make use of other services they may offer.",
-				"triggeredUniques": ["Free [Worker] appears"],
-				"conditions": ["when number of [Well-Digger] is equal to [1]"]
+				"triggeredUniques": ["Free [Worker] appears"]
 			}
 		]
 	},
