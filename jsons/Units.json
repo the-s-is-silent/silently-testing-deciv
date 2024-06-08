@@ -14,7 +14,7 @@
 	{
 		"name": "Eagle Speaker",
 		"unitType": "Civilian",
-		"uniqueTo": "Aztlán",
+		"uniqueTo": "Aztlan",
 		"replaces": "Great General",
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [3] tiles",
