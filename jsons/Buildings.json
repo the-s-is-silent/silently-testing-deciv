@@ -3,7 +3,7 @@
 		"name": "Dummy Test",
 		"cost": 0,
 		"uniques": [
-			"Remove [Dummy Test] [in this city] <upon turn end> <after [5] turns>",
+			"Remove [Dummy Test] [in this city] <upon turn end>",
 			"Unbuildable",
 			"Cannot be purchased",
 			"Will not be displayed in Civilopedia"
