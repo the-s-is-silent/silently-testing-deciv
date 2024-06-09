@@ -3,11 +3,6 @@
 	"uniques": [
 		"Free [Well-Digger] appears <for [Major]> <upon turn end> <before [1] turns>",
 
-		"Triggers a [Bountiful Harvest] event <upon discovering [Decontamination] technology>",
-		"Triggers a [Digging Wells] event <upon turn end> <with [1]% chance> <before the [Rebuilding era]>",
-		"Triggers a [Former Elite Captured] event <upon turn end> <every [15] turns> <with [33]% chance> <before [60] turns>",
-		"Triggers a [Gift to the State] event <upon turn end> <every [30] turns> <with [33]% chance>",
-		"Triggers a [Social Reforms] event <upon turn end> <every [50] turns> <with [33]% chance>",
-		"Triggers a [Stalkers] event <upon turn end> <with [1]% chance> <before [80] turns>"
+		"Triggers a [Test] event <upon turn end> <before [1] turns>"
 	]
 }
