@@ -1,11 +1,11 @@
 [
 	{
-		"name": "Test",
-		"text": "Something unusual seems to have happened.",
+		"name": "Raiders!",
+		"text": "Raider parties have made a sudden incursion into our territories!",
 		"choices": [
 			{
-				"text": "Meh.",
-				"triggeredUniques": ["Gain a free [Dummy Test] [in capital]"]
+				"text": "We must repel them at once!",
+				"triggeredUniques": ["[2] free [Raider] units appear <for [Barbarians]>"]
 			}
 		]
 	}
