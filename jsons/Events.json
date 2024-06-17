@@ -1,11 +1,11 @@
 [
 	{
-		"name": "Raiders!",
-		"text": "Raider parties have made a sudden incursion into our territories!",
+		"name": "A Great Raider appears!",
+		"text": "The raiders terrorizing the wastes have recently come together under a new leader who has demonstrated himself to be far more ruthless than anyone we have fought since the Cataclysm. Now they are coming after us.",
 		"choices": [
 			{
-				"text": "We must repel them at once!",
-				"triggeredUniques": ["[2] free [Raider] units appear <for [Barbarians]>"]
+				"text": "Be ready to defend our homeland.",
+				"triggeredUniques": ["Comment [Nothing happens] <hidden from users>"]
 			}
 		]
 	}

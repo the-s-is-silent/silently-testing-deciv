@@ -1,8 +1,10 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-		"Free [Well-Digger] appears <for [Major]> <upon turn end> <before [1] turns>",
-
-		"Triggers a [Raiders!] event <for [Major]> <upon turn end> <before [100] turns> <with [5]% chance>"
+		"Free [Great Raider] appears <for [Barbarians]> <upon turn end> <after [50] turns> <before [51] turns>",
+		"[3] free [Raider] units appear <for [Barbarians]> <upon turn end> <after [50] turns> <before [51] turns>",
+		"[3] free [Marauder] units appear <for [Barbarians]> <upon turn end> <after [50] turns> <before [51] turns>",
+		"Triggers a [A Great Raider appears!] event <for [Major]> <upon turn end> <after [50] turns> <before [51] turns>",
+		"Free [Hero of the Wastes] appears <upon defeating a [Great Raider] unit>"
 	]
 }
