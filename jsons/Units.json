@@ -21,7 +21,6 @@
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": ["Limited to [1] per Civilization",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"Can instantly construct a [Barbarian encampment] improvement <[4] times>",
 			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles",
 			"Great Person - [War]",

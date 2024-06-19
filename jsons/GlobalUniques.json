@@ -1,6 +1,7 @@
 {
 	"name": "Global uniques",
 	"uniques": [
+		"Notified of new Barbarian encampments",
 		"Free [Great Raider] appears <for [Barbarians]> <upon turn end> <after [50] turns> <before [51] turns>",
 		"[3] free [Raider] units appear <for [Barbarians]> <upon turn end> <after [50] turns> <before [51] turns>",
 		"[3] free [Marauder] units appear <for [Barbarians]> <upon turn end> <after [50] turns> <before [51] turns>",
