@@ -1,5 +1,19 @@
 [
 	{
+		"name": "Well-Digger",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 10,
+		"uniques": [
+			"Turn this tile into a [River] tile <for all movement> <[4] times> <after which this unit is consumed>",
+			"Turn this tile into a [Spring] tile <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can upgrade to [Worker] <if it hasn't used other actions yet>",
+			"Unbuildable",
+			"Cannot be purchased",
+			"Limited to [1] per Civilization"
+		]
+	},
+	{
 		"name": "Eagle Speaker",
 		"unitType": "Civilian",
 		"uniqueTo": "Aztlan",
