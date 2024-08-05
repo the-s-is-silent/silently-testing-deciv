@@ -1,46 +1,16 @@
 [
 	{
-		"name": "Well-Digger",
+		"name": "Civilian Convoy",
 		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 10,
+		"movement": 3,
+		"cost": 106,
 		"uniques": [
-			"Turn this tile into a [River] tile <for all movement> <[4] times> <after which this unit is consumed>",
-			"Turn this tile into a [Spring] tile <by consuming this unit> <if it hasn't used other actions yet>",
-			"Can upgrade to [Worker] <if it hasn't used other actions yet>",
-			"Unbuildable",
-			"Cannot be purchased",
-			"Limited to [1] per Civilization"
-		]
-	},
-	{
-		"name": "Eagle Speaker",
-		"unitType": "Civilian",
-		"uniqueTo": "Aztlan",
-		"replaces": "Great General",
-		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"[+15]% Strength bonus for [Military] units within [3] tiles",
-			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can instantly construct a [Survivor camp] improvement <once> <in tiles adjacent to [City ruins]> <for [2] movement>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Raider",
-		"unitType": "Mounted",
-		"replaces": "Great General",
-		"uniqueTo": "Barbarians",
-		"movement": 4,
-		"strength": 45,
-		"cost": 100,
-		"requiredTech": "Civil Service",
-		"uniques": ["Limited to [1] per Civilization",
-			"Can instantly construct a [Barbarian encampment] improvement <[4] times>",
-			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles",
-			"Great Person - [War]",
-			"Uncapturable",
-			"Comment [Defeating this unit will cause a Hero of the Wastes to emerge]"],
-		"promotions": ["Raider", "Reconnaissance I", "Overboss"],
-		"attackSound": "machinegun"
+			"Founds a new city <in [non-[Fissure]] tiles> <by consuming this unit>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
 	}
 ]
