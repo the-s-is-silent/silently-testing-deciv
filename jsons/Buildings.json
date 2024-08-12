@@ -2,7 +2,7 @@
 	{
 		"name": "Constitution Hall",
 		"isWonder": true,
-		"uniqueTo": "Oathsworn",
+		"uniqueTo": "The Oathsworn",
 		"culture": 1,
 		"cost": 0,
 		"uniques": [

@@ -18,8 +18,8 @@
 		"hateHello": "Tread carefully, lest you invite retaliation.",
 		"tradeRequest": "We hope this arrangement is of mutual benefit to our peoples.",
 
-		"outerColor": [28,51,119],
-		"innerColor": [255,255,255],
+		"outerColor": [255,255,255],
+		"innerColor": [28,51,119],
 		"style": "Military",
 		"uniqueName": "Oath to a Fallen Nation",
 		"uniques": [
