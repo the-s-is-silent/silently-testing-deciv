@@ -1,0 +1,13 @@
+[
+	{
+		"name": "[Continental General] ability",
+		"uniques": ["Great General",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+50]% XP gained from combat",
+			"Heals [25] damage if it kills a unit",
+			"[+50]% Strength <after discovering [Combined Arms]>",
+			"[+50]% Strength <after discovering [Advanced Materials]>",
+			"Can instantly construct a [Citadel] improvement <once> <for [2] movement>",
+			"Uncapturable"]
+	}
+]
