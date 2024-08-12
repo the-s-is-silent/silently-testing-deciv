@@ -4,6 +4,7 @@
 		"isWonder": true,
 		"uniqueTo": "Oathsworn",
 		"culture": 1,
+		"cost": 0,
 		"uniques": [
 			"[+1 Happiness] [in all cities] <after adopting [Constitution Complete]>",
 			"Provides [2] [Weapons]",
@@ -30,7 +31,7 @@
 		"name": "Oathsworn's Influence",
 		"uniqueTo": "The Oathsworn",
 		"cost": 0,
-		"uniques": ["Resting point for influence with City-States increased by [5]",
+		"uniques": ["Resting point for Influence with City-States is increased by [5]",
 			"Automatically built in all cities where it is buildable",
 			"Limited to [6] per Civilization",
 			"Destroyed when the city is captured",
