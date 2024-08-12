@@ -1,5 +1,18 @@
 [
 	{
+		"name": "Constitution Hall",
+		"isWonder": true,
+		"uniqueTo": "Oathsworn",
+		"culture": 1,
+		"uniques": [
+			"[+1 Happiness] [in all cities] <after adopting [Constitution Complete]>",
+			"Provides [2] [Weapons]",
+			"Free [Constitutional Militia] appears",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Monument] [in this city]"
+		]
+	},
+	{
 		"name": "Rally Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "The Oathsworn",
@@ -61,14 +74,15 @@
 		"name": "Continental Congress",
 		"uniqueTo": "The Oathsworn",
 		"replaces": "Congress",
-		"cost": 100,
+		"cost": 150,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+1 Culture, +1 Food] per [5] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
-			"Only available <if [Search for Survivors] is constructed>",
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+10]% Production when constructing [Land] units [in all cities]",
+			"Gain [15] Influence with a [{non-[Great General]} {Military}] gift to a City-State",
+			"Only available <if [Rally Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Provisional Council]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -110,6 +124,12 @@
 	{
 		"name": "Oathsworn cannot build Work Camp",
 		"replaces": "Work Camp",
+		"uniqueTo": "The Oathsworn",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Oathsworn cannot build Council",
+		"replaces": "Council",
 		"uniqueTo": "The Oathsworn",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}

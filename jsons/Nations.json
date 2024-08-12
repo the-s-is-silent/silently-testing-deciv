@@ -26,11 +26,10 @@
 			"Comment [Each city owned increases resting point for influence with City-States by 5, up to a maximum of 30]",
 			"Gain [100] Influence with a [Great Person] gift to a City-State",
 			"[+25]% Great Person generation [in all cities]",
-			"Adopt [Constitution] <upon entering the [Neofeudal era]>",
-			"Adopt [Monopoly] <upon entering the [Neofeudal era]>",
+			"Starts with [Construction]",
+			"Starts with [Constitution] adopted",
 			"Cannot build [Enslaved] units",
-			"Comment [Cannot build Prison Camp buildings]",
-			"Comment [Cannot build Work Camp buildings]"
+			"Comment [Cannot build Prison Camp, Work Camp, or Council buildings]"
 		],
 		"cities": ["Century City", "Soldier Field", "Brandon Falls", "Libertyville", "Fort Independence", "Sanctuary Hills",
 			"Foundation", "Heritage", "Covenant", "Vanguard", "New Albany", "Hackettstown", "Taffington", "Concord", "Anabol",
