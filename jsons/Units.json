@@ -11,7 +11,6 @@
 			"[+1] Sight",
 			"[+15] HP when healing",
 			"All adjacent units heal [+15] HP when healing",
-			"[+2 Food] [in this city] <for [10] turns> <by consuming this unit> <in [City center] tiles>",
 			"Hidden when religion is disabled",
 			"Unbuildable",
 			"Religious Unit"
