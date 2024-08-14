@@ -6,7 +6,7 @@
 		"culture": 1,
 		"cost": 0,
 		"uniques": [
-			"[+1 Happiness] [in all cities] <after adopting [Constitution Complete]>",
+			"[+1 Happiness] from every [Administrator]",
 			"Provides [2] [Weapons]",
 			"Free [Constitutional Militia] appears",
 			"Automatically built in all cities where it is buildable",
@@ -18,12 +18,10 @@
 		"name": "Rally Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "The Oathsworn",
-		"food": 5,
-		"happiness": 2,
 		"greatPersonPoints": {"Great General": 2},
-		"cost": 50,
+		"cost": 40,
 		"isNationalWonder": true,
-		"uniques": ["[+2] population [in this city]",
+		"uniques": ["[+1] population [in all cities]",
 			"[+10]% Production when constructing [Land] units [in this city]",
 			"Free [Armed Settler] appears",
 			"Can only be built <in [Capital] cities>"]
