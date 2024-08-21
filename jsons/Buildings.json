@@ -1,5 +1,14 @@
 [
 	{
+		"name": "Windmill",
+		"requiredNearbyImprovedResources": ["Power"],
+		"production": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Steel",
+		"uniques": ["[+1 Production] from [{Land} {Wind farm}] tiles [in this city]",
+			"Provides [2] [Power]"]
+	},
+	{
 		"name": "Constitution Hall",
 		"isWonder": true,
 		"uniqueTo": "The Oathsworn",
@@ -58,17 +67,28 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Iron Working",
 		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Strategic resource] tiles [in this city]"]
+			"[+1 Production] from [Strategic resource] tiles [in this city]",
+			"Provides [1] [Weapons]"]
 	},
 	{
-		"name": "Windmill",
+		"name": "Freedman's School",
 		"uniqueTo": "The Oathsworn",
-		"requiredNearbyImprovedResources": ["Power"],
-		"production": 1,
-		"hurryCostModifier": 25,
-		"requiredTech": "Steel",
-		"uniques": ["[+1 Production] from [Wind farm] tiles [in this city]",
-			"Provides [2] [Power]"]
+		"percentStatBonus": {"science": 15},
+		"happiness": 1,
+		"science": 2,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Comment [Replaces Work Camp without being treated as Work Camp]",
+			"[+1] population [in this city]",
+			"[+2 Science] [in this city] <with [Power]>",
+			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>",
+			"Unsellable"
+		],
+		"requiredTech": "Education"
 	},
 	{
 		"name": "Continental Congress",
@@ -105,14 +125,19 @@
 		"name": "Control Post",
 		"replaces": "Listening Post",
 		"uniqueTo": "The Oathsworn",
-		"cityStrength": 10,
+		"cityStrength": 5,
+		"cityHealth": 50,
 		"happiness": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
-		"uniques": ["[-33]% enemy spy effectiveness [in this city]",
+		"uniques": [
+			"City Defense",
+			"[-30]% enemy spy effectiveness [in this city]",
+			"[+50]% Yield from every [Citadel] <in this city>",
 			"Remove extra unhappiness from annexed cities",
 			"Only available <in cities without a [Prison Camp]>",
-			"Destroyed when the city is captured"],
+			"Destroyed when the city is captured"
+		],
 		"requiredTech": "Electronics"
 	},
 	{

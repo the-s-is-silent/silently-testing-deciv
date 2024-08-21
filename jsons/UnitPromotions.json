@@ -8,6 +8,8 @@
 			"[+50]% Strength <after discovering [Combined Arms]>",
 			"[+50]% Strength <after discovering [Advanced Materials]>",
 			"Can instantly construct a [Citadel] improvement <once> <for [2] movement>",
+			"This Unit gains [1] XP <upon ending a turn in a [Citadel] tile>",
+			"Gain [5]-[30] [Gold] <upon ending a turn in a [Settlement] tile>",
 			"Uncapturable"]
 	}
 ]
