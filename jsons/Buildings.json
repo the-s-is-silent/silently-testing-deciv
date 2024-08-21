@@ -91,6 +91,18 @@
 		"requiredTech": "Education"
 	},
 	{
+		"name": "Water Purifier",
+		"replaces": "Water Storage",
+		"uniqueTo": "The Oathsworn",
+		"gold": 2,
+		"percentStatBonus": {"gold": 10},
+		"specialistSlots": {"Merchant": 1},
+		"requiredTech": "Currency",
+		"uniques": ["[+1 Gold] from [Water pump] tiles [in this city]",
+			"[+2 Gold] [in this city] <when above [0] [Power]>",
+			"Doubles Gold given to enemy if city is captured"]
+	},
+	{
 		"name": "Continental Congress",
 		"uniqueTo": "The Oathsworn",
 		"replaces": "Congress",
