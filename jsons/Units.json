@@ -55,17 +55,17 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
 		"promotions": ["Guerilla Warfare I", "Urban Warfare I"],
-		"attackSound": "shot"
+		"attackSound": "machinegun"
 	},
 	{
-		"name": "Home Guard",
+		"name": "Liberty Guard",
 		"unitType": "Scrapper",
 		"uniqueTo": "The Oathsworn",
 		"replaces": "Soldier",
 		"movement": 2,
 		"strength": 40,
 		"interceptRange": 1,
-		"cost": 110,
+		"cost": 105,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"hurryCostModifier": 20,

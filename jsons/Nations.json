@@ -24,7 +24,8 @@
 		"uniqueName": "Oath to a Fallen Nation",
 		"uniques": [
 			"Comment [Each city owned increases resting point for influence with City-States by 5, up to a maximum of 30]",
-			"Gain [100] Influence with a [Great Person] gift to a City-State",
+			"City-State territory always counts as friendly territory",
+			"[+1] Movement <for [All] units> <in [City-States] tiles>",
 			"[+25]% Great Person generation [in all cities]",
 			"Starts with [Construction]",
 			"Starts with [Constitution] adopted",

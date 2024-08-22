@@ -70,7 +70,21 @@
 			"Provides [1] [Weapons]"]
 	},
 	{
-		"name": "Freedman's School",
+		"name": "Tribunal",
+		"uniqueTo": "The Oathsworn",
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Comment [Replaces Prison Camp without being treated as Prison Camp]",
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Remedial School",
 		"uniqueTo": "The Oathsworn",
 		"percentStatBonus": {"science": 15},
 		"happiness": 1,
@@ -119,7 +133,7 @@
 		]
 	},
 	{
-		"name": "Recruitment Beacon",
+		"name": "Radio Freedom",
 		"replaces": "Broadcast Tower",
 		"uniqueTo": "The Oathsworn",
 		"culture": 2,
@@ -146,9 +160,8 @@
 			"City Defense",
 			"[-30]% enemy spy effectiveness [in this city]",
 			"[+50]% Yield from every [Citadel] <in this city>",
-			"Remove extra unhappiness from annexed cities",
-			"Only available <in cities without a [Prison Camp]>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured",
+			"Hidden when espionage is disabled"
 		],
 		"requiredTech": "Electronics"
 	},
