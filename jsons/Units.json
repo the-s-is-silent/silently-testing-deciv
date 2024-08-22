@@ -69,7 +69,8 @@
 		"requiredTech": "Rifling",
 		"upgradesTo": "Infantry",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+15]% Strength <when fighting in [Friendly Land] tiles>"],
+		"uniques": ["Personnel"],
+		"promotions": ["Homeland Guardian"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -86,12 +87,17 @@
 		"uniques": [
 			"Personnel",
 			"Can be earned through combat",
-			"Is part of Great Person group [General]",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Consumes [1] [Weapons]"
 		],
-		"promotions": ["Reconnaissance I", "Gas Mask", "[Continental General] ability"],
+		"promotions": [
+			"Reconnaissance I",
+			"Gas Mask",
+			"Homeland Guardian",
+			"Great Generals",
+			"[Continental General] ability"
+		],
 		"attackSound": "shot"
 	}
 ]
