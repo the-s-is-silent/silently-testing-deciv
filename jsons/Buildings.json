@@ -27,7 +27,6 @@
 		"name": "Rally Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "The Oathsworn",
-		"greatPersonPoints": {"Great General": 2},
 		"cost": 40,
 		"isNationalWonder": true,
 		"uniques": ["[+1] population [in all cities]",
@@ -111,7 +110,8 @@
 		"uniques": [
 			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
-			"[+10]% Production when constructing [Land] units [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in all cities]",
+			"[+10]% Production when constructing [All] units [in all cities]",
 			"Gain [15] Influence with a [{non-[Great General]} {Military}] gift to a City-State",
 			"Only available <if [Rally Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
