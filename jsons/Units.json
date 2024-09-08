@@ -29,8 +29,8 @@
 	{
 		"name": "RCB Infantry",
 		"unitType": "Scrapper",
-		"uniqueTo": "Crimson Line",
-		"replaces": "Russian Unifiers",
+		"uniqueTo": "Russian Unifiers",
+		"replaces": "NBC Infantry",
 		"movement": 2,
 		"strength": 50,
 		"interceptRange": 1,
@@ -52,8 +52,8 @@
 	{
 		"name": "RCB Marksman",
 		"unitType": "Shooter",
-		"uniqueTo": "Crimson Line",
-		"replaces": "Russian Unifiers",
+		"uniqueTo": "Russian Unifiers",
+		"replaces": "NBC Marksman",
 		"range": 1,
 		"movement": 2,
 		"strength": 40,
@@ -71,7 +71,7 @@
 			"[+25]% Strength <vs [City-State] units>",
 			"[+25]% Strength <vs cities>"
 		],
-		"promotions": ["Reconnaissance I", "Gas Mask", "Thermoptic Camouflage"],
+		"promotions": ["Reconnaissance I", "Gas Mask"],
 		"attackSound": "shot"
 	},
 	{
