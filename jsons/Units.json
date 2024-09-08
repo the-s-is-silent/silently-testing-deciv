@@ -90,7 +90,7 @@
 		"uniques": [
 			"Personnel",
 			"Only available <if [Automated Factory] is constructed>",
-			"May paradrop up to [4] tiles from inside friendly territory",
+			"May Paradrop up to [4] tiles from inside friendly territory",
 			"Consumes [2] [Weapons]",
 			"[+100]% Strength <vs [Scrapper] units> <when attacking>"
 		],
