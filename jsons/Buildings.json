@@ -1,0 +1,108 @@
+[
+	{
+		"name": "Zamość Fortress",
+		"isWonder": true,
+		"uniqueTo": "Nowa Polska",
+		"culture": 1,
+		"production": 1,
+		"cityStrength": 5,
+		"cityHealth": 60,
+		"cost": 0,
+		"uniques": [
+			"[+2] Unit Supply per city",
+			"Provides [2] [Weapons]",
+			"[2] free [Kosynier] units appear",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]"
+		]
+	},
+	{
+		"name": "Sukiennice",
+		"replaces": "Market",
+		"uniqueTo": "Nowa Polska",
+		"production": 2,
+		"gold": 3,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from each Trade Route"]
+	},
+	{
+		"name": "Fortified Church",
+		"replaces": "Monastery",
+		"uniqueTo": "Nowa Polska",
+		"cityStrength": 5,
+		"cityHealth": 20,
+		"faith": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Education",
+		"uniques": [
+			"City Defense",
+			"Provides [1] [Weapons]",
+			"Only available <in cities with a [Shrine]>",
+			"Hidden when religion is disabled"
+		]
+	},
+	{
+		"name": "Sejmik",
+		"replaces": "Town Hall",
+		"uniqueTo": "Nowa Polska",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"Comment [+1 Happiness in this city for each completed social policy branch]",
+			"[+1 Happiness] [in this city] <after adopting [Adaptation Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Expansionism Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Sovereignty Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Theocracy Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Rationalism Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Constitution Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Supremacy Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Monopoly Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Collectivism Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Rediscovery Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Naturalism Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Mechanization Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Bionics Complete]> <hidden from users>",
+			"[+1 Happiness] [in this city] <after adopting [Legacy Complete]> <hidden from users>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Sejm",
+		"replaces": "Congress",
+		"uniqueTo": "Nowa Polska",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture] per [4] population [in all cities]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Rada Państwa]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Rada Państwa",
+		"replaces": "Council",
+		"uniqueTo": "Nowa Polska",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Sejm]>",
+			"Destroyed when the city is captured"
+		]
+	}
+]
