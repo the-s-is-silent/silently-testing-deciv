@@ -30,21 +30,22 @@
 			"[+1 Gold] from each Trade Route"]
 	},
 	{
-		"name": "Fortified Church",
-		"replaces": "Monastery",
+		"name": "Folwark",
+		"replaces": "Greenhouse",
 		"uniqueTo": "Nowa Polska",
-		"cityStrength": 5,
-		"cityHealth": 20,
-		"faith": 2,
-		"maintenance": 1,
+		"food": 3,
+		"gold": 2,
+		"specialistSlots": {"Farmer": 1},
+		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"requiredTech": "Education",
 		"uniques": [
-			"City Defense",
-			"Provides [1] [Weapons]",
-			"Only available <in cities with a [Shrine]>",
-			"Hidden when religion is disabled"
-		]
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city]",
+			"[+1 Food] from [Cactus] tiles [in this city]",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>"
+		],
+		"requiredTech": "Botany"
 	},
 	{
 		"name": "Sejmik",
@@ -84,21 +85,23 @@
 		"uniques": [
 			"[+1 Culture] per [4] population [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+1 Gold] from all [{non-[Wonder]} {Gold}] buildings",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Rada Państwa]>",
+			"Only available <in cities without a [Rada Ocalenia]>",
 			"Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "Rada Państwa",
+		"name": "Rada Ocalenia",
 		"replaces": "Council",
 		"uniqueTo": "Nowa Polska",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"[+30]% Strength decreasing with distance from the capital",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Sejm]>",
