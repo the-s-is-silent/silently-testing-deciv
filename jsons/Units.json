@@ -26,6 +26,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": [
 			"Personnel",
+			"Consumes [1] [Weapons]",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[-33]% Strength <vs cities> <when attacking>",
@@ -47,7 +48,6 @@
 		"upgradesTo": "Tank",
 		"uniques": [
 			"Personnel",
-			"Consumes [1] [Weapons]",
 			"No defensive terrain bonus",
 			"Can move after attacking",
 			"[+20]% Strength <vs [Armor] units> <when attacking>",
@@ -73,7 +73,8 @@
 		"hurryCostModifier": 20,
 		"promotions": ["Gas Mask"],
 		"uniques": ["Personnel", "Consumes [1] [Weapons]",
-			"[+25]% Strength <when fighting in [Friendly Land] tiles>"],
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
+			"Only available <if [Factory] is constructed>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -93,7 +94,7 @@
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
 			"Consumes [1] [Weapons]",
 			"Never appears as a Barbarian unit",
-			"Only available <if [Automated Factory] is constructed>"
+			"Only available <if [Factory] is constructed>"
 		],
 		"promotions": ["Reconnaissance I", "Reconnaissance II", "Reconnaissance III", "Thermoptic Camouflage"],
 		"attackSound": "machinegun"
