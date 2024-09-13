@@ -67,7 +67,7 @@
 		"name": "Cursed Soldier",
 		"unitType": "Scrapper",
 		"uniqueTo": "Nowa Polska",
-		"replaces": "NBC Infantry",
+		"replaces": "Infantry",
 		"movement": 2,
 		"strength": 45,
 		"interceptRange": 1,
