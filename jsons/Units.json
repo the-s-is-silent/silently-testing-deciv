@@ -6,7 +6,7 @@
 		"cost": 150,
 		"requiredTech": "Redomestication",
 		"uniques": [
-			"Gain [5]-[2000] Gold <by consuming this unit> <in [City-States] tiles>",
+			"Gain [5]-[2000] [Gold] <by consuming this unit> <in [City-States] tiles>",
 			"Only available <in cities with a [Market]>",
 			"Requires at least [5] population"
 		]
