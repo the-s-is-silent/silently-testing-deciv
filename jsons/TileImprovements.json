@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Filter pump",
+		"terrainsCanBeBuiltOn": [
+			"Lakes"
+		],
+		"gold": 2,
+		"turnsToBuild": 5,
+		"uniques": [
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"techRequired": "Decontamination",
+		"shortcutKey": "F"
+	}
+]

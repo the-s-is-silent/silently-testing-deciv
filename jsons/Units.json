@@ -2,13 +2,35 @@
 	{
 		"name": "Caravan",
 		"unitType": "Civilian",
-		"movement": 2,
+		"movement": 1,
 		"cost": 150,
 		"requiredTech": "Redomestication",
 		"uniques": [
 			"Gain [5]-[2000] [Gold] <by consuming this unit> <in [City-States] tiles>",
 			"Only available <in cities with a [Market]>",
-			"Requires at least [5] population"
+			"Requires at least [5] population",
+			"Cannot be purchased"
 		]
+	},
+	//Water Wars faction: Prasiddh Shahar
+	{
+		"name": "Vyomanaut",
+		"unitType": "Scrapper",
+		"replaces": "Militia",
+		"uniqueTo": "Prasiddh Shahar",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 55,
+		"upgradesTo": "Soldier",
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]"
+		],
+		"promotions": ["Gas Mask"],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	}
 ]
