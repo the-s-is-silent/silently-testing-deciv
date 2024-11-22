@@ -1,5 +1,18 @@
 [
 	{
+		"name": "Landing Event - Survivor camp",
+		"text": "We have received reinforcements from our space station!",
+		"choices": [
+			{
+				"text": "We did not expect this, but the aid is always welcomed.",
+				"uniques": [
+					"[+1] population in a random city",
+					"Free [Avatar] appears"
+				]
+			}
+		]
+	},
+	{
 		"name": "Landing Event - Rediscovering era",
 		"text": "We have received reinforcements from our space station!",
 		"choices": [
@@ -9,7 +22,7 @@
 			},
 			{
 				"text": "Receive military reinforcments",
-				"uniques": ["[4] free [Spearman] units appear"]
+				"uniques": ["Free [Avatar] appears", "[4] free [Spearman] units appear"]
 			}
 		]
 	},
@@ -23,7 +36,7 @@
 			},
 			{
 				"text": "Receive military reinforcments",
-				"uniques": ["[4] free [Machete] units appear"]
+				"uniques": ["Free [Avatar] appears", "[4] free [Machete] units appear"]
 			}
 		]
 	},
@@ -37,7 +50,7 @@
 			},
 			{
 				"text": "Receive military reinforcments",
-				"uniques": ["[4] free [Soldier] units appear"]
+				"uniques": ["Free [Avatar] appears", "[4] free [Soldier] units appear"]
 			}
 		]
 	},
@@ -51,7 +64,7 @@
 			},
 			{
 				"text": "Receive military reinforcments",
-				"uniques": ["[6] free [Soldier] units appear"]
+				"uniques": ["[2] free [Avatar] units appear", "[6] free [Soldier] units appear"]
 			}
 		]
 	},
@@ -65,7 +78,7 @@
 			},
 			{
 				"text": "Receive military reinforcments",
-				"niques": ["[7] free [Soldier] units appear"]
+				"niques": ["[2] free [Avatar] units appear", "[7] free [Soldier] units appear"]
 			}
 		]
 	},
@@ -79,7 +92,7 @@
 		},
 		{
 				"text": "Receive military reinforcments",
-				"uniques": ["[8] free [Soldier] units appear"]
+				"uniques": ["[2] free [Avatar] units appear", "[8] free [Soldier] units appear"]
 		}
 		]
 	},
@@ -93,7 +106,7 @@
 			},
 			{
 				"text": "Receive military reinforcments",
-				"uniques": ["[8] free [Soldier] units appear"]
+				"uniques": ["[2] free [Avatar] units appear", "[8] free [Soldier] units appear"]
 			}
 		]
 	},
@@ -107,7 +120,7 @@
 			},
 			{
 				"text": "Receive military reinforcments",
-				"uniques": ["[10] free [Soldier] units appear"]
+				"uniques": ["[3] free [Avatar] units appear", "[10] free [Soldier] units appear"]
 			}
 		]
 	}

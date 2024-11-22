@@ -32,5 +32,22 @@
 		"promotions": ["Gas Mask"],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
+	},
+	{
+		"name": "Avatar",
+		"unitType": "Bomber",
+		"uniqueTo": "Prasiddh Shahar",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 35,
+		"range": 4,
+		"cost": 0,
+		"upgradesTo": "Bomber",
+		"uniques": [
+			"Comment [Can only be obtained from Landing events]",
+			"Unbuildable"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "bombing"
 	}
 ]
