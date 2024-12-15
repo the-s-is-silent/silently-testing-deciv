@@ -1,70 +1,24 @@
 [
 	{
-		"name": "Landing Beacon",
-		"isWonder": true,
-		"uniqueTo": "Prasiddh Shahar",
-		"cost": 0,
-		"gold": 1,
-		"science": 1,
+		"name": "Ministry of Agriculture",
+		"isNationalWonder": true,
+		"cost": 125,
 		"uniques": [
-			"Provides [1] [Power]",
-			"Provides [1] [Weapons]",
-			"Free [Vyomanaut] appears",
-			"Automatically built in all cities where it is buildable",
+			"[+2 Food] from each Trade Route",
 			"Can only be built <in [Capital] cities>",
-			"Gain a free [Food Lab] [in this city]"
+			"Only available <if [Greenhouse] is constructed in all [non-[Puppeted]] cities>"
 		],
-		"quote": "Keep the signal going, and we'll help out whenever we can. Know that there's still life up here, and so what you need to do to keep life going down there.",
-		"civilopediaText": [
-			{
-				"text": "Keep the signal going, and we'll help out whenever we can. Know that there's still life up here, and so what you need to do to keep life going down there."
-			}
-		]
+		"requiredTech": "Civil Service"
 	},
 	{
-		"name": "Food Lab",
-		"replaces": "Food Store",
-		"uniqueTo": "Prasiddh Shahar",
-		"cost": 10,
-		"hurryCostModifier": -25,
+		"name": "Ministry of Industry",
+		"isNationalWonder": true,
+		"cost": 125,
 		"uniques": [
-			"[10]% Food is carried over after population increases [in this city]",
-			"[10]% Food is carried over after population increases [in this city] <after discovering [Refrigeration]>",
-			"[+1 Food] [in this city] <with [Salt]>",
-			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
-			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>"
-		]
-	},
-	{
-		"name": "Vegetable Apparatus",
-		"uniqueTo": "Prasiddh Shahar",
-		"replaces": "Greenhouse",
-		"food": 2,
-		"specialistSlots": { "Farmer": 1 },
-		"uniques": [
-			"[+1 Food] from [Tubers] tiles [in this city]",
-			"[+1 Food] from [Grain] tiles [in this city]",
-			"[+1 Food] from [Maize] tiles [in this city]",
-			"[+1 Food] from [Cactus] tiles [in this city]",
-			"[+1 Food, +1 Happiness] [in this city] <after discovering [Refrigeration]>"
+			"[+2 Production] from each Trade Route",
+			"Can only be built <in [Capital] cities>",
+			"Only available <if [Forge] is constructed in all [non-[Puppeted]] cities>"
 		],
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredTech": "Botany"
-	},
-	{
-		"name": "Launchpad",
-		"uniqueTo": "Prasiddh Shahar",
-		"replaces": "Aerospace Facility",
-		"cityStrength": 15,
-		"culture": 1,
-		"uniques": [
-			"[Aircraft] units gain the [Advanced Weapons] promotion",
-			"[+15]% Production when constructing [Air] units [in this city] <when above [-2] [Power]>",
-			"[+15]% Production when constructing [All] wonders [in this city] <when above [-2] [Power]>",
-			"Only available <in cities with a [Factory]>",
-			"Consumes [1] [Power]"
-		],
-		"requiredTech": "Rocketry"
+		"requiredTech": "Civil Service"
 	}
 ]
