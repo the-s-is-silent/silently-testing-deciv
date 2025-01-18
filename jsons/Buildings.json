@@ -20,5 +20,46 @@
 			"Only available <if [Forge] is constructed in all [non-[Puppeted]] cities>"
 		],
 		"requiredTech": "Civil Service"
+	},
+	//City-State testing
+	{
+		"name": "Lay of the Land",
+		"uniqueTo": "City-States",
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"[+1] Sight <for [Scout] units>",
+			"Free [Scout] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Storage Plant",
+		"uniqueTo": "City-States",
+		"maintenance": 1,
+		"requiredTech": "Electronics",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [4] [Power]",
+			"Only available <in cities with a [Library]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Defense Directorate",
+		"uniqueTo": "City-States",
+		"cityHealth": 50,
+		"cost": 0,
+		"uniques": [
+			"[3] units cost no maintenance",
+			"Provides [1] [Weapons]",
+			"Free [State Guard] appears",
+			"[2] free [Pre-War Gatling Turret] units appear",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured"
+		]
 	}
 ]
