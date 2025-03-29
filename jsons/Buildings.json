@@ -55,6 +55,24 @@
 		]
 	},
 	{
+		"name": "Examination Hall",
+		"replaces": "University",
+		"uniqueTo": "Celestial Collective",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 1},
+		"uniques": [
+			"[+1 Science] from [Forest] tiles [in this city]",
+			"[+1 Science] from [Jungle] tiles [in this city]",
+			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Culture, +2 Happiness] [in this city] <with a garrison>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
 		"name": "Council of the Self",
 		"replaces": "Council",
 		"uniqueTo": "Celestial Collective",
