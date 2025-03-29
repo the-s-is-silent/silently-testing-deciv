@@ -1,0 +1,15 @@
+[
+	{
+		"name": "[Sìdì Zhī Lóng] ability",
+		"uniques": ["Gain [1] [Culture] <upon turn end> <when [Wounded]>",
+			"Gain [1] [Faith] <upon turn end> <when [Wounded]>"]
+	},
+	{
+		"name": "Nuke Detonation Count",
+		"uniques": [
+			"Instantly provides [1] [Nuke Detonation Counter] <when attacking>",
+			"Not shown on world screen",
+			"Will not be displayed in Civilopedia"
+		]
+	}
+]

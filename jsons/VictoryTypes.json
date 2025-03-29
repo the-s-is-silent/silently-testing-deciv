@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Apocalypse",
+		"hiddenInVictoryScreen": true,
+		"victoryScreenHeader": "Detonate twenty nuclear weapons\nand everyone loses!",
+		"milestones": ["Build [The Second Cataclysm]"],
+		"victoryString": "You finally, really did it. You absolute maniac. You blew up the entire planet and damned humanity to hell.",
+		"defeatString": "The renewal of nuclear warfare has caused extreme strain on the Earth. While the planet was still in the early stages of recovering from the first Cataclysm, new and deadlier weapons have ignited the atmosphere and scorched the crust. Humanity has at last destroyed itself."
+	}
+]

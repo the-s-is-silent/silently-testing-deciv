@@ -1,38 +1,19 @@
 [
 	{
-		"name": "State Guard",
-		"uniqueTo": "City-States",
+		"name": "Sìdì Zhī Lóng",
+		"uniqueTo": "Celestial Collective",
+		"replaces": "Militia",
 		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 36,
 		"interceptRange": 1,
-		"cost": 50,
+		"cost": 55,
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
+		"promotions": ["[Sìdì Zhī Lóng] ability"],
 		"uniques": [
 			"Personnel",
-			"[+25]% Strength <when fighting in [Friendly Land] tiles>",
-			"Limited to [3] per Civilization"
-		],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "Pre-War Turret",
-		"uniqueTo": "City-States",
-		"unitType": "Siege",
-		"range": 2,
-		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 40,
-		"interceptRange": 2,
-		"cost": 50,
-		"upgradesTo": "Machine Gun",
-		"uniques": [
-			"Cannot move",
-			"Can only attack [Military] units", "Can only attack [Civilian] units",
-			"[+20]% Strength <when attacking>",
-			"Only available <with a garrison>",
-			"Limited to [3] per Civilization"
+			"Consumes [1] [Weapons]"
 		],
 		"attackSound": "machinegun"
 	}

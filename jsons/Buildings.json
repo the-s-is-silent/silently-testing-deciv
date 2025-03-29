@@ -1,65 +1,78 @@
 [
+	//The 'everyone loses' trigger
 	{
-		"name": "Ministry of Agriculture",
-		"isNationalWonder": true,
-		"cost": 125,
-		"uniques": [
-			"[+2 Food] from each Trade Route",
-			"Can only be built <in [Capital] cities>",
-			"Only available <if [Greenhouse] is constructed in all [non-[Puppeted]] cities>"
-		],
-		"requiredTech": "Civil Service"
-	},
-	{
-		"name": "Ministry of Industry",
-		"isNationalWonder": true,
-		"cost": 125,
-		"uniques": [
-			"[+2 Production] from each Trade Route",
-			"Can only be built <in [Capital] cities>",
-			"Only available <if [Forge] is constructed in all [non-[Puppeted]] cities>"
-		],
-		"requiredTech": "Civil Service"
-	},
-	//City-State testing
-	{
-		"name": "Lay of the Land",
-		"uniqueTo": "City-States",
+		"name": "The Second Cataclysm",
 		"cost": 0,
+		"isWonder": true,
 		"uniques": [
-			"Will not be displayed in Civilopedia",
-			"[+1] Sight <for [Scout] units>",
-			"Free [Scout] appears",
+			"Only available <when number of [Nuke Detonation Counter] is equal to [20]>",
+			"Triggers victory",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
-			"Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Storage Plant",
-		"uniqueTo": "City-States",
-		"maintenance": 1,
-		"requiredTech": "Electronics",
-		"uniques": [
 			"Will not be displayed in Civilopedia",
-			"Provides [4] [Power]",
-			"Only available <in cities with a [Library]>",
-			"Destroyed when the city is captured"
-		]
+			"Only available <when [Apocalypse] Victory is enabled>"
+		],
+		"quote": "'In one of the countless billions of galaxies in the universe lies a medium-size star, and one of its satellites, a green and insignificant planet, is now dead.' - Ending Narration, Beneath the Planet of the Apes"
 	},
+	//Outlaws faction #10 - Celestial Collective
 	{
-		"name": "Defense Directorate",
-		"uniqueTo": "City-States",
-		"cityHealth": 50,
+		"name": "Yánluó Palace",
+		"uniqueTo": "Celestial Collective",
+		"isWonder": true,
+		"culture": 1,
 		"cost": 0,
 		"uniques": [
-			"[3] units cost no maintenance",
-			"Provides [1] [Weapons]",
-			"Free [State Guard] appears",
-			"[2] free [Pre-War Turret] units appear",
+			"[+1] Unit Supply per [2] population [in all cities]",
+			"Provides [2] [Weapons]",
+			"Free [Sìdì Zhī Lóng] appears",
 			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Food Store] [in this city]",
+			"Gain a free [Shrine of the Honorful Dead] [in this city]"
+		]
+	},
+	{
+		"name": "Pre-War Stasis Chambers",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Celestial Collective",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"Free [Great Administrator] appears",
+			"Free [Civilian Convoy] appears"
+		]
+	},
+	{
+		"name": "Shrine of the Honorful Dead",
+		"replaces": "Shrine",
+		"uniqueTo": "Celestial Collective",
+		"faith": 1,
+		"maintenance": 0,
+		"requiredTech": "Secrets of the Past",
+		"uniques": [
+			"Only available <when religion is enabled>",
+			"[+2 Culture] [in this city] <when at war>"
+		]
+	},
+	{
+		"name": "Council of the Self",
+		"replaces": "Council",
+		"uniqueTo": "Celestial Collective",
+		"cost": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+5]% [Production] [in all cities connected to capital]",
+			"[-15]% enemy spy effectiveness [in all cities connected to capital]",
+			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Destroyed when the city is captured"
 		]
+	},
+	{
+		"name": "Celestial Collective cannot build Congress",
+		"replaces": "Congress",
+		"uniqueTo": "Celestial Collective",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}
 ]
