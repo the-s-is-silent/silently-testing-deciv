@@ -1,20 +1,34 @@
 [
 	{
-		"name": "Sìdì Zhī Lóng",
+		"name": "Dragon of the Four Truths",
 		"uniqueTo": "Celestial Collective",
-		"replaces": "Militia",
+		"replaces": "Censor",
 		"unitType": "Scrapper",
 		"movement": 2,
-		"strength": 36,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 1,
 		"interceptRange": 1,
-		"cost": 55,
+		"cost": 60,
 		"upgradesTo": "Soldier",
 		"hurryCostModifier": 20,
-		"promotions": ["[Sìdì Zhī Lóng] ability"],
+		"promotions": ["Reconnaissance I", "Gas Mask", "[Dragon of the Four Truths] ability"],
 		"uniques": [
 			"Personnel",
-			"Consumes [1] [Weapons]"
+			"Consumes [1] [Weapons]",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[-33]% Strength <vs cities>",
+			"[+50]% Strength <after discovering [Replaceable Parts]>",
+			"[+50]% Strength <after discovering [Networking]>",
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <[2] times> <after which this unit is consumed>",
+			"[+1] Sight",
+			"Unbuildable",
+			"Religious Unit",
+			"Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"
 		],
-		"attackSound": "machinegun"
+		"attackSound": "shot"
 	}
 ]

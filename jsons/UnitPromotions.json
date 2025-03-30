@@ -1,8 +1,12 @@
 [
 	{
-		"name": "[Sìdì Zhī Lóng] ability",
-		"uniques": ["Gain [1] [Culture] <upon turn end> <when [Wounded]>",
-			"Gain [1] [Faith] <upon turn end> <when [Wounded]>"]
+		"name": "[Dragon of the Four Truths] ability",
+		"uniques": [
+			"Gain [1] [Culture] <upon turn end> <when [Wounded]>",
+			"Gain [1] [Faith] <upon turn end> <when [Wounded]>",
+			"Gain [20] [Culture] <upon being defeated> <(modified by game speed)>",
+			"Gain [20] [Faith] <upon being defeated> <(modified by game speed)>"
+		]
 	},
 	{
 		"name": "Nuke Detonation Count",
