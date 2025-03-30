@@ -24,12 +24,13 @@
 		"uniques": [
 			"[+1] Unit Supply per [2] population [in all cities]",
 			"Provides [2] [Weapons]",
-			"Free [Sìdì Zhī Lóng] appears",
+			"Free [Dragon of the Four Truths] appears",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Food Store] [in this city]",
 			"Gain a free [Shrine of the Honorful Dead] [in this city]"
-		]
+		],
+		"quote": "Learn to overcome the crass demands of flesh and bone, for they warp the matrix through which we perceive the world. Extend your awareness outwards, beyond the self of body, to embrace the self of group and the self of humanity. The goals of the group and the greater race are transcendent, and to embrace them is to achieve enlightenment."
 	},
 	{
 		"name": "Pre-War Stasis Chambers",

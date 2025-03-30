@@ -1,0 +1,35 @@
+[
+	{
+		"name": "Heavenly Father",
+		"culture": 5,
+		"faith": 7,
+		"food": 4,
+		"gold": 5,
+		"happiness": 5,
+		"production": 8,
+		"science": 7,
+		"military": 8,
+		"aggressive": 8,
+		"declareWar": 6,
+		"commerce": 5,
+		"diplomacy": 6,
+		"loyal": 4,
+		"expansion": 7,
+		"priorities": {
+			"Adaptation": 0,
+			"Expansionism": 10,
+			"Sovereignty": 40,
+			"Theocracy": 20,
+			"Rationalism": 40,
+			"Constitution": 0,
+			"Supremacy": 40,
+			"Monopoly": 0,
+			"Collectivism": 50,
+			"Rediscovery": 10,
+			"Naturalism": 0,
+			"Mechanization": 30,
+			"Bionics": 30,
+			"Legacy": 0
+		}
+	}
+]
