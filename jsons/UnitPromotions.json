@@ -11,7 +11,7 @@
 	{
 		"name": "Nuke Detonation Count",
 		"uniques": [
-			"Instantly gain [1] [Nuke Detonation Counter] <upon damaging a [All] unit>",
+			"Instantly gain [1] [Nuke Detonation Counter] <when attacking>",
 			"Will not be displayed in Civilopedia"
 		]
 	}
