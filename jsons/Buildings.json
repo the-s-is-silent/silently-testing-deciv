@@ -5,7 +5,7 @@
 		"cost": 0,
 		"isWonder": true,
 		"uniques": [
-			"Only available <when number of [Nuke Detonation Counter] is equal to [20]>",
+			"Only available <when number of [Nuke Detonation Counter] is at least [20]>",
 			"Triggers victory",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
