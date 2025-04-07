@@ -4,14 +4,25 @@
 		"uniques": [
 			"Gain [1] [Culture] <upon turn end> <when [Wounded]>",
 			"Gain [1] [Faith] <upon turn end> <when [Wounded]>",
+			"Gain [20] [Culture] <upon being expended> <(modified by game speed)>",
+			"Gain [20] [Faith] <upon being expended> <(modified by game speed)>",
 			"Gain [20] [Culture] <upon being defeated> <(modified by game speed)>",
 			"Gain [20] [Faith] <upon being defeated> <(modified by game speed)>"
 		]
 	},
 	{
+		"name": "Commitment to the Four Truths",
+		"uniques": ["Can Spread Religion <[2] additional time(s)>"]
+	},
+	{
+		"name": "Enforcement of the Four Truths",
+		"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <[2] additional time(s)>"]
+	},
+	{
 		"name": "Nuke Detonation Count",
 		"uniques": [
 			"Instantly gain [1] [Nuke Detonation Counter] <when attacking>",
+			"Not shown on world screen",
 			"Will not be displayed in Civilopedia"
 		]
 	}

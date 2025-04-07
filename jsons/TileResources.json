@@ -5,6 +5,7 @@
 		"uniques": [
 			"Stockpiled",
 			"Cannot be traded",
+			"Not shown on world screen",
 			"Will not be displayed in Civilopedia"
 		]
 	}
