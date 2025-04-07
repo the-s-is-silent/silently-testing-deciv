@@ -5,7 +5,7 @@
 		"cost": 0,
 		"isWonder": true,
 		"uniques": [
-			"Only available <when number of [Nuke Detonation Counter] is at least [20]>",
+			"Only available <when number of [Nuke Detonation Counter] is more than [19]>",
 			"Triggers victory",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
@@ -65,7 +65,7 @@
 		"requiredTech": "Education",
 		"uniques": [
 			"Only available <when religion is enabled>",
-			"New {Military] units start with [5] XP [in this city] <for every [Completed Policy branches]>"
+			"New [Military] units start with [5] XP [in this city] <for every [Completed Policy branches]>"
 		]
 	},
 	{
@@ -101,6 +101,8 @@
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
 			"Only available <when religion is enabled>",
+			"Gain [20] [Culture] <upon expending a [Religious Unit] unit> <(modified by game speed)>",
+			"Gain [20] [Faith] <upon expending a [Religious Unit] unit> <(modified by game speed)>",
 			"All newly-trained [Pure Thought Agent] units [in this city] receive the [Enforcement of the Four Truths] promotion",
 			"All newly-trained [Dragon of the Four Truths] units [in this city] receive the [Commitment to the Four Truths] promotion",
 			"All newly-trained [Emissary of the Anti-Father] units [in this city] receive the [Commitment to the Four Truths] promotion"

@@ -4,8 +4,6 @@
 		"uniques": [
 			"Gain [1] [Culture] <upon turn end> <when [Wounded]>",
 			"Gain [1] [Faith] <upon turn end> <when [Wounded]>",
-			"Gain [20] [Culture] <upon being expended> <(modified by game speed)>",
-			"Gain [20] [Faith] <upon being expended> <(modified by game speed)>",
 			"Gain [20] [Culture] <upon being defeated> <(modified by game speed)>",
 			"Gain [20] [Faith] <upon being defeated> <(modified by game speed)>"
 		]

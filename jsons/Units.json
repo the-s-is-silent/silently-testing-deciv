@@ -19,7 +19,7 @@
 			"Unbuildable",
 			"Uncapturable",
 			"Religious Unit",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		],
 		"religiousStrength": 1000,
 		"attackSound": "shot"
