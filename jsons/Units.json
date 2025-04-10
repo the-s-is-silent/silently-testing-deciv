@@ -5,7 +5,7 @@
 		"uniqueTo": "Celestial Collective",
 		"unitType": "Scrapper",
 		"movement": 2,
-		"strength": 36,
+		"strength": 40,
 		"interceptionRange": 1,
 		"cost": 60,
 		"promotions": ["Gas Mask", "[Dragon of the Four Truths] ability"],

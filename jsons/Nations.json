@@ -20,13 +20,14 @@
 
 		"outerColor": [137, 89, 163],
 		"innerColor": [233, 233, 233],
-		// "style": "",
+		"style": "Collective",
 		"uniqueName": "Obliteration of the Self",
 		"uniques": [
-			"[+1 Production] per [5] population [in all cities]",
+			"Comment [Low Tech and Personnel units gain access to a special promotion when Wounded]",
 			"[+10]% Strength <for [Wounded] units>",
 			"[+10]% Strength <for [Wounded] units> <when below [50] HP>",
 			"No damage penalty for wounded units",
+			"[+1 Production] per [5] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities] <when at war>",
 			"[-1] Happiness from each type of luxury resource",
 			"Starts with [Secrets of the Past]",

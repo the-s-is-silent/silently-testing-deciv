@@ -2,11 +2,24 @@
 	{
 		"name": "[Dragon of the Four Truths] ability",
 		"uniques": [
-			"Gain [1] [Culture] <upon turn end> <when [Wounded]>",
-			"Gain [1] [Faith] <upon turn end> <when [Wounded]>",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+			"Earn [25]% of killed [Military] unit's [Strength] as [Faith]",
 			"Gain [20] [Culture] <upon being defeated> <(modified by game speed)>",
 			"Gain [20] [Faith] <upon being defeated> <(modified by game speed)>"
 		]
+	},
+	{
+		"name": "Cut Away the Self",
+		"uniques": [
+			"Can only heal by pillaging",
+			"Gain [1] [Culture] <upon turn end> <when [Wounded]>",
+			"Gain [1] [Faith] <upon turn end> <when [Wounded]>",
+			"Only available <for [Celestial Collective] Civilizations> <when [Wounded]>",
+			"This Promotion is free"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Mounted", "Mounted Ranged"],
+		"column": 11,
+		"row": 1
 	},
 	{
 		"name": "Commitment to the Four Truths",
