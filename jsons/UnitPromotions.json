@@ -6,5 +6,11 @@
 			"Not shown on world screen",
 			"Will not be displayed in Civilopedia"
 		]
+	},
+	{
+		"name": "Airlift",
+		"uniques": [
+			"May Paradrop to [City center] tiles up to [12] tiles away <in [City center] tiles> <costs all movement>"
+		]
 	}
 ]

@@ -5,7 +5,7 @@
 		"movement": 2,
 		"cost": 70,
 		"uniques": [
-			"Remove [Insects] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <for all movement> <costs [-60 Food] stats> <[2] times> <after which this unit is consumed>"
+			"Remove [Insects] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>"
 		]
 	}
 ]

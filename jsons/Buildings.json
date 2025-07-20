@@ -12,5 +12,38 @@
 			"Only available <when [Apocalypse] Victory is enabled>"
 		],
 		"quote": "'In one of the countless billions of galaxies in the universe lies a medium-size star, and one of its satellites, a green and insignificant planet, is now dead.' - Ending Narration, Beneath the Planet of the Apes"
+	},
+	{
+		"name": "Interpretative Center",
+		"culture": 3,
+		"cost": 400,
+		"maintenance": 3,
+		"hurryCostModifier": 15,
+		"uniques": [
+			"[+50]% [Culture] from every [{Culture} {Improvement}] <in this city>",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Avionics"
+	},
+	{
+		"name": "Aerospace Facility",
+		"cityStrength": 10,
+		"maintenance": 3,
+		"uniques": [
+			"[Aircraft] units gain the [Advanced Weapons] promotion",
+			"[Worker] units gain the [Airlift] promotion",
+			"[Mounted Worker] units gain the [Airlift] promotion",
+			"[Mechanized Worker] units gain the [Airlift] promotion",
+			"[+15]% Production when constructing [Air] units [in this city] <when above [-2] [Power]>",
+			"Only available <in cities with a [Factory]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Rocketry",
+		"civilopediaText": [
+			{
+				"text": "You can construct advanced aircraft units after constructing this building."
+			}
+		]
 	}
 ]
