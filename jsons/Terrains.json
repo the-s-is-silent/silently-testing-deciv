@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Seastead Site",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [107, 167, 193],
+		"uniques": [
+			"Doesn't generate naturally",
+			"Neighboring tiles will convert to [Coast] <in [Ocean] tiles>"
+		]
+	}
+]

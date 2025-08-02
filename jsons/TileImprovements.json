@@ -1,0 +1,23 @@
+[
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Irremovable",
+			"Unbuildable",
+			"Ensures a minimum tile yield of [+2 Food, +2 Production]",
+			"Turn this tile into a [Seastead Site] tile <in [Water] tiles>"
+		]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"Unpillagable",
+			"Unbuildable",
+			"Turn this tile into a [Ocean] tile <in [Seastead Site] tiles>"
+		]
+	}
+]

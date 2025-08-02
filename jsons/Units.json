@@ -7,5 +7,21 @@
 		"uniques": [
 			"Remove [Insects] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>"
 		]
+	},
+	{
+		"name": "Smoker Convoy",
+		"replaces": "Civilian Convoy",
+		"uniqueTo": "The Mariners",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <in [{non-[Lakes]} {non-[Impeded terrain]}] tiles> <by consuming this unit>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+		],
+		"hurryCostModifier": 20
 	}
 ]
