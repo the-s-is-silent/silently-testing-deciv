@@ -10,7 +10,7 @@
 	{
 		"name": "Airlift",
 		"uniques": [
-			"May Paradrop to [City center] tiles up to [12] tiles away <in [City center] tiles> <for all movement>"
+			"May Paradrop to [City center] tiles up to [12] tiles away <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
 	}
 ]
