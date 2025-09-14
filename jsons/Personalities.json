@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Rendrat",
+		"food": 4,
+		"production": 7,
+		"gold": 5,
+		"science": 9,
+		"culture": 5,
+		"faith": 9,
+		"happiness": 5,
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 8,
+		"commerce": 5,
+		"diplomacy": 4,
+		"loyal": 4,
+		"expansion": 4,
+		"priorities": {
+			"Adaptation": 0,
+			"Expansionism": 0,
+			"Sovereignty": 40,
+			"Theocracy": 30,
+			"Rationalism": 30,
+			"Constitution": 0,
+			"Supremacy": 50,
+			"Monopoly": 0,
+			"Collectivism": 20,
+			"Naturalism": 0,
+			"Mechanization": 50,
+			"Bionics": 0,
+			"Legacy": 0
+		}
+	}
+]

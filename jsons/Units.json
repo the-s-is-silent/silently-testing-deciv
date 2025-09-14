@@ -9,36 +9,45 @@
 		]
 	},
 	{
-		"name": "Smoker Convoy",
-		"replaces": "Civilian Convoy",
-		"uniqueTo": "The Mariners",
-		"unitType": "Civilian",
-		"movement": 3,
-		"cost": 106,
+		"name": "Doombringer",
+		"replaces": "Militia",
+		"uniqueTo": "Calamity Star Order",
+		"movement": 2,
+		"strength": 26,
+		"interceptRange": 1,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
 		"uniques": [
-			"Founds a new city <in [{non-[Lakes]} {non-[Impeded terrain]}] tiles> <by consuming this unit>",
-			"[+15] HP when healing",
-			"All adjacent units heal [+15] HP when healing",
-			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[+100]% Strength <when attacking>"
 		],
-		"hurryCostModifier": 20
+		"promotions": ["Doom Talisman"],
+		"attackSound": "shot"
 	},
 	{
-		"name": "Nord",
-		"uniqueTo": "The Mariners",
-		"replaces": "Great Admiral",
-		"unitType": "Civilian Water",
+		"name": "Calamity Bomb",
+		"uniqueTo": "Calamity Star Order",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 20,
+		"cost": 2000,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Uranium",
 		"uniques": [
-			"Founds a new city <in [Water] tiles> <by consuming this unit>",
-			"[+15]% Strength bonus for [{Military} {Water}] units within [2] tiles",
-			"May heal outside of friendly territory",
-			"[+15] HP when healing",
-			"All adjacent units heal [+15] HP when healing",
-			"Great Person - [Navy]",
-			"Unbuildable", "Uncapturable"
+			"[+100]% Strength <when attacking>",
+			"Nuclear weapon of Strength [3]",
+			"Blast radius [3]",
+			"Cannot be intercepted",
+			"Only available <if [Manhattan Project] is constructed>",
+			"Only available <in cities with a [Aerospace Facility]>",
+			"Cannot be purchased"
 		],
-		//Repair Fleet ability is currently unimplemented
-		"movement": 6
+		"attackSound": "nuke"
 	}
 ]

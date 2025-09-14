@@ -12,5 +12,13 @@
 		"uniques": [
 			"May Paradrop to [City center] tiles up to [12] tiles away <in [City center] tiles> <in cities with a [Aerospace Facility]>"
 		]
+	},
+	{
+		"name": "Doom Talisman",
+		"uniques": [
+			"[-20]% Strength <when defending>",
+			"[This Unit] heals [25] HP <upon defeating a [Military] unit>",
+			"Uncapturable"
+		]
 	}
 ]
