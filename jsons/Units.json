@@ -12,6 +12,7 @@
 		"name": "Doombringer",
 		"replaces": "Militia",
 		"uniqueTo": "Calamity Star Order",
+		"unitType": "Scrapper",
 		"movement": 2,
 		"strength": 26,
 		"interceptRange": 1,
@@ -43,7 +44,6 @@
 			"[+100]% Strength <when attacking>",
 			"Nuclear weapon of Strength [3]",
 			"Blast radius [3]",
-			"Cannot be intercepted",
 			"Only available <if [Manhattan Project] is constructed>",
 			"Only available <in cities with a [Aerospace Facility]>",
 			"Cannot be purchased"
