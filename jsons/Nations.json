@@ -5,7 +5,8 @@
 		"adjective": ["Calamity Bringer"],
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Domination",
-		"favoredReligion": "Death Worship",
+		"personality": "Rendrat",
+		"favoredReligion": "Posadism",
 
 		"startIntroPart1": "Welcome to the conclave of those who seek the last days. The stars that symbolize disaster have long since burnt out. The great disaster of the past is just the prelude to the true Cataclysm.",
 		"startIntroPart2": "Would you like to bring about the end of the world with us?",
@@ -37,5 +38,18 @@
 		],
 		"cities": ["Calamity Conclave"],
 		"spyNames": ["Powehi", "Phaethon", "Gliese", "Pandora", "Janus", "Kapteyn", "The Trappist", "Luyten", "Delorme", "Janssen"]
+	},
+	{
+		"name": "Order of the Dark Truth",
+		"adjective": ["Truther"],
+		"cityStateType": "Prayer",
+		"style": "",
+		"uniques": ["[+50]% Production when constructing [Scrapper] units [in all cities]"],
+		"declaringWar": "We see your little shadows painting the floor, cowering in fear!",
+		"attacked": "Dark judgment falls upon you now.",
+		"defeated": "You cannot stop the Great Message from coming.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [83, 99, 83],
+		"cities": ["Truth's Gate"]
 	}
 ]

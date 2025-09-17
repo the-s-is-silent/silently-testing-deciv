@@ -64,6 +64,36 @@
 		]
 	},
 	{
+		"name": "Calamity Assembly",
+		"replaces": "Congress",
+		"uniqueTo": "Calamity Star Order",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Science, +1 Faith] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Apocalypse Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Apocalypse Council",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+10]% Production when constructing [Personnel] units [in all cities]",
+			"[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+			"[50]% of [Faith] from every [Improvement] in the city added to [Weapons]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Calamity Assembly]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
 		"name": "Calamity Chart Brief",
 		"replaces": "Library",
 		"uniqueTo": "Calamity Star Order",
@@ -143,5 +173,16 @@
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Re-Utilization"
+	},
+	{
+		"name": "Camp of Necessity",
+		"uniqueTo": "Order of the Dark Truth",
+		"cost": 0,
+		"uniques": [
+			"Provides [4] [Slaves]",
+			"Provides [2] [Weapons]",
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured"
+		]
 	}
 ]

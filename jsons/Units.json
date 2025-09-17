@@ -30,6 +30,48 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Proto-Bomber",
+		"replaces": "Suicider",
+		"uniqueTo": "Calamity Star Order",
+		"unitType": "Scrapper",
+		"movement": 5,
+		"strength": 20,
+		"cost": 35,
+		"requiredTech": "Machinery",
+		"uniques": [
+			"Self-destructs when attacking",
+			"[+200]% Strength <vs [Military] units> <when attacking>",
+			"[+300]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": ["Napalm"],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Infernal",
+		"replaces": "NBC Marksman",
+		"uniqueTo": "Calamity Star Order",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 40,
+		"range": 1,
+		"interceptRange": 1,
+		"cost": 225,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Black Ops",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Weapons]",
+			"[-10]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"[Target Unit] takes [20] damage <upon damaging a [Military] unit>"
+		],
+		"promotions": ["Doom Talisman", "Reconnaissance I", "Gas Mask"],
+		"attackSound": "flamethrower"
+	},
+	{
 		"name": "Calamity Bomb",
 		"uniqueTo": "Calamity Star Order",
 		"unitType": "Missile",
@@ -49,5 +91,45 @@
 			"Cannot be purchased"
 		],
 		"attackSound": "nuke"
+	},
+	{
+		"name": "Terror Seeker",
+		"replaces": "Militia",
+		"uniqueTo": "Order of the Dark Truth",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 36,
+		"interceptRange": 1,
+		"cost": 55,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
+			"[This Unit] heals for [15] HP <upon defeating a [Military] unit>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Hallowed Knight",
+		"replaces": "Cavalry",
+		"uniqueTo": "Order of the Dark Truth",
+		"movement": 4,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 120,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Tank",
+		"uniques": [
+			"Personnel",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-15]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"Can only be built <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
 	}
 ]
