@@ -80,6 +80,8 @@
 	},
 	{
 		"name": "Apocalypse Council",
+		"replaces": "Council",
+		"uniqueTo": "Calamity Star Order",
 		"cost": 100,
 		"requiredTech": "Civil Service",
 		"uniques": [
