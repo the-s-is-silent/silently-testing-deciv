@@ -108,7 +108,7 @@
 		"uniques": [
 			"Personnel",
 			"Consumes [1] [Weapons]",
-			"[This Unit] heals for [15] HP <upon defeating a [Military] unit>"
+			"[This Unit] heals [15] HP <upon defeating a [Military] unit>"
 		],
 		"attackSound": "shot"
 	},
@@ -116,6 +116,7 @@
 		"name": "Hallowed Knight",
 		"replaces": "Cavalry",
 		"uniqueTo": "Order of the Dark Truth",
+		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 40,
 		"interceptRange": 1,
