@@ -49,7 +49,7 @@
 		"attacked": "Dark judgment falls upon you now.",
 		"defeated": "You cannot stop the Great Message from coming.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [83, 99, 83],
+		"innerColor": [43, 5, 87],
 		"cities": ["Truth's Gate"]
 	}
 ]

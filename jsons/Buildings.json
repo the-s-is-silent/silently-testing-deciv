@@ -61,6 +61,12 @@
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Calamity Chart Brief] [in this city]"
+		],
+		"quote": "A new atomic war is inevitable. It will destroy the half of humanity the old one spared. It will destroy everything humanity built. It will provoke another true inferno on Earth. And we are the ones who will ensure it comes to pass.",
+		"civilopediaText": [
+			{
+				"text": "A new atomic war is inevitable. It will destroy the half of humanity the old one spared. It will destroy everything humanity built. It will provoke another true inferno on Earth. And we are the ones who will ensure it comes to pass."
+			}
 		]
 	},
 	{
@@ -136,7 +142,7 @@
 		"faith": 2,
 		"maintenance": 0,
 		"uniques": [
-			"May buy [Suicider] units for [30] [Faith] [in this city]",
+			"May buy [Proto-Bomber] units for [30] [Faith] [in this city]",
 			"Only available <in cities with a [Shrine]>",
 			"Only available <when religion is enabled>"
 		],
@@ -177,8 +183,23 @@
 		"requiredTech": "Re-Utilization"
 	},
 	{
+		"name": "Stele of Truth",
+		"uniqueTo": "Order of the Dark Truth",
+		"cost": 0,
+		"culture": 3,
+		"uniques": [
+			"Reveals the entire map",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Destroyed when the city is captured",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
 		"name": "Camp of Necessity",
 		"uniqueTo": "Order of the Dark Truth",
+		"production": 2,
+		"faith": 2,
 		"cost": 0,
 		"uniques": [
 			"Provides [4] [Slaves]",
