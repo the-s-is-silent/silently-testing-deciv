@@ -32,9 +32,7 @@
 		"maintenance": 3,
 		"uniques": [
 			"[Aircraft] units gain the [Advanced Weapons] promotion",
-			"[Worker] units gain the [Airlift] promotion",
-			"[Mounted Worker] units gain the [Airlift] promotion",
-			"[Mechanized Worker] units gain the [Airlift] promotion",
+			"[Civilian] units gain the [Airlift] promotion",
 			"[+15]% Production when constructing [Air] units [in this city] <when above [-2] [Power]>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]"
