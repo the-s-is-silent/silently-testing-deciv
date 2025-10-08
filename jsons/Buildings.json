@@ -34,6 +34,7 @@
 			"[Aircraft] units gain the [Advanced Weapons] promotion",
 			"[Civilian] units gain the [Airlift] promotion",
 			"[+15]% Production when constructing [Air] units [in this city] <when above [-2] [Power]>",
+			"Can carry [4] extra [Air] units <in this city>",
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Power]"
 		],

@@ -10,7 +10,7 @@
 	{
 		"name": "Airlift",
 		"uniques": [
-			"May Paradrop to [Air Base] tiles up to [12] tiles away <in [Air Base] tiles>"
+			"May Paradrop to [{Friendly} {Air Base}] tiles up to [30] tiles away <in [{Friendly} {Air Base}] tiles>"
 		]
 	},
 	{
