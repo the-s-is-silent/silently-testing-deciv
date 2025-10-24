@@ -15,6 +15,7 @@
 		"cost": 70,
 		"uniques": [
 			"Remove [Scrap] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>",
+			"Remove [Metal] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>",
 			"Remove [Plastics] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>"
 		]
 	},
@@ -72,7 +73,8 @@
 		"uniques": [
 			"Self-destructs when attacking",
 			"[+200]% Strength <vs [Military] units> <when attacking>",
-			"[+300]% Strength <vs cities> <when attacking>"
+			"[+300]% Strength <vs cities> <when attacking>",
+			"Destroys [all] cities instead of capturing"
 		],
 		"promotions": ["Napalm"],
 		"hurryCostModifier": 20,
@@ -100,6 +102,38 @@
 			"[Target Unit] takes [20] damage <upon damaging a [Military] unit>"
 		],
 		"promotions": ["Doom Talisman", "Reconnaissance I", "Gas Mask"],
+		"attackSound": "flamethrower"
+	},
+	{
+		"name": "Calamity Incarnate",
+		"replaces": "Black Ops",
+		"uniqueTo": "Calamity Star Order",
+		"unitType": "Shooter",
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 65,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 400,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [2] [Weapons]",
+			"[-15]% Strength for enemy [Military] units in adjacent [Land] tiles",
+			"[Target Unit] takes [20] damage <upon damaging a [Military] unit>",
+			"Destroys [all] cities instead of capturing"
+		],
+		"promotions": [
+			"Doom Talisman",
+			"Drone Recon",
+			"Reconnaissance I",
+			"Gas Mask",
+			"Thermoptic Camouflage",
+			"Infantry Weapons",
+			"Napalm"
+		],
 		"attackSound": "flamethrower"
 	},
 	{

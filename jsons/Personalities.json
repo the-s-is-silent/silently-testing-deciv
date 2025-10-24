@@ -11,9 +11,9 @@
 		"military": 11,
 		"aggressive": 11,
 		"declareWar": 11,
-		"commerce": 5,
-		"diplomacy": 4,
-		"loyal": 4,
+		"commerce": 0,
+		"diplomacy": 0,
+		"loyal": 0,
 		"expansion": 5,
 		"priorities": {
 			"Adaptation": 0,
