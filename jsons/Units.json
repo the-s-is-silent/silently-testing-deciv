@@ -63,7 +63,6 @@
 	},
 	{
 		"name": "Proto-Bomber",
-		"replaces": "Suicider",
 		"uniqueTo": "Calamity Star Order",
 		"unitType": "Scrapper",
 		"movement": 5,
@@ -74,7 +73,8 @@
 			"Self-destructs when attacking",
 			"[+200]% Strength <vs [Military] units> <when attacking>",
 			"[+300]% Strength <vs cities> <when attacking>",
-			"Destroys [all] cities instead of capturing"
+			"Destroys [all] cities instead of capturing",
+			"Only available <in cities with a [Crater Chapel]>"
 		],
 		"promotions": ["Napalm"],
 		"hurryCostModifier": 20,
