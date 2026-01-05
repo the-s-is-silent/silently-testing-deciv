@@ -1,7 +1,0 @@
-{
-	"useColorAsBaseTerrain": "false",
-		"ruleVariants": {
-		"Mountain+Shroud Generator": ["Mountain", "Shroud Generator-Mountain"],
-		"Mountain Tunnel+Shroud Generator": ["Mountain Tunnel", "Shroud Generator-Mountain"]
-	}
-}
