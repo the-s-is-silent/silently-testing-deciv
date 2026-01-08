@@ -1,16 +1,5 @@
 [
 	{
-		"name": "Radioactive",
-		"uniques": [
-			"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
-			"Adjacent enemy units ending their turn take [25] damage <for units without [Gas Mask]>",
-			"Double movement in [Fallout]",
-			"Double movement in [Toxic Waste]"
-		],
-		"column": 6,
-		"row": 13
-	},
-	{
 		"name": "Nuke Detonation Count",
 		"uniques": [
 			"Instantly provides [1] [Nuke Detonation Counter] <when attacking>",
