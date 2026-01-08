@@ -5,7 +5,7 @@
 		"movement": 2,
 		"cost": 70,
 		"uniques": [
-			"Remove [Insects] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>"
+			"Remove [Insects] resources from this tile <in [{your} {non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>"
 		]
 	},
 	{
@@ -14,9 +14,9 @@
 		"movement": 2,
 		"cost": 70,
 		"uniques": [
-			"Remove [Scrap] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>",
-			"Remove [Metal] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>",
-			"Remove [Plastics] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>"
+			"Remove [Scrap] resources from this tile <in [{your} {non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>",
+			"Remove [Metal] resources from this tile <in [{your} {non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>",
+			"Remove [Plastics] resources from this tile <in [{your} {non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Production] stats>"
 		]
 	},
 	{
@@ -25,9 +25,9 @@
 		"movement": 2,
 		"cost": 70,
 		"uniques": [
-			"Remove [Grain] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>",
-			"Remove [Tubers] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>",
-			"Remove [Maize] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>"
+			"Remove [Grain] resources from this tile <in [{your} {non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>",
+			"Remove [Tubers] resources from this tile <in [{your} {non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>",
+			"Remove [Maize] resources from this tile <in [{your} {non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-60 Food] stats>"
 		]
 	},
 	{
@@ -36,7 +36,7 @@
 		"movement": 4,
 		"cost": 200,
 		"uniques": [
-			"Remove [Groundwater] resources from this tile <in [{non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-600 Gold] stats>"
+			"Remove [Groundwater] resources from this tile <in [{your} {non-[Fallout]} {non-[Toxic Waste]}] tiles> <by consuming this unit> <costs [-600 Gold] stats>"
 		],
 		"requiredTech": "Radar"
 	}
