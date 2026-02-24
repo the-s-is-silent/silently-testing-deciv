@@ -38,7 +38,8 @@
 			"Can only be built <in [Annexed] cities>",
 			"Only available <in cities without a [Listening Post]>",
 			"Destroyed when the city is captured"
-		]
+		],
+		"requiredTech": "Construction"
 	},
 	{
 		"name": "Equilibrium",
@@ -76,7 +77,8 @@
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Conspiracy of the Enlightened]>",
 			"Destroyed when the city is captured"
-		]
+		],
+		"requiredTech": "Civil Service"
 	},
 	{
 		"name": "Concordia cannot build Shrine",

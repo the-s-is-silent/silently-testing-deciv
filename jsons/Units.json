@@ -106,7 +106,7 @@
 			"[+1] Sight",
 			"Unbuildable",
 			"Religious Unit",
-			"Hidden when religion is disabled"
+			"Only available <when religion is enabled>"
 		],
 		"promotions": ["Skirmish"],
 		"attackSound": "shot"
@@ -117,7 +117,7 @@
 		"replaces": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
-			"[+15]% Strength for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"May found a religion <by consuming this unit>",
 			"Unbuildable",
 			"Uncapturable",
