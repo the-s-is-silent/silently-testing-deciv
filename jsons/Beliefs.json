@@ -123,6 +123,14 @@
 		]
 	},
 	{
+		"name": "God of Love",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Happiness, +1 Faith] [in cities following this religion] <in cities with at least [3] [Population]>",
+			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
+		]
+	},
+	{
 		"name": "God of the Sea",
 		"type": "Pantheon",
 		"uniques": [
@@ -130,7 +138,7 @@
 			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
 		]
 	},
-		{
+	{
 		"name": "God of Walls",
 		"type": "Pantheon",
 		"uniques": [
@@ -182,6 +190,15 @@
 		"uniques": [
 			"[+1 Culture, +1 Faith] from every [{Insects} {resource}]",
 			"[+1 Culture, +1 Faith] from every [{Hostile Fauna} {resource}]",
+			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Lord of the Hunt",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Food] from every [Camp]",
+			"[+1 Food] from every [Bioculture]",
 			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
 		]
 	},
@@ -261,6 +278,17 @@
         ]
 	},
 	{
+		"name": "Spiritual Research",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Science, +1 Faith] from every [{Artifacts} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Books} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Data} {resource}]",
+			"[+1 Science, +1 Faith] from every [{Encrypted Data} {resource}]",
+			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
+		]
+	},
+	{
 		"name": "Strength of the Earth",
 		"type": "Pantheon",
 		"uniques": [
@@ -304,6 +332,16 @@
 		"type": "Follower",
 		"uniques": [
 			"[+2 Food, +1 Happiness] from every [Ranch]",
+			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Feed the Faithful",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Food] from every [Shrine]",
+			"[+1 Food] from every [Monastery]",
+			"[+1 Food] from every [Megachurch]",
 			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
 		]
 	},
@@ -369,6 +407,24 @@
 		]
 	},
 	{
+		"name": "Sacred Waters",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Happiness, +1 Faith] [in cities following this religion] <in [River] tiles>",
+			"[+1 Food, +1 Faith] from every [Hydroponic Farming]",
+			"[+1 Gold, +1 Faith] from every [Greywater Treatment Plant]",
+			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Sanctified Innovations",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Production, +1 Science, +1 Faith] from every [National Wonder]",
+			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
+		]
+	},
+	{
 		"name": "Trust the Science",
 		"type": "Follower",
 		"uniques": [
@@ -410,7 +466,7 @@
 		]
 	},
 
-//Worship (specific category of Follower which is its own belief type in 6)
+//Worship (specific category of Follower which is its own belief type in Civ VI)
 	{
 		"name": "Cathedrals",
 		"type": "Follower",
@@ -656,6 +712,17 @@
 		]
 	},
 	{
+		"name": "Path of the Sage",
+		"type": "Enhancer",
+		"uniques": [
+			"[+25]% Spread Religion Strength <for [Great Sage] units>",
+			"[-25]% Faith cost of generating Great Prophet equivalents",
+			"[Faith] cost of purchasing [Great Sage] units [-25]%",
+			"[Great Sage] units gain the [Zeal] promotion",
+			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
+		]
+	},
+	{
 		"name": "Power of Light",
 		"type": "Enhancer",
 		"uniques": [
@@ -720,7 +787,6 @@
 			"[-100]% Natural religion spread [in non-enemy foreign cities]",
 			"[Gold] cost of purchasing [Listening Post] buildings [-50]%",
 			"[Cleric] units gain the [Control] promotion",
-			"[+100]% weight to this choice for AI decisions <for [Concordia] Civilizations>",
 			"Only available <for [Concordia] Civilizations> <hidden from users>"
 		]
 	}
