@@ -1,0 +1,35 @@
+[
+	{
+		"name": "Fichtner",
+		"culture": 4,
+		"faith": 0,
+		"food": 5,
+		"gold": 5,
+		"happiness": 2,
+		"production": 9,
+		"science": 6,
+		"military": 8,
+		"aggressive": 9,
+		"declareWar": 7,
+		"commerce": 5,
+		"diplomacy": 6,
+		"loyal": 3,
+		"expansion": 10,
+		"priorities": {
+			"Adaptation": 0,
+			"Expansionism": 40,
+			"Sovereignty": 40,
+			"Theocracy": 0,
+			"Rationalism": 40,
+			"Constitution": 0,
+			"Supremacy": 30,
+			"Monopoly": 0,
+			"Collectivism": 40,
+			"Rediscovery": 10,
+			"Naturalism": 0,
+			"Mechanization": 30,
+			"Bionics": 30,
+			"Legacy": 0
+		}
+	}
+]

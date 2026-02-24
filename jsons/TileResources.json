@@ -8,5 +8,13 @@
 			"Not shown on world screen",
 			"Will not be displayed in Civilopedia"
 		]
+	},
+	{
+		"name": "Emotion Suppressant",
+		"resourceType": "Luxury",
+		"uniques": [
+			"[-25]% [Happiness]",
+			"[-25]% Unhappiness from [Population] [in all cities]"
+		]
 	}
 ]

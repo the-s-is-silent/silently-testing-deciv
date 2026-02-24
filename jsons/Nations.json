@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Concordia",
+		"leaderName": "High Councilor Fichtner",
+		"adjective": ["Concordian"],
+		"preferredVictoryType": "Domination",
+		"personality": "Fichtner",
+		"favoredReligion": "Unity Edict",
+
+		"startIntroPart1": "2041. The year the Cataclysm befell mankind. Those of us who survived its horrors knew that we would never survive another war of that magnitude. Our own volatile natures could no longer be risked. As we rebuilt our society, we knew what we had to do to ensure the continuity of our species. What we had to sacrifice in order to eradicate the disease that has plagued man's soul since time immemorial.",
+		"startIntroPart2": "In time, the meaning of war will fade from understanding, and it will be because of our efforts. The source of strife will be brought to heel before us. Harmony will be attained. Peace will reign. We will be whole at last. No matter the odds, we will survive. Humanity will prevail.",
+		"declaringWar": "You have committed the greatest crime and now you must receive the ultimate punishment.",
+		"attacked": "You allowed emotion to overcome reason, and that will be the cause of your downfall.",
+		"defeated": "Destroying us comes at a heavy cost for all of humanity. But I see that you choose to pay it gladly...",
+		"introduction": "You've seen how it was... how it still is in the savage wastes. The hate. The melancholy. The jealousy. The rage. A constant reminder of why we must do what we do.",
+		"neutralHello": "Adherence to the message is what matters.",
+		"hateHello": "You really should learn to knock.",
+		"denounced": "It seems we will have to 'process' you to correct your emotional response.",
+		"declaringFriendship": "Let us transcend human nature and unite in pursuit of something greater.",
+		"tradeRequest": "Our proctors and technicians have verified that this arrangement will not provoke any... undesirable reactions.",
+
+		"outerColor": [241, 3, 0],
+		"innerColor": [80, 11, 14],
+		"uniqueName": "To Fight Man's Inhumanity Against Man",
+		"uniques": [
+			"Nullifies [Faith] [in all cities]",
+			"May not generate Great Prophet equivalents normally",
+			"Free [Great Father] appears <upon discovering [Chemistry] technology>",
+			"May choose 1 additional [Follower] belief(s) when founding a religion <hidden from users>",
+			"May choose 1 additional [Enhancer] belief(s) when founding a religion <hidden from users>",
+			"[-100]% Golden Age length",
+			"[-100]% [Happiness]",
+			"[-100]% Unhappiness from [Population] [in all cities]",
+			"[-100]% Unhappiness from the number of cities",
+			"[-25]% [Culture] [in all cities]",
+			"Cannot build [Enslaved] units",
+			"Starts with [Rationalism] adopted",
+			"Starts with [Collectivism] adopted"
+		],
+		"cities": ["Concordance", "Libria", "Alpha Complex", "Ameropolis", "San Angeles", "The Aperture", "Randtown", "New London",
+			"Castle", "The Line", "Babyl", "Dayton", "Todos Santos", "San Lorenzo", "Bregna", "New Greenwich", "City 17", "Everytown"],
+		"spyNames": ["DuPont", "Brandt", "Helmholtz", "Mond", "Bonner", "Hargrove", "Fitzroy", "Cochrane", "Teela", "Klaxon"]
+	}
+]

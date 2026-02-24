@@ -1,0 +1,727 @@
+[
+//Pantheon
+	{
+		"name": "Ancestor Worship",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Culture] from every [Shrine]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Ancient Wonders",
+		"type": "Pantheon",
+		"uniques": [
+			"[+5 Faith] from every [Natural Wonder]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Atomic Children",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Culture, +2 Faith] from every [Fallout]",
+			"[+2 Culture, +2 Faith] from every [Toxic Waste]",
+			"[+2 Culture, +2 Faith] from every [Uranium]",
+            "Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+		{
+		"name": "Blessed Green",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [Tree plantation]",
+			"[+1 Culture] from every [Farm]",
+			"[+1 Culture] from every [Grassland]",
+			"[+1 Culture] from every [Factory farm]",
+			"[+1 Culture] from every [Fortified Farm]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Blessed Steel",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Metal} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Scrap} {resource}]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Cautionary Tales",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [Library]",
+			"[+1 Happiness] from every [Museum]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Divine Judgment",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [Barracks]",
+			"[+2 Happiness] from every [Bomb Shelter]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Domain of the Old Gods",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Forest] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Jungle] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Sunken Ruins]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Equine Mysticism",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Faith] from every [Horses]",
+			"[+2 Production] from every [Stable]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Fertility Rites",
+		"type": "Pantheon",
+		"uniques": [
+			"[+10]% growth [in this city]", "[+1 Food, +1 Faith] from every [Food Store]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "God of Beasts",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture] from every [{Horses} {resource}]",
+			"[+1 Culture] from every [{Cattle} {resource}]",
+			"[+1 Culture] from every [{Goats} {resource}]",
+			"[+1 Culture] from every [{Deer} {resource}]",
+			"[+1 Culture] from every [{Hogs} {resource}]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "God of Commerce",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Gold, +1 Faith] from each Trade Route",
+			"[+1 Faith] from every [Market]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "God of Labor",
+		"type": "Pantheon",
+		"uniques": [
+			"[+3 Production] [in this city] <in cities with at least [3] [Population]>",
+			"[+1 Production, +1 Faith] from every [Factory]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "God of the Sea",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Production, +1 Faith] from every [Water resource]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+		{
+		"name": "God of Walls",
+		"type": "Pantheon",
+		"uniques": [
+			"[+50]% Strength for cities <when attacking>",
+			"[+1 Culture, +1 Faith] from every [Walls]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "God of Winter",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Tundra] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Permafrost] <within [2] tiles of a [City center]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Harvest Festival",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Grain]",
+			"[+1 Faith] from every [Tubers]",
+			"[+1 Faith] from every [Maize]",
+			"[+1 Faith] from every [Cactus]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Home and Hearth",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] from every [Bomb Shelter]",
+			"[+1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Happiness] per [5] population <in cities with a [Bomb Shelter]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Hymns of Praise",
+		"type": "Pantheon",
+		"uniques": [
+			"[+2 Gold, +1 Happiness] from every [Shrine]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Lord of the Flies",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Insects} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Hostile Fauna} {resource}]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Old World Idols",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith] from every [{Gems} {resource}]",
+			"[+1 Culture, +1 Faith] from every [{Silver} {resource}]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Patron Saint of Scavengers",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Production, +1 Faith] from every [{Electronics} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Machine Parts} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Plastics} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Scrap} {resource}]",
+			"[+1 Production, +1 Faith] from every [{Weapons} {resource}]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Pray for Water",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Faith] from every [Desert] <within [2] tiles of a [City center]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Religious Settlements",
+		"type": "Pantheon",
+		"uniques": [
+            "[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+25]% Production when constructing [Civilian] units [in this city]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+        ]
+	},
+	{
+		"name": "Respect the Wind",
+		"type": "Pantheon",
+		"uniques": [
+            "[+1 Faith] from every [Hill] <in tiles without [Urban terrain]> <within [2] tiles of a [City center]>",
+			"[+2 Production, +1 Faith] from every [Wind farm]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+        ]
+	},
+	{
+		"name": "Sacred Bog",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Production, +1 Faith] from every [Swamp]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Sacred Ruins",
+		"type": "Pantheon",
+		"uniques": [
+            "[+1 Culture] from every [Forest] <within [2] tiles of a [City center]>",
+			"[+1 Culture] from every [Jungle] <within [2] tiles of a [City center]>",
+			"[+1 Culture] from every [Sunken Ruins]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+        ]
+	},
+	{
+		"name": "Sacrificial Fire",
+		"type": "Pantheon",
+		"uniques": [
+            "[+10]% Production when constructing [{Military} {Land}] units [in this city]",
+			"Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+        ]
+	},
+	{
+		"name": "Strength of the Earth",
+		"type": "Pantheon",
+		"uniques": [
+            "[+1 Faith] from every [Mine] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Borehole] <within [2] tiles of a [City center]>",
+			"[+1 Faith] from every [Manufactory]",
+            "Unavailable <for [Concordia] Civilizations> <hidden from users>"
+        ]
+	},
+	{
+		"name": "Works of Genius",
+		"type": "Pantheon",
+		"uniques": [
+			"[+25]% Great Person generation [in cities following this religion]",
+			"[+2 Science, +1 Faith] [in cities following this religion] <in cities with at least [1] [Specialists]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Sect Purging",
+		"type": "Pantheon",
+		"uniques": [
+			"Earn [50]% of [Military] unit's [Strength] as [Gold] when killed within 4 tiles of a city following this religion",
+			"Only available <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+
+//Follower
+	{
+		"name": "Faith Healers",
+		"type": "Follower",
+		"uniques": [
+			"All newly-trained [Personnel] units [in cities following this religion] receive the [Healing Hands] promotion",
+			"[All] Units adjacent to this city heal [+10] HP per turn when healing",
+			"[+2 Faith] from every [Hospital]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Feast of Flesh",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Food, +1 Happiness] from every [Ranch]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Followers of Old World Crafts",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Gold, +1 Culture] from every [Jeweler]",
+			"[+1 Gold, +1 Culture] from every [Timepiece Maker]",
+			"[+1 Gold, +1 Culture] from every [Distillery]",
+			"[+1 Gold, +1 Culture] from every [Soaper]",
+			"[+1 Gold, +1 Culture] from every [Media Center]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Commission",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Gold, +1 Faith] from every [Harbor]",
+			"[+1 Gold, +1 Faith] from every [Seaport]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Happiness in Faith",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Production, +1 Culture, +1 Happiness] from every [Monastery]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Labor of Love",
+		"type": "Follower",
+		"uniques": [
+			"[+1]% [Production] from every follower, up to [10]%",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Mandatory Rationing",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Food, +2 Gold, -1 Happiness] [in cities following this religion]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Obey the Elders",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Food, +2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Public Prayer",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Culture, +2 Faith] from every [Town Hall]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Trust the Science",
+		"type": "Follower",
+		"uniques": [
+			"[+1 Science, +1 Faith] from every [University] <in cities with at least [5] [Followers of this Religion]>",
+			"[+1 Science, +1 Faith] from every [Public School] <in cities with at least [5] [Followers of this Religion]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Veneration of the Elders",
+		"type": "Follower",
+		"uniques": [
+			"[+3 Production, +3 Gold, -1 Happiness] <in cities with at least [10] [Followers of this Religion]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Zen Meditation",
+		"type": "Follower",
+		"uniques": [
+			"[+2 Culture, +1 Happiness] [in cities following this religion] <in cities with at least [2] [Specialists]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Impulse Anaesthesia",
+		"type": "Follower",
+		"uniques": [
+			"[-10]% Food consumption by [Population] [in cities following this religion]",
+			"Only available <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "War on Art",
+		"type": "Follower",
+		"uniques": [
+			"Provides a [Contraband Disposal Site] in your first [20] cities for free",
+			"Only available <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+
+//Worship (specific category of Follower which is its own belief type in 6)
+	{
+		"name": "Cathedrals",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Communion Centers",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Communion] buildings with [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Divinity Schools",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Divinity School] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Dojos",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Dojo] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Gardens",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Garden] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Holy Fortresses",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Holy Fortress] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Meeting Houses",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Meeting House] buildings with [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Mission Sites]> <before adopting [Pyramids]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Mission Sites",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Mission Site] buildings with [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Pyramids]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Pyramids",
+		"type": "Follower",
+		"uniques": [
+			"May buy [Pyramid] buildings for [200] [Faith] [in cities following this religion]",
+			"Only available <before adopting [Cathedrals]> <before adopting [Communion Centers]> <before adopting [Divinity Schools]> <before adopting [Dojos]> <before adopting [Gardens]> <before adopting [Holy Fortresses]> <before adopting [Meeting Houses]> <before adopting [Mission Sites]> <hidden from users>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+
+//Founder
+	{
+		"name": "Acolytes of a New God",
+		"type": "Founder",
+		"uniques": [
+			"Gain [100] [Faith] <(modified by game speed)> <upon conquering a city>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Ceremonial Burial",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Happiness] for each global city following this religion",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Cross-Cultural Dialogue",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Science] from every [5] global followers [in all cities]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Esotericism",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Faith] from every [4] global followers [in all cities]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Awakening",
+		"type": "Founder",
+		"uniques": [
+			"[+2 Science, +1 Culture] for each global city following this religion",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Humanitarian Missions",
+		"type": "Founder",
+		"uniques": [
+			"Gifts of Gold to City-States generate [+30]% more Influence",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Illuminated Order",
+		"type": "Founder",
+		"uniques": [
+			"[+50 Culture] when a city adopts this religion for the first time (modified by game speed)",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Initiation Rites",
+		"type": "Founder",
+		"uniques": [
+			"[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Interfaith Dialogue",
+		"type": "Founder",
+		"uniques": [
+			"When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Peace Loving",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Pilgrimage",
+		"type": "Founder",
+		"uniques": [
+			"[+2 Faith] for each global city following this religion",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Primacy",
+		"type": "Founder",
+		"uniques": [
+			"Allied City-States provide [Faith] equal to [100]% of what they produce for themselves",
+			"Allied City-States provide [Culture] equal to [10]% of what they produce for themselves",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [2]>",
+			"[-50]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [4]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Tithe",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Gold] from every [4] global followers [in all cities]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "World Church",
+		"type": "Founder",
+		"uniques": [
+			"[+1 Culture] from every [5] global followers [in foreign cities]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Submission to the State",
+		"type": "Founder",
+		"uniques": [
+			"[Gold] cost of purchasing [All] units [-10]%",
+			"Only available <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+
+//Enhancer
+	{
+		"name": "Defender of the Faith",
+		"type": "Enhancer",
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Only available <before adopting [Just War]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Funeral Rites",
+		"type": "Enhancer",
+		"uniques": [
+			"Gain [100] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Faith] from every [Great Improvement]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Just War",
+		"type": "Enhancer",
+		"uniques": [
+			"[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>",
+			"Only available <before adopting [Defender of the Faith]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Missionary Zeal",
+		"type": "Enhancer",
+		"uniques": [
+			"[Faith] cost of purchasing [Philosopher] units [-25]%",
+			"[Philosopher] units gain the [Zeal] promotion",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Power of Light",
+		"type": "Enhancer",
+		"uniques": [
+			"[+1] Sight <for [All] units>", "Earn [33]% of killed [Military] unit's [Strength] as [Faith]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "The Radiant City",
+		"type": "Enhancer",
+		"uniques": [
+			"[+100]% Natural religion spread [in capital]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Religious Troubadours",
+		"type": "Enhancer",
+		"uniques": [
+			"[+3 Faith] from each Trade Route",
+			"[+50]% Natural religion spread [in all cities connected to capital]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Religious Unity",
+		"type": "Enhancer",
+		"uniques": [
+			"[+100]% Natural religion spread [in City-State cities]",
+			"Resting point for Influence with City-States following this religion [+15]",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [2]>",
+			"[-50]% weight to this choice for AI decisions <when number of [Remaining [City-States] Civilizations] is less than [4]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Thought Control",
+		"type": "Enhancer",
+		"uniques": [
+			"Comment [Cost of purchasing [Censor] units (and their replacements) [-25%]]",
+			"[Gold] cost of purchasing [Censor] units [-25]% <hidden from users>",
+			"[Faith] cost of purchasing [Censor] units [-25]% <hidden from users>",
+			"[Censor] units gain the [Control] promotion",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Unity of the Sages",
+		"type": "Enhancer",
+		"uniques": [
+			"[+4 Faith, +2 Production] from every [Seminary]",
+			"[+4 Faith, +2 Production] from every [Oracle]",
+			"[+4 Faith, +2 Production] from every [Endowment House]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Doctrinal Enforcement",
+		"type": "Enhancer",
+		"uniques": [
+			"[+100]% Natural religion spread [in cities following this religion] <in cities with a [Listening Post]>",
+			"[-100]% Natural religion spread [in non-enemy foreign cities]",
+			"[Gold] cost of purchasing [Listening Post] buildings [-50]%",
+			"[Cleric] units gain the [Control] promotion",
+			"[+100]% weight to this choice for AI decisions <for [Concordia] Civilizations>",
+			"Only available <for [Concordia] Civilizations> <hidden from users>"
+		]
+	}
+]
