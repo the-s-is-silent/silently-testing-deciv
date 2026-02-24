@@ -30,7 +30,7 @@
 			"May choose [1] additional [Enhancer] beliefs when [founding] a religion <hidden from users>",
 			"[-100]% Golden Age length",
 			"[-100]% [Happiness]",
-			"[-100]% Unhappiness from [Population] [in all cities]",
+			"[-100]% Unhappiness from [Population] [in all non-occupied cities]",
 			"[-100]% unhappiness from the number of cities",
 			"[-25]% [Culture] [in all cities]",
 			"Cannot build [Enslaved] units",

@@ -52,11 +52,8 @@
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Soldier",
-		"uniques": [
-			"Personnel",
-			"Consumes [1] [Weapons]"
-		],
-		"promotions": ["Gas Mask"],
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[+10]% Strength <vs [Barbarian] units>"],
+		"promotions": ["Urban Warfare I"],
 		"attackSound": "machinegun"
 	},
 	{

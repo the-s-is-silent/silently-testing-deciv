@@ -13,17 +13,20 @@
 		],
 		"quote": "'In one of the countless billions of galaxies in the universe lies a medium-size star, and one of its satellites, a green and insignificant planet, is now dead.' - Ending Narration, Beneath the Planet of the Apes"
 	},
-	//'athiest faction' unique buildings
+	//'atheist faction' unique buildings
 	{
 		"name": "Palace of Justice",
 		"uniqueTo": "Concordia",
 		"isWonder": true,
+		"production": 1,
+		"science": 1,
 		"cost": 0,
 		"uniques": [
 			"Provides [2] [Weapons]",
 			"Free [Sweeper] appears",
 			"Can only be built <in [Capital] cities>",
-			"Automatically built in all cities where it is buildable"
+			"Automatically built in all cities where it is buildable",
+			"Gain a free [Food Store] [in this city]"
 		]
 	},
 	{
@@ -59,6 +62,7 @@
 		"cost": 100,
 		"uniques": [
 			"[+1 Science, +1 Culture] per [4] population [in all cities]",
+			"Gain [200] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Tetragrammaton Council]>",
@@ -72,7 +76,9 @@
 		"uniqueTo": "Concordia",
 		"cost": 100,
 		"uniques": [
+			"[+1] Unit Supply per [2] population [in all cities]",
 			"[+10]% growth [in all cities]",
+			"[+10]% Production towards any buildings that already exist in the Capital",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Conspiracy of the Enlightened]>",
