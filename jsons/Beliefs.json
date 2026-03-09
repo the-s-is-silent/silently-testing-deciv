@@ -567,6 +567,14 @@
 		]
 	},
 	{
+		"name": "Church Property",
+		"type": "Founder",
+		"uniques": [
+			"[+3 Gold] for each global city following this religion",
+			"Only available <for [non-[Concordia]] Civilizations> <hidden from users>"
+		]
+	},
+	{
 		"name": "Cross-Cultural Dialogue",
 		"type": "Founder",
 		"uniques": [
