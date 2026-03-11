@@ -10,8 +10,11 @@
 - Unity Edict: Based on [unity](https://thenounproject.com/icon/unity-6523151/) by New River, ID and the Cross icon used for the nation icon
 
 ### Resource Icons
-- Emotion Suppressant: Based on [Medicine](https://thenounproject.com/icon/medicine-1658480/) by Adrien Coquet, FR and 
+- Emotion Suppressor: Based on [Medicine](https://thenounproject.com/icon/medicine-1658480/) by Adrien Coquet, FR and [straight face](https://thenounproject.com/icon/straight-face-1710301/) by kevin, US
 
 ### Unit Icons
+- Cremator: [ashes](https://thenounproject.com/icon/ashes-335562/) by Lucas Helle, CL
+- Proctor: [pulse](https://thenounproject.com/icon/pulse-93411/) by Ásgeir Vísir
 - Surveillance Dirigible: Based on [Surveillance](https://thenounproject.com/icon/surveillance-2900940/) by Adrien Coquet, FR and [dirigible](https://thenounproject.com/icon/dirigible-4131394/) by Amethyst Studio, TH
 - Sweeper: [M16](https://thenounproject.com/icon/m16-1053628/) by Raymond, AU
+- Sweeper Captain: Based on the above image and [rank](https://thenounproject.com/icon/rank-5098350/) by Amethyst Studio, TH

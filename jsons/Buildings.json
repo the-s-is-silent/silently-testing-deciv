@@ -27,7 +27,8 @@
 			"Can only be built <in [Capital] cities>",
 			"Automatically built in all cities where it is buildable",
 			"Gain a free [Food Store] [in this city]"
-		]
+		],
+		"quote": "'Where we have strong emotions, we're liable to fool ourselves.' - Carl Sagan"
 	},
 	{
 		"name": "Hall of Destruction",
@@ -51,9 +52,14 @@
 		"production": 2,
 		"maintenance": 1,
 		"uniques": [
-			"Provides [1] [Emotion Suppressant]"
+			"Provides [1] [Emotion Suppressor]"
 		],
-		"requiredTech": "Biology"
+		"requiredTech": "Biology",
+		"civilopediaText": [
+			{
+				"text": "We extol this drug as the opiate of the masses. Willingly sacrificing impulses towards joy, love and elation in order to annihilate grief, jealousy and rage."
+			}
+		]
 	},
 	{
 		"name": "Conspiracy of the Enlightened",
