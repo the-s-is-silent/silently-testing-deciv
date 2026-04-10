@@ -10,7 +10,7 @@
 		]
 	},
 	{
-		"name": "Emotion Suppressant",
+		"name": "Emotion Suppressor",
 		"resourceType": "Luxury",
 		"uniques": [
 			"[-25]% [Happiness]",

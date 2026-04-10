@@ -1,0 +1,1193 @@
+[
+	{
+		"name": "Adaptation",
+		"era": "Decivilized era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 30,
+			"Diplomatic": 0,
+			"Domination": 0,
+			"Scientific": 30
+		},
+		"uniques": [
+			"[+3 Culture] [in capital]",
+			"[-25]% Culture cost of natural border growth [in all cities]",
+			"Comment [Unlocks [Homeland Defense Initiative]]"
+		],
+		"policies": [
+			{
+				"name": "Differential Rationing",
+				"uniques": ["[+10]% growth [in capital]", "[+2 Food] [in capital]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Castle Doctrine",
+				"uniques": [
+					"Units in cities cost no Maintenance",
+					"[+50]% Strength for cities <with a garrison> <when attacking>",
+					"[+1 Happiness] per [10] population [in all cities] <for [non-[Concordia]] Civilizations>",
+					"Provides a [Walls] in your first [4] cities for free"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Centralization",
+				"uniques": [
+					"[+15]% Production when constructing [All] buildings [in capital]",
+					"[+1 Culture] from every specialist [in capital]"
+				],
+				"requires": ["Castle Doctrine"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Endurance Programme",
+				"uniques": [
+					"[+25]% [Gold] [in capital]",
+					"[+1 Gold] from every [Merchant]",
+					"[+1 Food] from every [Farmer]",
+					"[+1 Production] from every [Engineer]"
+				],
+				"requires": ["Centralization"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Parallel Markets",
+				"uniques": [
+					"[+1 Gold] per [2] population [in capital]",
+					"[+1 Happiness] per [2] population [in capital] <for [non-[Concordia]] Civilizations>"
+				],
+				"requires": ["Centralization"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Adaptation Complete",
+				"uniques": [
+					"[+15]% growth [in all cities]",
+					"[+2 Food] [in all cities]",
+					"Provides a [Defensive Emplacements] in your first [4] cities for free",
+					"May buy [Great Farmer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [[leaderName] the Survivor]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Expansionism",
+		"era": "Decivilized era",
+		"priorities": {
+			"Neutral": 30,
+			"Cultural": 0,
+			"Diplomatic": 30,
+			"Domination": 30,
+			"Scientific": 0
+		},
+		"uniques": [
+			"[+1 Culture] [in all cities]",
+			"[-25]% Gold cost of acquiring tiles [in all cities]",
+			"Comment [Unlocks [Wasteland Surveillance Initiative]]"
+		],
+		"policies": [
+			{
+				"name": "Restorers",
+				"uniques": [
+					"[+2 Production] [in all cities]",
+					"[+5]% Production when constructing [All] buildings [in all cities]"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Representation",
+				"uniques": [
+					"Each city founded increases culture cost of policies [33]% less than normal",
+					"[+5 Happiness] from every [Congress] <for [non-[Concordia]] Civilizations>"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Citizen Militia",
+				"uniques": [
+					"Free [Worker] appears",
+					"Units in cities cost no Maintenance",
+					"[-33]% maintenance costs <for [Civilian] units>"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Reclaimers",
+				"uniques": [
+					"[+50]% Production when constructing [Civilian Convoy] units [in capital]",
+					"Free [Civilian Convoy] appears",
+					"[+1] Movement <for [Civilian Convoy] units>"
+				],
+				"requires": ["Restorers"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Courier Service",
+				"uniques": [
+					"[+15]% [Gold] [in all cities connected to capital]",
+					"[+1 Happiness] [in all cities connected to capital] <for [non-[Concordia]] Civilizations>",
+					"[-5]% Unhappiness from [Population] [in all cities] <for [non-[Concordia]] Civilizations>"
+				],
+				"requires": ["Representation", "Citizen Militia"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Expansionism Complete",
+				"uniques": [
+					"Free Great Person",
+					"Allied City-States will occasionally gift Great People",
+					"Get the leader title of [Elder [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sovereignty",
+		"era": "Decivilized era",
+		"priorities": {
+			"Neutral": 10,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
+		},
+		"uniques": [
+			"[4] units cost no maintenance",
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",
+			"Comment [Unlocks [Raider Suppression Initiative]]"
+		],
+		"policies": [
+			{
+				"name": "Discipline",
+				"uniques": ["[+20]% Production when constructing [{Military} {Land}] units [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Doctrine",
+				"uniques": [
+					"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",
+					"[+1 Production, +1 Gold, +1 Culture] from every [Barracks]",
+					"[+1 Production, +1 Gold, +1 Culture] from every [Armory]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Security Forces",
+				"uniques": [
+					"[+2 Culture] [in all cities with a garrison]",
+					"[+1 Happiness] [in all cities with a garrison] <for [non-[Concordia]] Civilizations>",
+					"[+1 Happiness] from every [Barracks] <for [non-[Concordia]] Civilizations>",
+					"[+1 Happiness] from every [Armory] <for [non-[Concordia]] Civilizations>"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Military Tradition",
+				"uniques": [
+					"[+10]% Strength <for [{Military} {Land}] units>",
+					"[50]% XP gained from combat <for [{non-air} {Military}] units>"
+				],
+				"requires": ["Doctrine", "Discipline"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Triumph",
+				"uniques": [
+					"[-33]% Gold cost of upgrading <for [Military] units>",
+					"[+2 Food, +2 Culture] from every [Citadel]",
+					"[+2 Food, +2 Culture] from every [Crystal Refinery]",
+					"[+2 Food, +2 Culture] from every [Outpost]"
+				],
+				"requires": ["Doctrine"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Sovereignty Complete",
+				"uniques": [
+					"Free [Great General] appears",
+					"Earn [25]% of killed [Military] unit's [Cost] as [Science]",
+					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Warlord [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Theocracy",
+		"era": "Decivilized era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 30,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 0
+		},
+		"uniques": [
+			"[+100]% Production when constructing [Faith] buildings [in all cities]",
+			"[+1 Culture, +1 Faith] [in capital]",
+			"Comment [Unlocks [Grand Monastery]]",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		],
+		"policies": [
+			{
+				"name": "Organized Religion",
+				"uniques": [
+					"[+1 Culture, +1 Faith] from every [Shrine]",
+					"[+1 Culture, +1 Faith] from every [Monastery]",
+					"[+1 Culture, +1 Faith] from every [Megachurch]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Divine Mandate",
+				"uniques": [
+					"[Faith] cost of purchasing items in cities [-20]%",
+					"[+1 Happiness] from every [Shrine]",
+					"[+1 Happiness] from every [Monastery]",
+					"[+1 Happiness] from every [Megachurch]"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Indulgences",
+				"uniques": [
+					"[+15]% [Gold] from every [Monastery]",
+					"[+1 Gold] from every [Shrine]",
+					"[+1 Gold] from every [Monastery]",
+					"[+1 Gold] from every [Megachurch]",
+					"[+2 Gold] from every [Seminary]",
+					"[+2 Gold] from every [Oracle]",
+					"[+2 Gold] from every [Endowment House]"
+				],
+				"requires": ["Organized Religion"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Apotheosis",
+				"uniques": [
+					"[-10]% Culture cost of adopting new Policies",
+					"Empire enters golden age"
+				],
+				"requires": ["Divine Mandate"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Exodus of the Evangelists",
+				"uniques": [
+					"[+2] Movement <for [Religious] units>",
+					"[+4 Faith] from every [Grand Monastery]",
+					"Gain a free [Enhancer] belief",
+					"Only available <after enhancing a religion>"
+				],
+				"requires": ["Apotheosis", "Organized Religion"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Theocracy Complete",
+				"uniques": [
+					"Free [Great Sage] appears",
+					"[+1 Food, +3 Culture] from every [Seminary]",
+					"[+1 Food, +3 Culture] from every [Oracle]",
+					"[+1 Food, +3 Culture] from every [Endowment House]",
+					"Get the leader title of [[leaderName] the Visionary]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Rationalism",
+		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 10,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 50
+		},
+		"uniques": [
+			"[Great Scientist] is earned [20]% faster",
+			"Comment [Unlocks [Medical Network]]"
+		],
+		"policies": [
+			{
+				"name": "Equipment Upgrades",
+				"uniques": ["[+50]% Production when constructing [Science] buildings [in all cities]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Technocracy",
+				"uniques": ["[+1 Gold] from all [{non-[Wonder]} {Science}] buildings"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Sample Analysis",
+				"uniques": [
+					"[+1 Science] from every [Moisture trap]",
+					"[+1 Science] from every [Refinery]",
+					"[+17]% [Science] from every [University]"
+				],
+				"requires": ["Equipment Upgrades"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "New Pioneers",
+				"uniques": [
+					"[+1 Science] from every [University]",
+					"[+1 Science] from every [Data Center]",
+					"[+1 Science] from every [Public School]",
+					"[+1 Happiness] from every [University] <for [non-[Concordia]] Civilizations>",
+					"[+1 Happiness] from every [Data Center] <for [non-[Concordia]] Civilizations>",
+					"[+1 Happiness] from every [Public School] <for [non-[Concordia]] Civilizations>"
+				],
+				"requires": ["Technocracy"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Educated Elite",
+				"uniques": [
+					"[+1 Science] from every specialist [in all cities]",
+					"Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
+				],
+				"requires": ["New Pioneers"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Rationalism Complete",
+				"uniques": [
+					"Comment [All factions except Concordia gain +10% Science in all cities while the empire is happy, and +4 Science to Academies and Preservators during Golden Ages (Concordia instead gains these bonuses when at war)]",
+					"[+10]% [Science] <while the empire is happy> <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[+4 Science] from every [Academy] <during a Golden Age> <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[+4 Science] from every [Preservator] <during a Golden Age> <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[+10]% [Science] <when at war> <for [Concordia] Civilizations> <hidden from users>",
+					"[+4 Science] from every [Academy] <when at war> <for [Concordia] Civilizations> <hidden from users>",
+					"[+4 Science] from every [Preservator] <when at war> <for [Concordia] Civilizations> <hidden from users>",
+					"Free Technology",
+					"Get the leader title of [Director-General [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Constitution",
+		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 40,
+			"Diplomatic": 20,
+			"Domination": 0,
+			"Scientific": 20
+		},
+		"uniques": [
+			"[Great Administrator] is earned [33]% faster",
+			"Comment [Unlocks [Public Works Administration]]",
+			"Only available <before adopting [Supremacy]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		],
+		"policies": [
+			{
+				"name": "Civil Society",
+				"uniques": [
+					"[+100]% Production when constructing [Culture] buildings [in all cities]",
+					"[+25]% Strength for cities"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Protected Speech",
+				"uniques": [
+					"[+1 Culture] from every [Sociopolitical Institute]",
+					"[+1 Culture] from every [Town Hall]",
+					"[+1 Culture] from every [Broadcast Tower]",
+					"[+1 Culture] from every [Television Studio]",
+					"[+1 Culture] from every [Alternet Cafe]"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Public Good",
+				"uniques": [
+					"[+1 Gold, +1 Science] from every [Water Plant]",
+					"[+1 Gold, +1 Science] from every [Hospital]",
+					"[+1 Gold, +1 Science] from every [Town Hall]",
+					"[+1 Gold, +1 Science] from every [Broadcast Tower]"
+				],
+				"requires": ["Civil Society"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Legislative Process",
+				"uniques": [
+					"[+33]% [Culture] from every [Congress]",
+					"[+33]% [Culture] from every [Council]",
+					"Free [Great Administrator] appears"
+				],
+				"requires": ["Civil Society", "Protected Speech"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Voting Rights",
+				"uniques": [
+					"[50]% of excess happiness converted to [Culture]",
+					"[-1 Happiness] from every [Work Camp]"
+				],
+				"requires": ["Protected Speech"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Constitution Complete",
+				"uniques": [
+					"[+2 Science, +2 Culture] from every [Great Improvement]",
+					"Free Social Policy",
+					"May buy [Great Administrator] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [President [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Supremacy",
+		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 0,
+			"Diplomatic": 20,
+			"Domination": 40,
+			"Scientific": 0
+		},
+		"uniques": [
+			"[+50]% Production when constructing [Barracks] buildings [in all cities]",
+			"[+50]% Production when constructing [Armory] buildings [in all cities]",
+			"[+50]% Production when constructing [Military Academy] wonders [in all cities]",
+			"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+			"Comment [Unlocks [Chemical Weapons Laboratory]]",
+			"Only available <before adopting [Constitution]>"
+		],
+		"policies": [
+			{
+				"name": "Mobilization",
+				"uniques": [
+					"[-25]% maintenance costs <for [Military] units>",
+					"[Gold] cost of purchasing [Military] units [-25]%"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Scorched Earth",
+				"uniques": [
+					"[+15]% Strength <for [Military] units> <vs cities> <when attacking>",
+					"Cities are razed [2] times as fast",
+					"No movement cost to pillage <for [Melee] units>",
+					"[+2] Movement <for [Great General] units>"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Police State",
+				"uniques": [
+					"[+50]% Production when constructing [Listening Post] buildings [in all cities]",
+					"[+50]% Production when constructing [Field Office] buildings [in all cities]",
+					"[+1 Happiness] from every [Listening Post] <for [non-[Concordia]] Civilizations>",
+					"[+1 Happiness] from every [Field Office] <for [non-[Concordia]] Civilizations>"
+				],
+				"requires": ["Scorched Earth", "Mobilization"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Total War",
+				"uniques": [
+					"[+15]% Production when constructing [Military] units [in all cities]",
+					"New [Military] units start with [15] XP [in all cities]"
+				],
+				"requires": ["Scorched Earth"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Spoils of War",
+				"uniques": [
+					"[+100]% [Weapons] resource production",
+					"[+100]% [Slaves] resource production",
+					"Earn [33]% of the damage done to [City] units as [Gold]",
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+				],
+				"requires": ["Police State"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Supremacy Complete",
+				"uniques": [
+					"[+15]% Strength <for [Military] units> <when attacking>",
+					"[+4 Production] from every [Outpost]",
+					"[+4 Production] from every [Prison farm]",
+					"[+4 Culture] from every [Narcotics farm]",
+					"[+4 Faith] from every [Oracle]",
+					"[+4 Science] from every [Crystal Refinery]",
+					"[+2 Production, +2 Gold, +1 Culture] [in all cities] <with [Slaves]>",
+					"Get the leader title of [Grand Marshal [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Monopoly",
+		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 30,
+			"Domination": 20,
+			"Scientific": 20
+		},
+		"uniques": [
+			"[Great Merchant] is earned [33]% faster",
+			"[+1 Culture] from every [Market]",
+			"Comment [Unlocks [Data Center]]",
+			"Comment [Unlocks [Electronics Production Line]]",
+			"Comment [Unlocks [Machinery Production Line]]",
+			"Comment [Unlocks [Publishing House]]",
+			"Only available <before adopting [Collectivism]>"
+		],
+		"policies": [
+			{
+				"name": "Mass Consumption",
+				"uniques": [
+					"[+25]% resources gifted by City-States",
+					"Retain [50]% of the happiness from a luxury after the last copy has been traded away"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Venture Capital",
+				"uniques": [
+					"Gifts of Gold to City-States generate [25]% more Influence",
+					"[+100]% Gold from Great Merchant trade missions",
+					"[+2 Gold] from every [Market]",
+					"[+2 Gold] from every [Water Storage]",
+					"[+2 Gold] from every [Water Plant]",
+					"[+2 Gold] from every [Greywater Treatment Plant]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Privatization",
+				"uniques": [
+					"[Gold] cost of purchasing items in cities [-15]%",
+					"[Personnel] units gain the [Hazard Pay] promotion",
+					"[+2 Gold] from every [Hospital]",
+					"[+2 Gold] from every [Factory]",
+					"[+2 Gold] from every [Public School]"
+				],
+				"requires": ["Venture Capital"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Entrepreneurship",
+				"uniques": [
+					"[-25]% maintenance on road & railroads",
+					"[-25]% maintenance cost for [all] buildings [in all cities]",
+					"[+2 Science] from every [Market]",
+					"[+2 Science] from every [Water Storage]",
+					"[+2 Science] from every [Water Plant]",
+					"[+2 Science] from every [Greywater Treatment Plant]"
+				],
+				"requires": ["Venture Capital"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Corporate Personhood",
+				"uniques": [
+					"[-33]% maintenance costs <for [All] units>",
+					"[+1 Gold] from every [Strategic resource]"
+				],
+				"requires": ["Privatization", "Entrepreneurship"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Monopoly Complete",
+				"uniques": [
+					"[+1 Gold, +1 Food] from every [Moisture trap]",
+					"[+1 Gold, +1 Food] from every [Water pump]",
+					"[+1 Gold, +1 Production] from every [Refinery]",
+					"[+1 Gold, +1 Production] from every [Armed Mining Camp]",
+					"[+1 Gold, +1 Food] from every [Caer]",
+					"[+4 Gold, +2 Food] from every [Supply Complex]",
+					"[+4 Gold, +2 Food] from every [Banana Business Area]",
+					"[+4 Gold, +2 Culture] from every [Narcotics farm]",
+					"[+2 Gold, +2 Food, +2 Production] from every [Wasteland Station]",
+					"Free [Great Merchant] appears",
+					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Chief Executive Officer [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Collectivism",
+		"era": "Neofeudal era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 0,
+			"Diplomatic": 0,
+			"Domination": 20,
+			"Scientific": 20
+		},
+		"uniques": [
+			"[Great Engineer] is earned [33]% faster",
+			"May buy [Stalker] units with [Gold] for [3] times their normal Production cost",
+			"Comment [Unlocks [Workers' Facility]]",
+			"Only available <before adopting [Monopoly]>"
+		],
+		"policies": [
+			{
+				"name": "Re-Education",
+				"uniques": [
+					"[+1 Production, +1 Science] from every [Factory]",
+					"[+1 Production, +1 Science] from every [Prison Camp]",
+					"[+1 Production, +1 Science] from every [Work Camp]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Expropriation",
+				"uniques": [
+					"[Gold] cost of purchasing [Civilian Convoy] units [-50]%",
+					"[-25]% Gold cost of acquiring tiles [in all cities]"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Political Officers",
+				"requires": ["Re-Education"],
+				"uniques": ["[+25]% Production when constructing [non-air] units [in all cities]"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Shared Vision",
+				"requires": ["Re-Education", "Expropriation"],
+				"uniques": [
+					"[+15]% [Production] from every [Council]",
+					"[+5]% [Production] from every [Factory]"
+				],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Workers' Union",
+				"requires": ["Expropriation"],
+				"uniques": [
+					"[+1 Production] from every [Mine]",
+					"[+1 Production] from every [Borehole]",
+					"[+1 Production] from every [Manufactory]"
+				],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Collectivism Complete",
+				"uniques": [
+					"[+2 Food, +2 Production, +2 Science] [in all cities]",
+					"Free [Great Engineer] appears",
+					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Presiding Speaker [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Rediscovery",
+		"era": "Rediscovering era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 20
+		},
+		"uniques": [
+			"[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>",
+			"[+50]% Production when constructing [Naval War College] wonders [in all cities]",
+			"Comment [Unlocks [Oceanological Center]]"
+		],
+		"policies": [
+			{
+				"name": "Maritime Industries",
+				"uniques": [
+					"[+3 Production] [in all coastal cities]",
+					"[+50]% Production when constructing [Harbor] buildings [in all cities]",
+					"[+50]% Production when constructing [Seaport] buildings [in all cities]",
+					"[+50]% Production when constructing [Fish Farm] buildings [in all cities]",
+					"[+50]% Production when constructing [Desalination Plant] buildings [in all cities]",
+					"[+50]% Production when constructing [Ocean Seeder] buildings [in all cities]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Advanced Piracy",
+				"uniques": [
+					"[Melee Water] units gain the [Sea Raider] promotion",
+					"[+10]% Strength <for [Water] units>"
+				],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Aquaculture",
+				"uniques": [
+					"[+2 Food, +1 Culture] from every [Fish Farm]",
+					"[+2 Food, +1 Culture] from every [Desalination Plant]",
+					"[+2 Food, +1 Culture] from every [Ocean Seeder]",
+					"[+1 Happiness] from every [Fish Farm] <for [non-[Concordia]] Civilizations>",
+					"[+1 Happiness] from every [Desalination Plant] <for [non-[Concordia]] Civilizations>",
+					"[+1 Happiness] from every [Ocean Seeder] <for [non-[Concordia]] Civilizations>"
+				],
+				"requires": ["Maritime Industries"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Exclusive Zones",
+				"uniques": [
+					"[+1 Food, +1 Production, +1 Gold] from every [Coast] <in tiles without [Water resource]>",
+					"[+1 Food, +1 Production, +1 Gold] from every [Ocean] <in tiles without [Water resource]>",
+					"[+25]% [Gold] from every [Seaport]"
+				],
+				"requires": ["Aquaculture"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Maritime Law",
+				"uniques": [
+					"[+20]% Production when constructing [Water] units [in all cities]",
+					"[-25]% maintenance costs <for [Water] units>",
+					"[+10]% [Science] [in all coastal cities]"
+				],
+				"requires": ["Aquaculture"],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Rediscovery Complete",
+				"uniques": [
+					"[+1] population [in all coastal cities]",
+					"Free [Great Admiral] appears",
+					"Comment [Unlocks [Navy Shipyard]]",
+					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Commodore [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Naturalism",
+		"era": "Industrial era",
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 40,
+			"Diplomatic": 20,
+			"Domination": 20,
+			"Scientific": 0
+		},
+		"uniques": [
+			"[+2 Food, +2 Culture] [in all cities]",
+			"[Great Farmer] is earned [20]% faster",
+			"Comment [Unlocks [Earth Clinic]]",
+			"Only available <before adopting [Mechanization]>",
+			"Only available <before adopting [Bionics]>",
+			"Only available <before adopting [Legacy]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		],
+		"policies": [
+			{
+				"name": "Emissions Standards",
+				"uniques": [
+					"[+10]% [Food] from every [Coal Plant]",
+					"[+2 Production] from every [Carbon Capture]",
+					"[+2 Production] from every [Smart Grid]",
+					"[+1 Production] from every [Solar collector]",
+					"[+1 Production] from every [Wind farm]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Physiolatry",
+				"requires": ["Emissions Standards"],
+				"uniques": [
+					"[+1 Faith, +1 Culture, +1 Happiness] from every [Greenhouse]",
+					"[+1 Faith, +1 Culture, +1 Happiness] from every [Protected Area]",
+					"[+1 Faith, +1 Culture, +1 Happiness] from every [Arcology Dome]",
+					"[+1 Faith, +1 Culture, +1 Happiness] from every [Eco-Sanctuary]"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Ecodefense",
+				"requires": ["Emissions Standards"],
+				"uniques": [
+					"[+15]% Strength <for [All] units> <when fighting in [Tree plantation] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Nature preserve] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Artificial oasis] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Artificial glacier] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Grassland] tiles>",
+					"[+15]% Strength <for [All] units> <when fighting in [Jungle Replanting Zone] tiles>",
+					"[3] free [Eco-Terrorist] units appear <when nuclear weapons are enabled>"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Harmony",
+				"requires": ["Physiolatry"],
+				"uniques": [
+					"[Faith] cost of purchasing items in cities [-20]%",
+					"[+2 Culture, +2 Faith] <in cities with at least [2] [Specialists]>",
+					"[+15]% [Culture] from every [Protected Area]"
+				],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Conservation",
+				"requires": ["Physiolatry"],
+				"uniques": [
+					"[+2 Gold] from every [Farmer]",
+					"[+1 Gold] from [Fresh water] tiles [in all cities]",
+					"[+10]% [Gold] from every [Rainwater Purifier]"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Naturalism Complete",
+				"uniques": [
+					"[2] free [Great Farmer] units appear",
+					"Empire enters golden age",
+					"[+50]% Golden Age length",
+					"[+10]% Production when constructing [Utopia Project] wonders [in all cities]",
+					"Get the leader title of [First Warden [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Mechanization",
+		"era": "Industrial era",
+		"priorities": {
+			"Neutral": 0,
+			"Cultural": 0,
+			"Diplomatic": 20,
+			"Domination": 40,
+			"Scientific": 30
+		},
+		"uniques": [
+			"[+2 Production] [in all cities]",
+			"[+2 Happiness] [in all cities] <for [non-[Concordia]] Civilizations>",
+			"Only available <before adopting [Naturalism]>",
+			"Only available <before adopting [Bionics]>",
+			"Only available <before adopting [Legacy]>"
+		],
+		"policies": [
+			{
+				"name": "Urbanization",
+				"uniques": [
+					"[+1 Production] per [5] population [in all cities]",
+					"[+1 Production] from every [Borough]"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Automation",
+				"uniques": [
+					"[-25]% construction time for [All] improvements",
+					"[+100]% Production when constructing [Automated Factory] buildings [in all cities]",
+					"[+2 Science, +2 Production] from every [Factory]",
+					"[+2 Science, +2 Production] from every [Automated Factory]"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Integrated Attack Logistics",
+				"requires": ["Urbanization", "Automation"],
+				"uniques": [
+					"[+1] Movement <for [All] units> <in [Friendly Land] tiles>",
+					"[-25]% maintenance costs <for [All] units>",
+					"[+50]% Production when constructing [Automated] units [in all cities]"
+				],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Digitization",
+				"requires": ["Integrated Attack Logistics"],
+				"uniques": [
+					"Comment [Data Centers and Decryption Centers provide +2 Culture and Happiness for all factions except Concordia (Concordia gets +2 Culture and Science from these buildings instead)]",
+					"[+2 Culture] from every [Data Center] <hidden from users>",
+					"[+2 Culture] from every [Decryption Center] <hidden from users>",
+					"[+2 Happiness] from every [Data Center] <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[+2 Happiness] from every [Decryption Center] <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[+2 Science] from every [Data Center] <for [Concordia] Civilizations> <hidden from users>",
+					"[+2 Science] from every [Decryption Center] <for [Concordia] Civilizations> <hidden from users>",
+					"[+100]% [Encrypted Data] resource production"
+				],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Deregulation",
+				"requires": ["Integrated Attack Logistics"],
+				"uniques": [
+					"[Gold] cost of purchasing items in cities [-20]%",
+					"[-33]% maintenance on road & railroads",
+					"[-33]% maintenance cost for [all] buildings [in all cities]"
+				],
+				"row": 3,
+				"column": 4
+			},
+			{
+				"name": "Mechanization Complete",
+				"uniques": [
+					"Free [Great Engineer] appears",
+					"Free [Great Scientist] appears",
+					"[+50]% [Strategic] resource production",
+					"[+25]% Production towards any buildings that already exist in the Capital <while the empire is happy>",
+					"[+25]% Production when constructing [All] units [in all cities] <while the empire is happy>",
+					"Get the leader title of [Overmind [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Bionics",
+		"era": "Industrial era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 0,
+			"Diplomatic": 20,
+			"Domination": 30,
+			"Scientific": 40
+		},
+		"uniques": [
+			"[+1 Science] per [4] population [in all cities]",
+			"Only available <before adopting [Naturalism]>",
+			"Only available <before adopting [Mechanization]>",
+			"Only available <before adopting [Legacy]>"
+		],
+		"policies": [
+			{
+				"name": "Weather Engineering",
+				"uniques": [
+					"[+2 Gold] [in all cities]",
+					"[+1 Gold] from every [Moisture trap]",
+					"[+1 Production] from every [Solar collector]",
+					"[+1 Production] from every [Wind farm]",
+					"[+10]% growth [in all cities] <during a Golden Age>"
+				],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Mutagens",
+				"uniques": [
+					"[+100]% Production when constructing [Hospital] buildings [in all cities]",
+					"[+100]% Production when constructing [Medical Lab] buildings [in all cities]",
+					"[+2 Food, +2 Science] from every [Hospital]",
+					"[+2 Food, +2 Science] from every [Medical Lab]"
+				],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Eugenics",
+				"requires": ["Mutagens"],
+				"uniques": [
+					"[+25]% Strength <for [Personnel] units>",
+					"New [Personnel] units start with [25] XP [in all cities]",
+					"Comment [All factions except Concordia gain +2 Happiness in cities with 2 or more active Specialists (Concordia gains +2 Science instead)]",
+					"[+2 Happiness] <in cities with at least [2] [Specialists]> <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[+2 Science] <in cities with at least [2] [Specialists]> <for [Concordia] Civilizations> <hidden from users>"
+				],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Cybernetics",
+				"requires": ["Mutagens"],
+				"uniques": [
+					"[Personnel] units gain the [AI Implant] promotion",
+					"[+25]% Production when constructing [Military] units [in all cities]"
+				],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Transhumanism",
+				"requires": ["Eugenics", "Cybernetics"],
+				"uniques": [
+					"Comment [All factions except Concordia gain +12 Happiness (Concordia gains +15% Science in the capital instead)]",
+					"[+12 Happiness] <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[+15]% [Science] [in capital] <for [Concordia] Civilizations> <hidden from users>",
+					"[+25]% Great Person generation [in all cities]",
+					"[Great General] is earned [25]% faster"
+				],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Bionics Complete",
+				"uniques": [
+					"Free [Great General] appears",
+					"Free [Great Scientist] appears",
+					"[+10]% Production when constructing [Biosphere Project] wonders [in all cities]",
+					"[+10]% Production when constructing [Colony Ship Project] wonders [in all cities]",
+					"[+15]% Production when constructing [Terraformer Part] units [in all cities]",
+					"[+15]% Production when constructing [Colony Ship Part] units [in all cities]",
+					"Get the leader title of [Primus [leaderName]]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Legacy",
+		"era": "Industrial era",
+		"priorities": {
+			"Neutral": 20,
+			"Cultural": 20,
+			"Diplomatic": 30,
+			"Domination": 0,
+			"Scientific": 30
+		},
+		"uniques": [
+			"[+25]% Great Person generation [in all cities]",
+			"Only available <before adopting [Naturalism]>",
+			"Only available <before adopting [Mechanization]>",
+			"Only available <before adopting [Bionics]>"
+		],
+		"policies": [
+			{
+				"name": "Special Projects",
+				"uniques": [
+					"[+2 Gold, +2 Culture] from every [World Wonder]",
+					"[+2 Gold, +2 Culture] from every [National Wonder]",
+					"[+1 Happiness] from every [World Wonder] <for [non-[Concordia]] Civilizations>",
+					"[+1 Happiness] from every [National Wonder] <for [non-[Concordia]] Civilizations>"
+				],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Unifying Vision",
+				"uniques": [
+					"Gain [250] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>",
+					"Gain [100] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
+					"[+50]% Golden Age length"
+				],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Eudaimonia",
+				"uniques": [
+					"Comment [Specialists consume 50% less food and produce 50% less Unhappiness in all cities in every faction except Concordia (Concordian Specialists provide +1 Culture and Science instead)]",
+					"[-50]% Food consumption by [Specialists] [in all cities] <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[-50]% Unhappiness from [Specialists] [in all cities] <for [non-[Concordia]] Civilizations> <hidden from users>",
+					"[+1 Culture, +1 Science] from every specialist [in all cities] <for [Concordia] Civilizations> <hidden from users>"
+				],
+				"requires": ["Special Projects", "Unifying Vision"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Hegemony",
+				"uniques": [
+					"Resting point for Influence with City-States is increased by [30]",
+					"[-33]% City-State Influence degradation"
+				],
+				"requires": ["Unifying Vision"],
+				"row": 2,
+				"column": 5
+			},		
+			{
+				"name": "National Champions",
+				"uniques": ["[+1 Production, +1 Gold] from every specialist [in all cities]"],
+				"requires": ["Eudaimonia"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Legacy Complete",
+				"uniques": [
+					"Free Great Person",
+					"[+5 Food] from every [Factory farm]",
+					"[+5 Production] from every [Manufactory]",
+					"[+5 Production] from every [Outpost]",
+					"[+5 Production] from every [Prison farm]",
+					"[+5 Culture] from every [Settlement]",
+					"[+5 Culture] from every [Landmark]",
+					"[+5 Gold] from every [Supply Complex]",
+					"[+5 Gold] from every [Banana Business Area]",
+					"[+2 Gold, +2 Food, +2 Production] from every [Wasteland Station]",
+					"[+3 Gold, +3 Science] from every [Citadel]",
+					"[+5 Science] from every [Crystal Refinery]",
+					"[+5 Culture] from every [Narcotics farm]",
+					"[+5 Faith] from every [Oracle]",
+					"[+5 Faith] from every [Endowment House]",
+					"[+5 Faith] from every [Seminary]",
+					"[+5 Science] from every [Academy]",
+					"[+3 Science, +1 Culture, +1 Production] from every [Preservator]",
+					"Get the leader title of [High Commissioner [leaderName]]"
+				]
+			}
+		]
+	}
+]

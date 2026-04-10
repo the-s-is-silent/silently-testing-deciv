@@ -93,6 +93,22 @@
 		"requiredTech": "Civil Service"
 	},
 	{
+		"name": "Surveillance Control Center",
+		"replaces": "Listening Post",
+		"uniqueTo": "Concordia",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"All newly-trained [Helicopter] units [in this city] receive the [Sentry] promotion",
+			"[-25]% enemy spy effectiveness [in this city]",
+			"Removes extra unhappiness from annexed cities",
+			"Only available <in cities without a [Hall of Destruction]>",
+			"Destroyed when the city is captured",
+			"Only available <when espionage is enabled>"
+		],
+		"requiredTech": "Radio"
+	},
+	{
 		"name": "Concordia cannot build Shrine",
 		"replaces": "Shrine",
 		"uniqueTo": "Concordia",
@@ -109,5 +125,50 @@
 		"replaces": "Megachurch",
 		"uniqueTo": "Concordia",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	//modified base Deciv + OOTW buildings
+	{
+		"name": "Soaper",
+		"requiredNearbyImprovedResources": ["Salt", "Cattle", "Goats", "Hogs"],
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Unavailable <for [Concordia] Civilizations> <hidden from users>"],
+		"requiredTech": "Chemistry"
+	},
+	{
+		"name": "Town Hall",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 1,
+		"uniques": [
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[-25]% Gold cost of acquiring tiles [in this city]",
+			"[+1 Happiness] [in this city] <for [non-[Concordia]] Civilizations> <when above [0] [Power]>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "Stadium",
+		"happiness": 2,
+		"uniques": [
+			"[+1 Gold, +1 Happiness] [in this city] <with [Alcohol]>",
+			"[+1 Gold, +1 Happiness] [in this city] <with [Soft Drinks]>",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		],
+		"maintenance": 2,
+		"requiredTech": "Social Engineering"
+	},
+	{
+		"name": "Eco-Sanctuary",
+		"happiness": 3,
+		"maintenance": 3,
+		"hurryCostModifier": 30,
+		"uniques": [
+			"[+1 Food, +1 Gold, +1 Culture] from [Nature preserve] tiles [in this city]",
+			"Must have an owned [Nature preserve] within [3] tiles",
+			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+		],
+		"requiredTech": "Rewilding"
 	}
 ]
