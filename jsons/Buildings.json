@@ -93,20 +93,22 @@
 		"requiredTech": "Civil Service"
 	},
 	{
-		"name": "Surveillance Control Center",
-		"replaces": "Listening Post",
+		"name": "Surveillance and Control Center",
+		"replaces": "Information Awareness Office",
 		"uniqueTo": "Concordia",
-		"maintenance": 1,
-		"hurryCostModifier": 25,
+		"isNationalWonder": true,
 		"uniques": [
 			"All newly-trained [Helicopter] units [in this city] receive the [Sentry] promotion",
-			"[-25]% enemy spy effectiveness [in this city]",
-			"Removes extra unhappiness from annexed cities",
-			"Only available <in cities without a [Hall of Destruction]>",
-			"Destroyed when the city is captured",
+			"[+15]% spy effectiveness [in your cities]",
+			"[-15]% enemy spy effectiveness [in all cities]",
+			"New spies start with [1] level(s)",
+			"Promotes all spies [1] time(s)",
+			"Gain an extra spy",
+			"Only available <if [Field Office] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
 			"Only available <when espionage is enabled>"
 		],
-		"requiredTech": "Radio"
+		"requiredTech": "Networking"
 	},
 	{
 		"name": "Concordia cannot build Shrine",

@@ -1,202 +1,174 @@
 
 game.png
-size: 1024, 1024
+size: 2048, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Apocalypse Council
+BuildingIcons/Conspiracy of the Enlightened
   rotate: false
-  xy: 4, 400
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Astrology Station
+BuildingIcons/Equilibrium
   rotate: false
-  xy: 524, 920
+  xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Calamity Assembly
+BuildingIcons/Hall of Destruction
   rotate: false
-  xy: 4, 292
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Calamity Chart Brief
+BuildingIcons/Palace of Justice
   rotate: false
-  xy: 524, 812
+  xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Camp of Necessity
+BuildingIcons/Surveillance and Control Center
   rotate: false
-  xy: 112, 292
+  xy: 1300, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Crater Chapel
+BuildingIcons/Tetragrammaton Council
   rotate: false
-  xy: 220, 400
+  xy: 1624, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Disaster Catalog Library
+NationIcons/Concordia
   rotate: false
-  xy: 4, 508
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-BuildingIcons/Microplastics Factory
-  rotate: false
-  xy: 4, 76
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sludge Conversion Plant
+ReligionIcons/Unity Edict
   rotate: false
-  xy: 524, 596
+  xy: 1732, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Shroud Generator
+ResourceIcons/Emotion Suppressor
   rotate: false
-  xy: 328, 400
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/Calamity Star Order
-  rotate: false
-  xy: 4, 184
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Nuke Detonation Counter
   rotate: false
-  xy: 112, 184
+  xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Seastead Site
+TileSets/FantasyHex/Units/Cleric
   rotate: false
-  xy: 436, 472
+  xy: 1840, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Calamity Incarnate
+TileSets/FantasyHex/Units/Cremator
   rotate: false
-  xy: 4, 40
+  xy: 1840, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Doombringer
+TileSets/FantasyHex/Units/Great Father
+  rotate: false
+  xy: 1880, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Proctor
+  rotate: false
+  xy: 1840, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Surveillance Dirigible
+  rotate: false
+  xy: 1880, 37
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sweeper
+  rotate: false
+  xy: 1920, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sweeper Captain
+  rotate: false
+  xy: 1920, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Cleric
   rotate: false
   xy: 4, 4
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Hallowed Knight
-  rotate: false
-  xy: 112, 148
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Infernal
-  rotate: false
-  xy: 220, 256
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Proto-Bomber
-  rotate: false
-  xy: 328, 364
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Terror Seeker
-  rotate: false
-  xy: 524, 560
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-UnitIcons/Calamity Bomb
-  rotate: false
-  xy: 112, 400
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Calamity Incarnate
+UnitIcons/Cremator
   rotate: false
-  xy: 632, 920
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Doombringer
+UnitIcons/Great Father
   rotate: false
-  xy: 524, 704
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Hallowed Knight
+UnitIcons/Proctor
   rotate: false
-  xy: 632, 812
+  xy: 1084, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Infernal
+UnitIcons/Surveillance Dirigible
   rotate: false
-  xy: 740, 920
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Proto-Bomber
+UnitIcons/Sweeper
   rotate: false
-  xy: 220, 292
+  xy: 1408, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Terror Seeker
+UnitIcons/Sweeper Captain
   rotate: false
-  xy: 632, 704
+  xy: 1516, 4
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Doom Talisman
-  rotate: false
-  xy: 740, 862
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Nuke Detonation Count
-  rotate: false
-  xy: 848, 970
-  size: 50, 50
-  orig: 50, 50
   offset: 0, 0
   index: -1

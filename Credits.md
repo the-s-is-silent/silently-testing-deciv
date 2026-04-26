@@ -2,6 +2,7 @@
 - Equilibrium: [Skyscraper](https://thenounproject.com/icon/skyscraper-2218440/) by Eucalyp
 - Hall of Destruction: [Crematorium](https://thenounproject.com/icon/crematorium-6398783/) by Amethyst Studio, TH
 - Palace of Justice: [Unity Palace](https://thenounproject.com/icon/unity-palace-614170/) by József Balázs-Hegedüs, HU
+- Surveillance and Control Center: [Surveillance](https://thenounproject.com/icon/surveillance-35174/) by Luis Prado, US
 
 ### Nation Icons
 - Concordia: [Cross](https://thenounproject.com/icon/cross-5815202/) by Alvaro Cabrera
