@@ -15,6 +15,7 @@
 		"diplomacy": 6,
 		"loyal": 3,
 		"expansion": 10,
+		"denounceWillingness": 5,
 		"priorities": {
 			"Adaptation": 0,
 			"Expansionism": 40,
