@@ -31,7 +31,7 @@
 			"Comment [All sources of Faith, Happiness and Unhappiness are nullified]",
 			"Comment [Alternate effects gained from certain social policies]",
 			"Nullifies [Faith] [in all cities] <hidden from users>",
-			"Cannot build [Faith] buildings <hidden from users",
+			"Cannot build [Faith] buildings <hidden from users>",
 			"May not generate great prophet equivalents naturally",
 			"[-100]% [Faith] from City-States <hidden from users>",
 			"Gain [-1] [Faith] <upon turn end> <when between [1] and [9] [Faith]> <hidden from users> <Suppress warning [*is not allowed on its target type*]>",
