@@ -10,8 +10,8 @@
 	{
 		"name": "Search and Rescue",
 		"uniques": [
-			"[+1] population in a random city <upon entering a [Barbarian camp] tile> <with [25]% chance>",
-			"[+1] population in a random city <upon entering a [Survivor camp] tile> <with [25]% chance>"
+			"Triggers a [Survivor Rescue] event <upon entering a [Barbarian camp] tile> <with [25]% chance>",
+			"Triggers a [Survivor Rescue] event <upon entering a [Survivor camp] tile> <with [25]% chance>"
 		]
 	}
 ]
