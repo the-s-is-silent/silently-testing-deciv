@@ -110,6 +110,7 @@
 		"name": "Surveillance and Control Center",
 		"replaces": "Information Awareness Office",
 		"uniqueTo": "Concordia",
+		"cost": 150,
 		"isNationalWonder": true,
 		"uniques": [
 			"All newly-trained [Helicopter] units [in this city] receive the [Sentry] promotion",
