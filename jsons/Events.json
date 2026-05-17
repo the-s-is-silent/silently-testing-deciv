@@ -5,7 +5,7 @@
 		"choices": [
 			{
 				"text": "Resettle them in our lands at once.",
-				"uniques": "[+1] population in a random city"
+				"uniques": ["[+1] population in a random city"]
 			}
 		]
 	}
