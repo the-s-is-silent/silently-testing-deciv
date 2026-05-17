@@ -93,6 +93,20 @@
 		"requiredTech": "Civil Service"
 	},
 	{
+		"name": "Propaganda Hub",
+		"replaces": "Television Studio",
+		"uniqueTo": "Concordia",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 2,
+		"uniques": [
+			"[+4 Culture] [in this city] <when at war>",
+			"Only available <in cities with a [Broadcast Tower]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
 		"name": "Surveillance and Control Center",
 		"replaces": "Information Awareness Office",
 		"uniqueTo": "Concordia",
@@ -110,33 +124,7 @@
 		],
 		"requiredTech": "Networking"
 	},
-	{
-		"name": "Concordia cannot build Shrine",
-		"replaces": "Shrine",
-		"uniqueTo": "Concordia",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Concordia cannot build Monastery",
-		"replaces": "Monastery",
-		"uniqueTo": "Concordia",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Concordia cannot build Megachurch",
-		"replaces": "Megachurch",
-		"uniqueTo": "Concordia",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	},
-	//modified base Deciv + OOTW buildings
-	{
-		"name": "Soaper",
-		"requiredNearbyImprovedResources": ["Salt", "Cattle", "Goats", "Hogs"],
-		"happiness": 2,
-		"maintenance": 1,
-		"uniques": ["Unavailable <for [Concordia] Civilizations> <hidden from users>"],
-		"requiredTech": "Chemistry"
-	},
+	//modified base Deciv + OOTW buildings and wonders
 	{
 		"name": "Town Hall",
 		"culture": 2,
@@ -151,26 +139,25 @@
 		"requiredTech": "Civil Service"
 	},
 	{
-		"name": "Stadium",
-		"happiness": 2,
+		"name": "Active Denial System",
+		"maintenance": 1,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Gold, +1 Happiness] [in this city] <with [Alcohol]>",
-			"[+1 Gold, +1 Happiness] [in this city] <with [Soft Drinks]>",
-			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
-		],
-		"maintenance": 2,
-		"requiredTech": "Social Engineering"
+			"Consumes [1] [Power]",
+			"Destroyed when the city is captured",
+			"Free [Missile Defense System] appears"
+		], //nerf - no longer provides Happiness for anyone, which is probably a nerf that should also happen in base DeCiv
+		"requiredTech": "Energy Weapons"
 	},
 	{
-		"name": "Eco-Sanctuary",
-		"happiness": 3,
-		"maintenance": 3,
-		"hurryCostModifier": 30,
+		"name": "Virtual Panopticon",
+		"isWonder": true,
 		"uniques": [
-			"[+1 Food, +1 Gold, +1 Culture] from [Nature preserve] tiles [in this city]",
-			"Must have an owned [Nature preserve] within [3] tiles",
-			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
-		],
-		"requiredTech": "Rewilding"
+			"[-99]% enemy spy effectiveness [in this city]",
+			"[-25]% enemy spy effectiveness [in all cities]"
+		], //nerf - reducing unhappiness in all cities is overkill; this is also a nerf to definitely apply to OOTW
+		"requiredTech": "Social Engineering",
+		"quote": "'In his ardour for reform, Bentham prepared the way for what he feared.' - Shirley Robin Letwin"
 	}
 ]
