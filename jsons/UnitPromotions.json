@@ -6,5 +6,12 @@
 			"Not shown on world screen",
 			"Will not be displayed in Civilopedia"
 		]
+	},
+	{
+		"name": "Search and Rescue",
+		"uniques": [
+			"[+1] population in a random city <upon entering a [Barbarian camp] tile> <with [25]% chance>",
+			"[+1] population in a random city <upon entering a [Survivor camp] tile> <with [25]% chance>"
+		]
 	}
 ]

@@ -152,6 +152,40 @@
 		"requiredTech": "Energy Weapons"
 	},
 	{
+		"name": "Search Shelters",
+		"cost": 75,
+		"isWonder": true,
+		"requiredTech": "Secrets of the Past",
+		"uniques": [
+			"[Military] units gain the [Search and Rescue] promotion", //1-in-4 chance of +1 pop in a random city upon clearing a survivor/barb camp
+			"[+2 Food] [in all cities]"
+		],
+		"quote": "'When you hear the air attack warning, you and your family must take cover...' - Protect and Survive",
+		"civilopediaText": [
+			{
+				"text": "'When you hear the air attack warning, you and your family must take cover...' - Protect and Survive"
+			}
+		]
+	},
+	{
+		"name": "The Green Palace",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Free [Great Farmer] appears",
+			"[+2 Food] from every [Factory farm]",
+			"[+4 Happiness] [in this city] <for [non-[Concordia]] Civilizations>"
+		],
+		"requiredTech": "Ecotheory",
+		"quote": "'When people around me died of the atomic bomb sickness, and I also wondered whether I would survive, I saw this tree putting out shoots and thought I could somehow go on living.' - Anonymous Hiroshima survivor",
+		"civilopediaText": [
+			{
+				"text": "This magnificent architectural wonder generates its own climate control environment, where the best crops bloom and thrive, feeding settlements even in the most desolate lands."
+			}
+		]
+	},
+	{
 		"name": "Virtual Panopticon",
 		"isWonder": true,
 		"uniques": [
