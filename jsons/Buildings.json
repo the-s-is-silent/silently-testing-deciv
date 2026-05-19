@@ -100,7 +100,8 @@
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 2,
 		"uniques": [
-			"[+4 Culture] [in this city] <when at war>",
+			"[+2 Culture] [in this city] <when at war>",
+			"[+2 Culture] [in this city] <after discovering [Social Engineering]>",
 			"Only available <in cities with a [Broadcast Tower]>",
 			"Consumes [1] [Power]"
 		],
@@ -110,6 +111,7 @@
 		"name": "Surveillance and Control Center",
 		"replaces": "Information Awareness Office",
 		"uniqueTo": "Concordia",
+		"culture": 1,
 		"cost": 150,
 		"isNationalWonder": true,
 		"uniques": [
