@@ -47,7 +47,7 @@
 			"May choose [1] additional [Follower] beliefs when [founding] a religion <hidden from users>",
 			"May choose [1] additional [Enhancer] beliefs when [founding] a religion <hidden from users>",
 			"[-100]% Golden Age length",
-			"Cannot build [Happiness] buildings <hidden from users>",
+			"Cannot build [{non-[Removes extra unhappiness from annexed cities]} {Happiness}] buildings <hidden from users>",
 			"Remove [Soaper] [in all cities] <upon turn end> <if [Soaper] is constructed> <hidden from users>",
 			"Remove [Stadium] [in all cities] <upon turn end> <if [Stadium] is constructed> <hidden from users>",
 			"Remove [Eco-Sanctuary] [in all cities] <upon turn end> <if [Eco-Sanctuary] is constructed> <hidden from users>",
