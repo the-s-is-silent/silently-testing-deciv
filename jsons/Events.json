@@ -1,0 +1,12 @@
+[
+	{
+		"name": "Survivor Rescue",
+		"text": "Our scouts have encountered a band of survivors in the camp. It's a miracle they've managed to hold out this long.",
+		"choices": [
+			{
+				"text": "Resettle them in our lands at once.",
+				"uniques": ["[+1] population in a random city"]
+			}
+		]
+	}
+]

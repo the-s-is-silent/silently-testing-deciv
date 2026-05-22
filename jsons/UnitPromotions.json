@@ -6,5 +6,12 @@
 			"Not shown on world screen",
 			"Will not be displayed in Civilopedia"
 		]
+	},
+	{
+		"name": "Search and Rescue",
+		"uniques": [
+			"Triggers a [Survivor Rescue] event <upon entering a [Barbarian camp] tile> <with [25]% chance>",
+			"Triggers a [Survivor Rescue] event <upon entering a [Survivor camp] tile> <with [25]% chance>"
+		]
 	}
 ]

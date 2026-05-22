@@ -34,7 +34,7 @@
 		"name": "Hall of Destruction",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Concordia",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": -25,
 		"maintenance": 0,
 		"uniques": [
 			"[-1] population [in this city]",
@@ -93,9 +93,26 @@
 		"requiredTech": "Civil Service"
 	},
 	{
+		"name": "Propaganda Hub",
+		"replaces": "Television Studio",
+		"uniqueTo": "Concordia",
+		"culture": 2,
+		"specialistSlots": {"Administrator": 1},
+		"maintenance": 2,
+		"uniques": [
+			"[+2 Culture] [in this city] <when at war>",
+			"[+2 Culture] [in this city] <after discovering [Social Engineering]>",
+			"Only available <in cities with a [Broadcast Tower]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Electronics"
+	},
+	{
 		"name": "Surveillance and Control Center",
 		"replaces": "Information Awareness Office",
 		"uniqueTo": "Concordia",
+		"culture": 1,
+		"cost": 150,
 		"isNationalWonder": true,
 		"uniques": [
 			"All newly-trained [Helicopter] units [in this city] receive the [Sentry] promotion",
@@ -110,33 +127,7 @@
 		],
 		"requiredTech": "Networking"
 	},
-	{
-		"name": "Concordia cannot build Shrine",
-		"replaces": "Shrine",
-		"uniqueTo": "Concordia",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Concordia cannot build Monastery",
-		"replaces": "Monastery",
-		"uniqueTo": "Concordia",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Concordia cannot build Megachurch",
-		"replaces": "Megachurch",
-		"uniqueTo": "Concordia",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	},
-	//modified base Deciv + OOTW buildings
-	{
-		"name": "Soaper",
-		"requiredNearbyImprovedResources": ["Salt", "Cattle", "Goats", "Hogs"],
-		"happiness": 2,
-		"maintenance": 1,
-		"uniques": ["Unavailable <for [Concordia] Civilizations> <hidden from users>"],
-		"requiredTech": "Chemistry"
-	},
+	//modified base Deciv + OOTW buildings and wonders
 	{
 		"name": "Town Hall",
 		"culture": 2,
@@ -151,26 +142,60 @@
 		"requiredTech": "Civil Service"
 	},
 	{
-		"name": "Stadium",
-		"happiness": 2,
+		"name": "Active Denial System",
+		"maintenance": 1,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Gold, +1 Happiness] [in this city] <with [Alcohol]>",
-			"[+1 Gold, +1 Happiness] [in this city] <with [Soft Drinks]>",
-			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
-		],
-		"maintenance": 2,
-		"requiredTech": "Social Engineering"
+			"Consumes [1] [Power]",
+			"Destroyed when the city is captured",
+			"Free [Missile Defense System] appears",
+			"Only available <in cities with a [Battery]>"
+		], //nerf - no longer provides Happiness for anyone, which is probably a nerf that should also happen in base DeCiv
+		"requiredTech": "Energy Weapons"
 	},
 	{
-		"name": "Eco-Sanctuary",
-		"happiness": 3,
-		"maintenance": 3,
-		"hurryCostModifier": 30,
+		"name": "Search Shelters",
+		"cost": 75,
+		"isWonder": true,
+		"requiredTech": "Secrets of the Past",
 		"uniques": [
-			"[+1 Food, +1 Gold, +1 Culture] from [Nature preserve] tiles [in this city]",
-			"Must have an owned [Nature preserve] within [3] tiles",
-			"Unavailable <for [Concordia] Civilizations> <hidden from users>"
+			"[Military] units gain the [Search and Rescue] promotion", //1-in-4 chance of +1 pop in a random city upon clearing a survivor/barb camp
+			"[+2 Food] [in all cities]"
 		],
-		"requiredTech": "Rewilding"
+		"quote": "'When you hear the air attack warning, you and your family must take cover...' - Protect and Survive",
+		"civilopediaText": [
+			{
+				"text": "'When you hear the air attack warning, you and your family must take cover...' - Protect and Survive"
+			}
+		]
+	},
+	{
+		"name": "The Green Palace",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": [
+			"Free [Great Farmer] appears",
+			"[+2 Food] from every [Factory farm]",
+			"[+4 Happiness] [in this city] <for [non-[Concordia]] Civilizations>"
+		],
+		"requiredTech": "Ecotheory",
+		"quote": "'When people around me died of the atomic bomb sickness, and I also wondered whether I would survive, I saw this tree putting out shoots and thought I could somehow go on living.' - Anonymous Hiroshima survivor",
+		"civilopediaText": [
+			{
+				"text": "This magnificent architectural wonder generates its own climate control environment, where the best crops bloom and thrive, feeding settlements even in the most desolate lands."
+			}
+		]
+	},
+	{
+		"name": "Virtual Panopticon",
+		"isWonder": true,
+		"uniques": [
+			"[-99]% enemy spy effectiveness [in this city]",
+			"[-25]% enemy spy effectiveness [in all cities]"
+		], //nerf - reducing unhappiness in all cities is overkill; this is also a nerf to definitely apply to OOTW
+		"requiredTech": "Social Engineering",
+		"quote": "'In his ardour for reform, Bentham prepared the way for what he feared.' - Shirley Robin Letwin"
 	}
 ]

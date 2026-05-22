@@ -10,6 +10,16 @@
 		]
 	},
 	{
+		"name": "Concordance Counter",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Stockpiled",
+			"Cannot be traded",
+			"Not shown on world screen <for [non-[Concordia]] Civilizations>",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
 		"name": "Emotion Suppressor",
 		"resourceType": "Luxury",
 		"uniques": [

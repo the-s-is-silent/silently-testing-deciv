@@ -42,6 +42,23 @@
 	},
 	//'atheist faction' unique units
 	{
+		"name": "Concordant Convoy",
+		"unitType": "Civilian",
+		"uniqueTo": "Concordia",
+		"replaces": "Civilian Convoy",
+		"movement": 3,
+		"cost": 106,
+		"uniques": [
+			"Founds a new city <by consuming this unit> <in tiles without [Impeded terrain]>",
+			"[+15] HP when healing",
+			"All adjacent units heal [+15] HP when healing",
+			"Excess Food converted to Production when under construction",
+			"Instantly consumes [1] [Concordance Counter]",
+			"Requires at least [2] population <when above [0] [Concordance Counter]>",
+			"Requires at least [999] population <when below [1] [Concordance Counter]>"
+		]
+	},
+	{
 		"name": "Sweeper",
 		"replaces": "Militia",
 		"uniqueTo": "Concordia",
