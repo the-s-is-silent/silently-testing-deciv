@@ -34,7 +34,7 @@
 		"name": "Hall of Destruction",
 		"replaces": "Prison Camp",
 		"uniqueTo": "Concordia",
-		"hurryCostModifier": 25,
+		"hurryCostModifier": -25,
 		"maintenance": 0,
 		"uniques": [
 			"[-1] population [in this city]",
@@ -149,7 +149,8 @@
 		"uniques": [
 			"Consumes [1] [Power]",
 			"Destroyed when the city is captured",
-			"Free [Missile Defense System] appears"
+			"Free [Missile Defense System] appears",
+			"Only available <in cities with a [Battery]>"
 		], //nerf - no longer provides Happiness for anyone, which is probably a nerf that should also happen in base DeCiv
 		"requiredTech": "Energy Weapons"
 	},
